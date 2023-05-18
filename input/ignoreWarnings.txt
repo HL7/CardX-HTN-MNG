@@ -1,0 +1,14 @@
+﻿== Suppressed Messages ==
+
+# US Core has a profile of Device called Implantable Device.  This is a sibling profile and cannot be used as a base for our BP Device profile.  Variance approved by CGP on June 16, 2022, Jira id FHIR-37522.
+US FHIR Usage rules require that all profiles on Device derive from the core US profile
+
+# Using US Core version 3.1.1 which does not define specific profiles for vital signs.  This applies to Vital Signs Panel, Average Blood Pressure, Blood Pressure Device, Blood Pressure Panel, Body Length, Body Mass Index, Body Temperature, Body Weight, Head Occipital-Frontal Circumference, Heart Rate, Height, Oxygen Saturation Arterial Blood, and Respiratory Rate.  Variance approved by CGP on June 16, 2022, Jira id FHIR-37522.
+US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+
+# These are Solor Snomed extension codes.
+The code 24781000205105 is not valid in the system http://snomed.info/sct
+The code 24791000205107 is not valid in the system http://snomed.info/sct
+
+# Using a madeup system for example codes in the Patient and Provider examples.
+Code System URI 'http://example.org' is unknown so the code cannot be validated
