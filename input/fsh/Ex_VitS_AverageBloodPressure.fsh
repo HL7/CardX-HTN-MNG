@@ -12,6 +12,8 @@ Usage: #example
 * extension[=].valueCodeableConcept = http://snomed.info/sct#264362003 "Home"
 * extension[+].url = "http://hl7.org/fhir/StructureDefinition/observation-bodyPosition"
 * extension[=].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
+* extension[+].url = "http://hl7.org/fhir/us/cardx-htn/StructureDefinition/NumberOfMeasurementsExt"
+* extension[=].valueQuantity.value = 12 
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
 * code = http://loinc.org#96607-7 "Blood pressure panel mean systolic and mean diastolic"
@@ -32,6 +34,8 @@ Usage: #example
 Instance: AverageBloodPressure-Mandatory
 InstanceOf: AverageBloodPressure
 Usage: #example
+* extension[+].url = "http://hl7.org/fhir/us/cardx-htn/StructureDefinition/NumberOfMeasurementsExt"
+* extension[=].valueQuantity.value = 12 
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/average-blood-pressure"
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
