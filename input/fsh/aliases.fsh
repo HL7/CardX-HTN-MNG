@@ -18,6 +18,9 @@ Alias:   USCorePractitioner = http://hl7.org/fhir/us/core/StructureDefinition/us
 Alias:   USCoreProcedure = http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure
 Alias:   USCoreObservationLab = http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab
 Alias:   USCoreOrganization = http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization
+Alias:   VitalSignsBPProfile = http://hl7.org/fhir/us/vitals/StructureDefinition/average-blood-pressure
+Alias:   VitalSignsBPPanelProfile = http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel
+Alias:   CoreHeartRate = http://hl7.org/fhir/StructureDefinition/heartrate
 
 // Extensions
 Alias:   USCoreBirthSex = http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex
@@ -30,6 +33,8 @@ Alias:   ObservationBodyPosition = http://hl7.org/fhir/StructureDefinition/obser
 Alias:   ObservationDeviceType = http://hl7.org/fhir/StructureDefinition/observation-deviceCode
 Alias:   VitalSignSensorDescription = http://hl7.org/fhir/us/vitals/StructureDefinition/SensorDescriptionExt
 Alias:   VitalSignSleepStatus = http://hl7.org/fhir/us/vitals/StructureDefinition/SleepStatusExt
+Alias:   ExtBodyPosition = http://hl7.org/fhir/StructureDefinition/observation-bodyPosition
+Alias:   ExtBodyPosition = http://hl7.org/fhir/StructureDefinition/observation-bodyPosition
 
 
 
