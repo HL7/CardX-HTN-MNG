@@ -24,7 +24,7 @@ Description: "The lowest measured systolic and diastolic blood pressures measure
 * component[MinSystolicBP].code.coding.system = "http://snomed.info/sct" (exactly)
 * component[MinSystolicBP].code.coding.code 1..1 MS
 * component[MinSystolicBP].code.coding.code only code
-* component[MinSystolicBP].code.coding.code = "314438006" (exactly)
+* component[MinSystolicBP].code.coding.code = SCT#314438006 (exactly)
 * component[MinSystolicBP].value[x] only Quantity
 * component[MinSystolicBP].valueQuantity MS
 * component[MinSystolicBP].valueQuantity.value 1..1 MS
@@ -42,7 +42,7 @@ Description: "The lowest measured systolic and diastolic blood pressures measure
 * component[MinDiastolicBP].code.coding.system = "http://snomed.info/sct" (exactly)
 * component[MinDiastolicBP].code.coding.code 1..1 MS
 * component[MinDiastolicBP].code.coding.code only code
-* component[MinDiastolicBP].code.coding.code = "314451001" (exactly)
+* component[MinDiastolicBP].code.coding.code = SCT#314451001 (exactly)
 * component[MinDiastolicBP].value[x] only Quantity
 * component[MinDiastolicBP].valueQuantity MS
 * component[MinDiastolicBP].valueQuantity.value 1..1 MS

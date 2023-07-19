@@ -25,11 +25,8 @@ publisher:
 # use cases, the value can be an object with keys for id, uri, and version.
 
 dependencies:
-  hl7.fhir.us.core: 5.0.1
-  hl7.fhir.us.vitals: 
-    id: vitals
-    uri: http://hl7.org/fhir/us/vitals/ImplementationGuide/hl7.fhir.us.vitals
-    version: 1.0.0
+#  hl7.fhir.us.core: 5.0.1
+  hl7.fhir.us.vitals: current 
 
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in
@@ -75,6 +72,7 @@ menu:
   Background: cardx-background.html
   Prior Art: priorart.html
   Supporting Info: dataRequirements.html
+  Profiles: profiles.html
   Examples: 
     SMBP Examples: SMBP-Protocol-Examples.html
     Manual vs. Device Examples: device-manual-generated-examples.html

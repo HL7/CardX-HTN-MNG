@@ -22,7 +22,7 @@ Description: "The number of heart beats in a minute."
 * status MS
 * code ^short = "Heart rate"
 * subject 1..1 MS
-* subject only Reference(USCorePatient)
+* subject only Reference(Patient)
 * effective[x] 1..1 MS
 * value[x] only Quantity
 * valueQuantity MS
