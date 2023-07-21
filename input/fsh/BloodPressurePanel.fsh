@@ -17,7 +17,7 @@ Description: "Blood Pressure Panel; a grouping of systolic and diastolic blood p
 * code = LNC#85354-9
 * code ^short = "Blood pressure panel with all children optional"
 * subject 1..1 MS
-//* subject only Reference(Patient)
+* subject only Reference(Patient)
 * effective[x] 1..1 MS
 * value[x] 0..0
 * interpretation 0..1
@@ -31,43 +31,7 @@ Description: "Blood Pressure Panel; a grouping of systolic and diastolic blood p
 * method ^binding.description = "A set of codes that describe the method used to measure a blood pressure"
 * specimen 0..0
 * device 0..1 MS
-//* device only Reference(bp-device)
 * device ^short = "Blood Pressure Device"
-/* * component MS
-* component ^slicing.discriminator.type = #value
-* component ^slicing.discriminator.path = "code"
-* component ^slicing.ordered = false
-* component ^slicing.rules = #open
-* component ^short = "Blood pressure components"
-* component contains
-    SystolicBP 1..1 and
-    DiastolicBP 1..1
-* component[SystolicBP] ^short = "Systolic Blood Pressure"
-* component[SystolicBP].code = LNC#8480-6
-* component[SystolicBP].code MS
-* component[SystolicBP].code ^short = "Systolic blood pressure"
-* component[SystolicBP].value[x] only Quantity
-* component[SystolicBP].valueQuantity MS
-* component[SystolicBP].valueQuantity.value 1..1 MS
-* component[SystolicBP].valueQuantity.unit 1..1 MS
-* component[SystolicBP].valueQuantity.system 1..1 MS
-* component[SystolicBP].valueQuantity.system only uri
-* component[SystolicBP].valueQuantity.system = "http://unitsofmeasure.org" (exactly)
-* component[SystolicBP].valueQuantity.code 1..1 MS
-* component[SystolicBP].valueQuantity.code only code
-* component[SystolicBP].valueQuantity.code = UCUM#mm[Hg] (exactly)
-* component[DiastolicBP] ^short = "Diastolic Blood Pressure"
-* component[DiastolicBP].code = LNC#8462-4
-* component[DiastolicBP].code MS
-* component[DiastolicBP].code ^short = "Diastolic blood pressure"
-* component[DiastolicBP].value[x] only Quantity
-* component[DiastolicBP].valueQuantity MS
-* component[DiastolicBP].valueQuantity.value 1..1 MS
-* component[DiastolicBP].valueQuantity.unit 1..1 MS
-* component[DiastolicBP].valueQuantity.system 1..1 MS
-* component[DiastolicBP].valueQuantity.system only uri
-* component[DiastolicBP].valueQuantity.system = "http://unitsofmeasure.org" (exactly)
-* component[DiastolicBP].valueQuantity.code 1..1 MS
-* component[DiastolicBP].valueQuantity.code only code
-* component[DiastolicBP].valueQuantity.code = UCUM#mm[Hg] (exactly) */
+* component[DiastolicBP] 1..1
+
 

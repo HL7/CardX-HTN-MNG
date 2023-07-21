@@ -5,14 +5,11 @@ Instance: SMBP-Protocol
 InstanceOf: AverageBloodPressure
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/average-blood-pressure"
-* extension[0].url = "http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementProtocolExt"
-* extension[=].valueCodeableConcept = http://hl7.org/fhir/us/vitals/CodeSystem/MeasurementProtocolTemporaryCodeSystem#AOBP "Automated office blood pressure protocol"
-* extension[+].url = "http://hl7.org/fhir/us/vitals/StructureDefinition/ExerciseAssociationExt"
-* extension[=].valueCodeableConcept = http://snomed.info/sct#255214003 "At rest"
-* extension[+].url = "http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt"
-* extension[=].valueCodeableConcept = http://snomed.info/sct#264362003 "Home"
-* extension[+].url = "http://hl7.org/fhir/StructureDefinition/observation-bodyPosition"
-* extension[=].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
+* extension[MeasurementProtocolExt].valueCodeableConcept = http://hl7.org/fhir/us/vitals/CodeSystem/MeasurementProtocolTemporaryCodeSystem#AOBP "Automated office blood pressure protocol"
+* extension[ExerciseAssociationExt].valueCodeableConcept = http://snomed.info/sct#255214003 "At rest"
+* extension[MeasurementSettingExt].valueCodeableConcept = http://snomed.info/sct#264362003 "Home"
+* extension[BodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
+* extension[NumberOfMeasurementsExt].valueQuantity.value = 12 
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
 * code = http://loinc.org#96607-7 "Blood pressure panel mean systolic and mean diastolic"
@@ -51,7 +48,7 @@ Usage: #example
 * derivedFrom[25] = Reference(Observation-2AM-Day7)
 * derivedFrom[26] = Reference(Observation-1PM-Day7)
 * derivedFrom[27] = Reference(Observation-2PM-Day7)
-* component[0].code = http://loinc.org#96608-5 "Systolic blood pressure mean"
-* component[=].valueQuantity = 130 'mm[Hg]' "mm[Hg]"
-* component[+].code = http://loinc.org#96609-3 "Diastolic blood pressure mean"
-* component[=].valueQuantity = 88 'mm[Hg]' "mm[Hg]"
+* component[SystolicBP].code = http://loinc.org#96608-5 "Systolic blood pressure mean"
+* component[SystolicBP].valueQuantity = 130 'mm[Hg]' "mm[Hg]"
+* component[DiastolicBP].code = http://loinc.org#96609-3 "Diastolic blood pressure mean"
+* component[DiastolicBP].valueQuantity = 88 'mm[Hg]' "mm[Hg]"

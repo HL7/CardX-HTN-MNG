@@ -20,10 +20,9 @@ The following Profiles and have been defined for this implementation guide.
 
 The following extensions have been defined as part of this implementation Guide. A [registry of standard extensions]({{site.data.fhir.path}}extensibility-registry.html) can be found in the FHIR specification and additional extensions may be registered on the HL7 FHIR registry at [FHIR registry](http://hl7.org/fhir/registry).
 
-[Date/Time of calculation](StructureDefinition-datetim-of-calculation.html)
-
-[Blood Pressure Cuff Size](StructureDefinition-bp-cuff-size-ext.html)
-
-[Measurement Protocol](StructureDefinition-MeasurementProtocolExt.html)
-
-[Measurement Setting](StructureDefinition-MeasurementSettingExt.html)
+|Extension|
+|:----|
+|[Date/Time of calculation](StructureDefinition-datetim-of-calculation.html)|
+|[Blood Pressure Cuff Size](StructureDefinition-bp-cuff-size-ext.html)|
+|[Measurement Protocol](StructureDefinition-MeasurementProtocolExt.html)|
+|[Measurement Setting](StructureDefinition-MeasurementSettingExt.html)|
