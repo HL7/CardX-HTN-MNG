@@ -4,7 +4,7 @@ Alias: SCT = http://snomed.info/sct
 Alias: ACT = http://terminology.hl7.org/CodeSystem/v3-ActReason
 Alias: IAL = https://smarthealth.cards/ial
 Alias: ICD11 = http://id.who.int/icd/release/11/mms
-Alias: MeasurementPtotocol = http://hl7.org/fhir/us/vitals/CodeSystem/MeasurementProtocolTemporaryCodeSystem
+Alias: MeasurementProtocol = http://hl7.org/fhir/us/vitals/CodeSystem/MeasurementProtocolTemporaryCodeSystem
 
 // Profiles
 Alias:   USCoreCondition = http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition
@@ -21,7 +21,7 @@ Alias:   USCoreObservationLab = http://hl7.org/fhir/us/core/StructureDefinition/
 Alias:   USCoreOrganization = http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization
 Alias:   VitalSignsAvgBPProfile = http://hl7.org/fhir/us/vitals/StructureDefinition/average-blood-pressure
 Alias:   VitalSignsBPPanelProfile = http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel
-Alias:   CoreHeartRate = http://hl7.org/fhir/StructureDefinition/heartrate
+Alias:   VitalSignsHeartRate = http://hl7.org/fhir/us/vitals/StructureDefinition/heart-rate
 
 // Extensions
 Alias:   USCoreBirthSex = http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex

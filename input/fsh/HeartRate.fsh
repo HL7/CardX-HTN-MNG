@@ -1,18 +1,11 @@
 Profile: HeartRate
-Parent: CoreHeartRate
+Parent: VitalSignsHeartRate
 Id: heart-rate
 Title: "Heart Rate"
 Description: "The number of heart beats in a minute."
-* extension contains
-    ObservationDeviceType named measurementDevice 0..1 MS and
-    ExerciseAssociationExt named exerciseAssociation 0..1 MS and
-    ObservationBodyPosition named bodyPosition 0..1 MS and
-    MeasurementSettingExt named measurementSetting 0..1 MS and
-    SleepStatus named sleepStatus 0..1 MS and
-    AssociatedSituationExt named associatedSituation 0..1 MS
-* extension[measurementDevice].value[x] only CodeableConcept
-* extension[measurementDevice].valueCodeableConcept from HeartRateMeasurementDevicevalueset (extensible)
-* extension[measurementDevice] ^short = "Measurement Device Type"
+* extension[measurmentDevice].value[x] only CodeableConcept
+* extension[measurmentDevice].valueCodeableConcept from HeartRateMeasurementDevicevalueset (extensible)
+* extension[measurmentDevice] ^short = "Measurement Device Type"
 * extension[exerciseAssociation] ^short = "Exercise Association"
 * extension[bodyPosition] ^short = "Body Position"
 * extension[bodyPosition].valueCodeableConcept from BodyPositionvalueset (extensible)
@@ -20,6 +13,8 @@ Description: "The number of heart beats in a minute."
 * extension[sleepStatus] ^short = "Sleep Status"
 * extension[associatedSituation] ^short = "Associated Situation"
 * status MS
+* category.coding.system = "http://terminology.hl7.org/CodeSystem/observation-category"
+* category.coding.code = ObsCat#vital-signs
 * code ^short = "Heart rate"
 * subject 1..1 MS
 * subject only Reference(Patient)

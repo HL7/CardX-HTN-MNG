@@ -6,7 +6,7 @@ Usage: #example
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#30212006 "Fowlers Position"
 * extension[ExerciseAssociationExt].valueCodeableConcept = http://snomed.info/sct#255214003 "At rest"
 * extension[MeasurementSettingExt].valueCodeableConcept = http://snomed.info/sct#264362003 "Home"
-* extension[measurementDevice].valueCodeableConcept = http://snomed.info/sct#70665002 "Blood Pressure Cuff"
+* extension[measurmentDevice].valueCodeableConcept = http://snomed.info/sct#70665002 "Blood Pressure Cuff"
 * extension[SleepStatusExt].valueCodeableConcept = http://snomed.info/sct#248218005 "Awake"
 * status = #final
 * category = ObsCat#vital-signs

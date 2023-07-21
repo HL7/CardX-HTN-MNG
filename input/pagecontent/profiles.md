@@ -7,14 +7,42 @@ active: profiles
 
 The following Profiles and have been defined for this implementation guide.
 
-|Profile|Definition|
-|:----|:----|
-|[Blood Pressure Panel](StructureDefinition-blood-pressure-panel.html)|Blood Pressure Panel; a grouping of systolic, diastolic, and mean arterial blood pressure components.|
-|[Average Blood Pressure](StructureDefinition-average-blood-pressure.html)|A calculated average of two or more blood pressure readings in a specified time period or according to a specified algorithm or protocol.  The average blood pressure has a systolic and a diastolic component.|
-|[Blood Pressure Device](StructureDefinition-bp-device.html)|A profile of the Device resource used specifically for blood pressure devices and includes an extension for blood pressure cuff size.|
-|[Heart Rate](StructureDefinition-heart-rate.html)|The number of heart beats per minute.|
-|[Minimum Blood Pressure Panel](StructureDefinition-min-blood-pressure-panel.html)|The systolic and diastolic blood pressure measurement that is the lowest over a given time period.|
-|[Maximum Blood Pressure Panel](StructureDefinition-max-blood-pressure-panel.html)|The systolic and diastolic blood pressure measurements that are the highest over a given time period.|
+<div>
+	<table class="grid">
+		<thead>
+			<tr>
+			  <th width="25%">Profile</th>
+			  <th width="75%">Definition</th>
+			</tr>
+		</thead>
+		<tbody>
+          <tr>
+            <td><a href="StructureDefinition-blood-pressure-panel.html">Blood Pressure Panel</a></td>
+            <td>Blood Pressure Panel; a grouping of systolic, diastolic, and mean arterial blood pressure components.</td>
+          </tr>
+          <tr>
+            <td><a href="StructureDefinition-average-blood-pressure.html">Average Blood Pressure</a></td>
+            <td>A calculated average of two or more blood pressure readings in a specified time period or according to a specified algorithm or protocol.  The average blood pressure has a systolic and a diastolic component.</td>
+          </tr>
+          <tr>
+            <td><a href= "StructureDefinition-bp-device.html">Blood Pressure Device</a></td>
+            <td>A profile of the Device resource used specifically for blood pressure devices and includes an extension for blood pressure cuff size.</td>
+          </tr>
+          <tr>
+            <td><a href="StructureDefinition-heart-rate.html">Heart Rate</a></td>
+            <td>The number of heart beats per minute.</td>
+          </tr>
+          <tr>
+            <td><a href="StructureDefinition-min-blood-pressure-panel.html">Minimum Blood Pressure Panel</a></td>
+            <td>The systolic and diastolic blood pressure measurement that is the lowest over a given time period.</td>
+          </tr>
+          <tr>
+            <td><a href="StructureDefinition-max-blood-pressure-panel.html">Maximum Blood Pressure Panel</a></td>
+            <td>The systolic and diastolic blood pressure measurements that are the highest over a given time period.</td>
+          </tr>
+        </tbody>
+    </table>
+</div>
 
 ### Extensions
 
