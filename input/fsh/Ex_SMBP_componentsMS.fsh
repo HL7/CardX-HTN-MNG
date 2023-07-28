@@ -5,7 +5,7 @@
     ///Preferred 7 days 
 
 Instance: Observation-1AM-Day1
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -27,7 +27,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-2AM-Day1
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -49,7 +49,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-1PM-Day1
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -71,7 +71,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 83 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-2PM-Day1
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -94,7 +94,7 @@ Usage: #example
 
 
 Instance: Observation-1AM-Day2
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -116,7 +116,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 90 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-2AM-Day2
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -138,7 +138,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 92 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-1PM-Day2
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -160,7 +160,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 92 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-2PM-Day2
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -182,7 +182,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 94 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-1AM-Day3
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -204,7 +204,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 94 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-2AM-Day3
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -226,7 +226,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 95 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-1PM-Day3
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -248,7 +248,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 90 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-2PM-Day3
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -271,7 +271,7 @@ Usage: #example
 
 
 Instance: Observation-1AM-Day4
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -293,7 +293,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 98 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-2AM-Day4
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -315,7 +315,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 95 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-1PM-Day4
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -337,7 +337,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-2PM-Day4
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -359,7 +359,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-1AM-Day5
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -381,7 +381,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-2AM-Day5
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -404,7 +404,7 @@ Usage: #example
 
 
 Instance: Observation-1PM-Day5
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -426,7 +426,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 86 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-2PM-Day5
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -449,7 +449,7 @@ Usage: #example
 
 
 Instance: Observation-1AM-Day6
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -471,7 +471,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 95 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-2AM-Day6
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -493,7 +493,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 90 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-1PM-Day6
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -515,7 +515,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 85 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-2PM-Day6
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -537,7 +537,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 85 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-1AM-Day7
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -559,7 +559,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-2AM-Day7
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -581,7 +581,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-1PM-Day7
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
@@ -603,7 +603,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
 Instance: Observation-2PM-Day7
-InstanceOf: blood-pressure-panel
+InstanceOf: BloodPressurePanel
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
