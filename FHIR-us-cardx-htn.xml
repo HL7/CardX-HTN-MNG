@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="" defaultVersion="current" defaultWorkgroup="" url="http://hl7.org/fhir/us/cardx-htn">
-<version code="current" url=""/>
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="http://hl7.org/fhir/us/cardx-htn" defaultVersion="current" defaultWorkgroup="cic" url="http://hl7.org/fhir/us/cardx-htn">
+<version code="current" url="http://hl7.org/fhir/us/cardx-htn"/>
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
+<artifact id="StructureDefinition/average-blood-pressure" key="StructureDefinition-average-blood-pressure" name="Average Blood Pressure"/>
 <artifact id="Observation/AverageBloodPressure-MS" key="Observation-AverageBloodPressure-MS" name="AverageBloodPressure-MS"/>
 <artifact id="Observation/AverageBloodPressure-Mandatory" key="Observation-AverageBloodPressure-Mandatory" name="AverageBloodPressure-Mandatory"/>
+<artifact id="StructureDefinition/bp-cuff-size-ext" key="StructureDefinition-bp-cuff-size-ext" name="Blood Pressure Cuff Size"/>
+<artifact id="StructureDefinition/bp-device" key="StructureDefinition-bp-device" name="Blood Pressure Device"/>
+<artifact id="StructureDefinition/blood-pressure-panel" key="StructureDefinition-blood-pressure-panel" name="Blood Pressure Panel"/>
 <artifact id="Observation/BloodPressurePanel-MS" key="Observation-BloodPressurePanel-MS" name="BloodPressurePanel-MS"/>
 <artifact id="Observation/BloodPressurePanel-MS-Manual" key="Observation-BloodPressurePanel-MS-Manual" name="BloodPressurePanel-MS-Manual"/>
 <artifact id="Observation/BloodPressurePanel-Madatory" key="Observation-BloodPressurePanel-Madatory" name="BloodPressurePanel-Madatory"/>
 <artifact id="Observation/BloodPressurePanel-Madatory-Manual" key="Observation-BloodPressurePanel-Madatory-Manual" name="BloodPressurePanel-Madatory-Manual"/>
+<artifact id="StructureDefinition/datetime-of-calculation" key="StructureDefinition-datetime-of-calculation" name="Date and Time of Calculation"/>
+<artifact id="StructureDefinition/heart-rate" key="StructureDefinition-heart-rate" name="Heart Rate"/>
 <artifact id="Observation/HeartRate-MS" key="Observation-HeartRate-MS" name="HeartRate-MS"/>
 <artifact id="Observation/HeartRate-Mandatory" key="Observation-HeartRate-Mandatory" name="HeartRate-Mandatory"/>
+<artifact id="StructureDefinition/max-blood-pressure-panel" key="StructureDefinition-max-blood-pressure-panel" name="Maximum Blood Pressure Panel"/>
+<artifact id="StructureDefinition/MeasurementProtocolExt" key="StructureDefinition-MeasurementProtocolExt" name="Measurement Protocol"/>
+<artifact id="StructureDefinition/MeasurementSettingExt" key="StructureDefinition-MeasurementSettingExt" name="Measurement Setting"/>
+<artifact id="StructureDefinition/min-blood-pressure-panel" key="StructureDefinition-min-blood-pressure-panel" name="Minimum Blood Pressure Panel"/>
+<artifact id="StructureDefinition/NumberOfMeasurementsExt" key="StructureDefinition-NumberOfMeasurementsExt" name="Number of Measurements"/>
 <artifact id="Observation/Observation-1AM-Day1" key="Observation-Observation-1AM-Day1" name="Observation-1AM-Day1"/>
 <artifact id="Observation/Observation-1AM-Day2" key="Observation-Observation-1AM-Day2" name="Observation-1AM-Day2"/>
 <artifact id="Observation/Observation-1AM-Day3" key="Observation-Observation-1AM-Day3" name="Observation-1AM-Day3"/>
@@ -43,8 +54,6 @@
 <artifact id="Observation/SMBP-Protocol" key="Observation-SMBP-Protocol" name="SMBP-Protocol"/>
 <artifact id="Observation/TwentyFourHourBloodPressure-MS" key="Observation-TwentyFourHourBloodPressure-MS" name="TwentyFourHourBloodPressure-MS"/>
 <artifact id="Observation/TwentyFourHourBloodPressure-Mandatory" key="Observation-TwentyFourHourBloodPressure-Mandatory" name="TwentyFourHourBloodPressure-Mandatory"/>
-<artifact id="Observation/US-Core-BP-Example-AbsentReason" key="Observation-US-Core-BP-Example-AbsentReason" name="US-Core-BP-Example-AbsentReason"/>
-<artifact id="Observation/US-Core-BP-Example-MS" key="Observation-US-Core-BP-Example-MS" name="US-Core-BP-Example-MS"/>
 <artifact id="Patient/patient-example-Jake-Donald" key="Patient-patient-example-Jake-Donald" name="patient-example-Jake-Donald"/>
 <artifact id="Patient/patient-example-Sally-Sue" key="Patient-patient-example-Sally-Sue" name="patient-example-Sally-Sue"/>
 <artifact id="Device/phd-bloodpressuremonitor-MS" key="Device-phd-bloodpressuremonitor-MS" name="phd-bloodpressuremonitor-MS"/>
@@ -53,14 +62,14 @@
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>
 <page key="cardx-background" name="Cardx Background"/>
-<page key="dataRequierents" name="Data Requierents"/>
+<page key="dataRequirements" name="Data Requirements"/>
 <page key="device-manual-generated-examples" name="Device Manual Generated Examples"/>
 <page key="index" name="Home"/>
 <page key="PriorArt-IG-Conformant-Examples" name="Prior Art IG Conformant Examples"/>
 <page key="priorart" name="Priorart"/>
+<page key="profiles" name="Profiles"/>
 <page key="related-igs" name="Related Igs"/>
 <page key="SMBP-Protocol-Examples" name="SMBP Protocol Examples"/>
-<page key="standards" name="Standards"/>
 <page key="toc" name="Table of Contents"/>
 <page key="use-cases" name="Use Cases"/>
 </specification>
