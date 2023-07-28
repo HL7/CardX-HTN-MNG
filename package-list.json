@@ -1,0 +1,14 @@
+{
+    "package-id": "hl7.fhir.us.cardx-htn",
+    "title": "CardX Hypertension Management IG",
+    "canonical": "http://hl7.org/fhir/us/cardx-htn",
+    "introduction": "An implementation guide designed to facilitate the exchange of hypertension management data.",
+    "list": [{
+            "version": "current",
+            "desc": "Continuous Integration Build (latest in version control)",
+            "path": "http://hl7.org/fhir/us/cardx-htn",
+            "status": "ci-build",
+            "current": true
+        }
+    ]
+}
