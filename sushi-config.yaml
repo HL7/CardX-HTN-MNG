@@ -24,9 +24,9 @@ publisher:
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 
-dependencies:
+# dependencies:
 #  hl7.fhir.us.core: 5.0.1
-  hl7.fhir.us.vitals: current 
+#  hl7.fhir.us.vitals: current 
 
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in

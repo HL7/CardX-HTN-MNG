@@ -1,11 +1,18 @@
 Profile: HeartRate
-Parent: VitalSignsHeartRate
+Parent: Observation
 Id: heart-rate
 Title: "Heart Rate"
 Description: "The number of heart beats in a minute."
-* extension[measurmentDevice].value[x] only CodeableConcept
-* extension[measurmentDevice].valueCodeableConcept from HeartRateMeasurementDevicevalueset (extensible)
-* extension[measurmentDevice] ^short = "Measurement Device Type"
+* extension contains
+    ExtDeviceCode named measurementDevice 0..1 and
+    ExerciseAssociationExt named exerciseAssociation 0..1 and
+    ExtBodyPosition named bodyPosition 0..1 and
+    MeasurementSettingExt named measurementSetting 0..1 and
+    SleepStatus named sleepStatus 0..1 and
+    AssociatedSituationExt named associatedSituation 0..1
+* extension[measurementDevice].value[x] only CodeableConcept
+* extension[measurementDevice].valueCodeableConcept from HeartRateMeasurementDevicevalueset (extensible)
+* extension[measurementDevice] ^short = "Measurement Device Type"
 * extension[exerciseAssociation] ^short = "Exercise Association"
 * extension[bodyPosition] ^short = "Body Position"
 * extension[bodyPosition].valueCodeableConcept from BodyPositionvalueset (extensible)

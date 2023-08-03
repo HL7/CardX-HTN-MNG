@@ -27,10 +27,7 @@ Alias:   ObservationDeviceType = http://hl7.org/fhir/StructureDefinition/observa
 Alias:   VitalSignSensorDescription = http://hl7.org/fhir/us/vitals/StructureDefinition/SensorDescriptionExt
 Alias:   VitalSignSleepStatus = http://hl7.org/fhir/us/vitals/StructureDefinition/SleepStatusExt
 Alias:   ExtBodyPosition = http://hl7.org/fhir/StructureDefinition/observation-bodyPosition
-
-
-
-
+Alias:   ExtDeviceCode = http://hl7.org/fhir/StructureDefinition/observation-deviceCode
 
 // External Code Systems with a canonical recognized by terminology.hl7.org
 Alias:   UCUM = http://unitsofmeasure.org

@@ -1,10 +1,3 @@
-Extension: BloodPressureCuffSizeExt
-Id: bp-cuff-size-ext
-Title: "Blood Pressure Cuff Size"
-Description: "The size of pressure cuff used to measure blood pressure."
-* valueCodeableConcept only CodeableConcept
-* valueCodeableConcept from BloodPressureCuffSizevalueset (extensible)
-
 Extension: MeasurementProtocol
 Id: MeasurementProtocolExt
 Title: "Measurement Protocol"
@@ -30,3 +23,23 @@ Id: datetime-of-calculation
 Title: "Date and Time of Calculation"
 Description: "A time stamp that indicates when the calculation of a result was made."
 * value[x] only dateTime
+
+Extension: SleepStatus
+Id: SleepStatusExt
+Title: "Sleep Status"
+Description: "The state of wakefulness during the measurement."
+* valueCodeableConcept only CodeableConcept
+* valueCodeableConcept from SleepStatusvalueset (extensible)
+
+Extension: ExerciseAssociationExt
+Id: ExerciseAssociationExt
+Title: "Exercise Association"
+Description: "The exercise state associated with the measurement."
+* valueCodeableConcept only CodeableConcept
+* valueCodeableConcept from ExertionPhaseVS (extensible)
+
+Extension: AssociatedSituationExt
+Id: AssociatedSituationExt
+Title: "Associated Situation"
+Description: "Situations that may affect the measurement or assessment."
+* valueCodeableConcept only CodeableConcept
