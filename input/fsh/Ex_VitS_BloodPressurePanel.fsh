@@ -24,8 +24,7 @@ Instance: BloodPressurePanel-Madatory
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * status = #final
-* category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
-* category.text = "Vital Signs"
+* category = ObsCat#vital-signs
 * code = http://loinc.org#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Jake-Donald)
 * effectiveDateTime = "2022-02-10T12:00:29-09:00"
