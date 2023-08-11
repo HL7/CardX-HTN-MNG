@@ -14,6 +14,7 @@ Alias:   USCoreObservationLab = http://hl7.org/fhir/us/core/StructureDefinition/
 Alias:   VitalSignsAvgBPProfile = http://hl7.org/fhir/us/vitals/StructureDefinition/average-blood-pressure
 Alias:   VitalSignsBPPanelProfile = http://hl7.org/fhir/us/vitals/StructureDefinition/blood-pressure-panel
 Alias:   VitalSignsHeartRate = http://hl7.org/fhir/us/vitals/StructureDefinition/heart-rate
+Alias:   CoreBPProfile = http://hl7.org/fhir/StructureDefinition/bp
 
 // Extensions
 Alias:   USCoreBirthSex = http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex

@@ -44,3 +44,10 @@ Description: "A set of codes that are defined in the Solor extension to the SNOM
 * #24181000205106 "Patient lift scale (physical object)" "A device used to lift a patient out of or into bed and also has a scale to measure the subject's weight."
 * #24781000205105 "Structure of left superficial temporal artery (body structure)" "A body structure of the superficial tempral artery on the left side of the body.  Currently part of the Solor SNOMED CT extension."
 * #24791000205107 "Structure of right superficial temporal artery (body structure)" "A body structure of the superficial tempral artery on the right side of the body.  Currently part of the Solor SNOMED CT extension."
+
+CodeSystem: SMBPMeasurementSettingCodeSystem
+Id: smbp-measurment-setting-CodeSystemtle
+Title: "SMBP Measurement Setting Code System"
+Description: "A temporary codes system for environments in which a measurement was taken or observed."
+* ^caseSensitive = false
+* #non-clinical "Non-clinical environment"

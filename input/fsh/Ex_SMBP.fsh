@@ -4,11 +4,7 @@
 Instance: SMBP-Protocol
 InstanceOf: AverageBloodPressure
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/average-blood-pressure"
-* extension[MeasurementProtocolExt].valueCodeableConcept = http://hl7.org/fhir/us/vitals/CodeSystem/MeasurementProtocolTemporaryCodeSystem#AOBP "Automated office blood pressure protocol"
-* extension[ExerciseAssociationExt].valueCodeableConcept = http://snomed.info/sct#255214003 "At rest"
-* extension[MeasurementSettingExt].valueCodeableConcept = http://snomed.info/sct#264362003 "Home"
-* extension[BodyPosition].valueCodeableConcept = http://snomed.info/sct#33586001 "Sitting Position"
+* extension[CalcDateTime].valueDateTime = "2019-10-19T12:43:29-09:00"
 * extension[NumberOfMeasurementsExt].valueQuantity.value = 12 
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
@@ -17,7 +13,6 @@ Usage: #example
 * effectivePeriod.start = "2019-10-16T12:12:29-09:00"
 * effectivePeriod.end = "2019-10-19T12:42:29-09:00"
 * issued = "2019-10-16T12:12:29-10:00"
-* bodySite = http://snomed.info/sct#723961002 "Structure of left brachial artery (body structure)"
 * method = http://snomed.info/sct#17146006 "Arterial pressure monitoring, non invasive method"
 * device = Reference(Device/BPDevice2-example)
 * derivedFrom[0] = Reference(Observation-1AM-Day1) 
