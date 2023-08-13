@@ -17,16 +17,12 @@ The following Profiles and have been defined for this implementation guide.
 		</thead>
 		<tbody>
           <tr>
-            <td><a href="http://hl7.org/fhir/us/cardx-htn/StructureDefinition/self-measured-bp.html">Self-measured Blood Pressure</a></td>
+            <td><a href="StructureDefinition-self-measured-bp.html">Self-measured Blood Pressure</a></td>
             <td>A blood pressure measurment taken in a non-clinical environment by the individual or related person.</td>
           </tr>
           <tr>
             <td><a href="StructureDefinition-average-blood-pressure.html">Average Blood Pressure</a></td>
             <td>A calculated average of two or more blood pressure readings in a specified time period or according to a specified algorithm or protocol.  The average blood pressure has a systolic and a diastolic component.</td>
-          </tr>
-          <tr>
-            <td><a href= "StructureDefinition-bp-device.html">Blood Pressure Device</a></td>
-            <td>A profile of the Device resource used specifically for blood pressure devices and includes an extension for blood pressure cuff size.</td>
           </tr>
           <tr>
             <td><a href="StructureDefinition-heart-rate.html">Heart Rate</a></td>
