@@ -17,8 +17,8 @@ The following Profiles and have been defined for this implementation guide.
 		</thead>
 		<tbody>
           <tr>
-            <td><a href="StructureDefinition-blood-pressure-panel.html">Blood Pressure Panel</a></td>
-            <td>Blood Pressure Panel; a grouping of systolic, diastolic, and mean arterial blood pressure components.</td>
+            <td><a href="http://hl7.org/fhir/us/cardx-htn/StructureDefinition/self-measured-bp.html">Self-measured Blood Pressure</a></td>
+            <td>A blood pressure measurment taken in a non-clinical environment by the individual or related person.</td>
           </tr>
           <tr>
             <td><a href="StructureDefinition-average-blood-pressure.html">Average Blood Pressure</a></td>
