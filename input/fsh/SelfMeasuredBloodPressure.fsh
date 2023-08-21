@@ -10,10 +10,6 @@ Description: "A blood pressure taken by the patient or a related person, done in
 * status MS
 * status from SMBPStatusVS (required)
 * performer only Reference(Patient or RelatedPerson)
-* interpretation 0..1
-* interpretation only CodeableConcept
-* interpretation from NumericResultInterpretationNom (extensible)
-* bodySite 0..0
 * method MS
 * method from SMBPMethodVS (extensible)
 * method ^binding.description = "A set of codes that describe the method used to measure a blood pressure"
