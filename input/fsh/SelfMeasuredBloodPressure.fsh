@@ -13,5 +13,3 @@ Description: "A blood pressure taken by the patient or a related person, done in
 * method MS
 * method from SMBPMethodVS (extensible)
 * method ^binding.description = "A set of codes that describe the method used to measure a blood pressure"
-
-

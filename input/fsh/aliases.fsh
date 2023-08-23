@@ -22,7 +22,6 @@ Alias:   USCoreRace = http://hl7.org/fhir/us/core/StructureDefinition/us-core-ra
 Alias:   VitalSignBloodPressureCuffSize = http://hl7.org/fhir/us/vitals/StructureDefinition/bp-cuff-size-ext 
 Alias:   VitalSignExerciseAssociation = http://hl7.org/fhir/us/vitals/StructureDefinition/ExerciseAssociationExt 
 Alias:   VitalSignMeasurementProtocol = http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementProtocolExt
-Alias:   VitalSignMeasurementSetting = http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt
 Alias:   ObservationBodyPosition = http://hl7.org/fhir/StructureDefinition/observation-bodyPosition
 Alias:   ObservationDeviceType = http://hl7.org/fhir/StructureDefinition/observation-deviceCode
 Alias:   VitalSignSensorDescription = http://hl7.org/fhir/us/vitals/StructureDefinition/SensorDescriptionExt
