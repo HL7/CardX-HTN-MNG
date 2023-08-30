@@ -4,25 +4,37 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
+<artifact id="StructureDefinition/AssociatedSituationExt" key="StructureDefinition-AssociatedSituationExt" name="Associated Situation"/>
 <artifact id="StructureDefinition/average-blood-pressure" key="StructureDefinition-average-blood-pressure" name="Average Blood Pressure"/>
+<artifact id="StructureDefinition/avg-minmax-bp-panel" key="StructureDefinition-avg-minmax-bp-panel" name="Average Minimum and Maximum Blood Pressure Panel"/>
 <artifact id="Observation/AverageBloodPressure-MS" key="Observation-AverageBloodPressure-MS" name="AverageBloodPressure-MS"/>
 <artifact id="Observation/AverageBloodPressure-Mandatory" key="Observation-AverageBloodPressure-Mandatory" name="AverageBloodPressure-Mandatory"/>
-<artifact id="StructureDefinition/bp-cuff-size-ext" key="StructureDefinition-bp-cuff-size-ext" name="Blood Pressure Cuff Size"/>
-<artifact id="StructureDefinition/bp-device" key="StructureDefinition-bp-device" name="Blood Pressure Device"/>
-<artifact id="StructureDefinition/blood-pressure-panel" key="StructureDefinition-blood-pressure-panel" name="Blood Pressure Panel"/>
+<artifact id="ValueSet/bpmeasbodylocationprecoord" key="ValueSet-bpmeasbodylocationprecoord" name="Blood Pressure Measurement Body Location Precoordinated value set"/>
+<artifact id="ValueSet/bpMeasMethodVS" key="ValueSet-bpMeasMethodVS" name="Blood Pressure Measurement Method value set"/>
 <artifact id="Observation/BloodPressurePanel-MS" key="Observation-BloodPressurePanel-MS" name="BloodPressurePanel-MS"/>
-<artifact id="Observation/BloodPressurePanel-MS-Manual" key="Observation-BloodPressurePanel-MS-Manual" name="BloodPressurePanel-MS-Manual"/>
 <artifact id="Observation/BloodPressurePanel-Madatory" key="Observation-BloodPressurePanel-Madatory" name="BloodPressurePanel-Madatory"/>
-<artifact id="Observation/BloodPressurePanel-Madatory-Manual" key="Observation-BloodPressurePanel-Madatory-Manual" name="BloodPressurePanel-Madatory-Manual"/>
+<artifact id="ValueSet/bodyPositionVS" key="ValueSet-bodyPositionVS" name="Body Position value set"/>
 <artifact id="StructureDefinition/datetime-of-calculation" key="StructureDefinition-datetime-of-calculation" name="Date and Time of Calculation"/>
+<artifact id="StructureDefinition/ExerciseAssociationExt" key="StructureDefinition-ExerciseAssociationExt" name="Exercise Association"/>
+<artifact id="ValueSet/exertionPhaseVS" key="ValueSet-exertionPhaseVS" name="Exertion Phase value set"/>
+<artifact id="CodeSystem/organization-hspc-organizationtype" key="CodeSystem-organization-hspc-organizationtype" name="HSPC Organization Type Code System"/>
 <artifact id="StructureDefinition/heart-rate" key="StructureDefinition-heart-rate" name="Heart Rate"/>
+<artifact id="ValueSet/heartRateMeasBodyLocationPrecoordVS" key="ValueSet-heartRateMeasBodyLocationPrecoordVS" name="Heart Rate Measurement Body Location Precoordinated value set"/>
+<artifact id="ValueSet/heartRateMeasDeviceVS" key="ValueSet-heartRateMeasDeviceVS" name="Heart Rate Measurement Device value set"/>
+<artifact id="ValueSet/heartRateMeasMethodVS" key="ValueSet-heartRateMeasMethodVS" name="Heart Rate Measurement Method value set"/>
 <artifact id="Observation/HeartRate-MS" key="Observation-HeartRate-MS" name="HeartRate-MS"/>
 <artifact id="Observation/HeartRate-Mandatory" key="Observation-HeartRate-Mandatory" name="HeartRate-Mandatory"/>
-<artifact id="StructureDefinition/max-blood-pressure-panel" key="StructureDefinition-max-blood-pressure-panel" name="Maximum Blood Pressure Panel"/>
+<artifact id="StructureDefinition/max-diast-bp" key="StructureDefinition-max-diast-bp" name="Maximum Diastolic Blood Pressure"/>
+<artifact id="StructureDefinition/max-sys-bp" key="StructureDefinition-max-sys-bp" name="Maximum Systolic Blood Pressure"/>
 <artifact id="StructureDefinition/MeasurementProtocolExt" key="StructureDefinition-MeasurementProtocolExt" name="Measurement Protocol"/>
+<artifact id="CodeSystem/MeasurementProtocolTemporaryCodeSystem" key="CodeSystem-MeasurementProtocolTemporaryCodeSystem" name="Measurement Protocol Temporary Code System"/>
+<artifact id="ValueSet/MeasurementProtocolVS" key="ValueSet-MeasurementProtocolVS" name="Measurement Protocol value set"/>
 <artifact id="StructureDefinition/MeasurementSettingExt" key="StructureDefinition-MeasurementSettingExt" name="Measurement Setting"/>
-<artifact id="StructureDefinition/min-blood-pressure-panel" key="StructureDefinition-min-blood-pressure-panel" name="Minimum Blood Pressure Panel"/>
+<artifact id="ValueSet/MeasSettingVS" key="ValueSet-MeasSettingVS" name="Measurement Setting value set"/>
+<artifact id="StructureDefinition/min-diast-bp" key="StructureDefinition-min-diast-bp" name="Minimum Diastolic Blood Pressure"/>
+<artifact id="StructureDefinition/min-sys-bp" key="StructureDefinition-min-sys-bp" name="Minimum Systolic Blood Pressure"/>
 <artifact id="StructureDefinition/NumberOfMeasurementsExt" key="StructureDefinition-NumberOfMeasurementsExt" name="Number of Measurements"/>
+<artifact id="ValueSet/NumericResultIntVS" key="ValueSet-NumericResultIntVS" name="Numeric Result Interpretation value set"/>
 <artifact id="Observation/Observation-1AM-Day1" key="Observation-Observation-1AM-Day1" name="Observation-1AM-Day1"/>
 <artifact id="Observation/Observation-1AM-Day2" key="Observation-Observation-1AM-Day2" name="Observation-1AM-Day2"/>
 <artifact id="Observation/Observation-1AM-Day3" key="Observation-Observation-1AM-Day3" name="Observation-1AM-Day3"/>
@@ -51,9 +63,18 @@
 <artifact id="Observation/Observation-2PM-Day5" key="Observation-Observation-2PM-Day5" name="Observation-2PM-Day5"/>
 <artifact id="Observation/Observation-2PM-Day6" key="Observation-Observation-2PM-Day6" name="Observation-2PM-Day6"/>
 <artifact id="Observation/Observation-2PM-Day7" key="Observation-Observation-2PM-Day7" name="Observation-2PM-Day7"/>
+<artifact id="CodeSystem/smbp-measurment-setting-CodeSystemtle" key="CodeSystem-smbp-measurment-setting-CodeSystemtle" name="SMBP Measurement Setting Code System"/>
+<artifact id="ValueSet/smbp-measurement-setting-vs" key="ValueSet-smbp-measurement-setting-vs" name="SMBP Measurement Setting value set"/>
+<artifact id="ValueSet/smbp-method-vs" key="ValueSet-smbp-method-vs" name="SMBP Method value set"/>
+<artifact id="ValueSet/smbp-minmax-id-valueset" key="ValueSet-smbp-minmax-id-valueset" name="SMBP Minimum and Maximum Blood Pressure Identifier Codes"/>
+<artifact id="CodeSystem/smbp-minmax-bp-codesystem" key="CodeSystem-smbp-minmax-bp-codesystem" name="SMBP Minimum and Maximum Blood Pressure identifiers code system"/>
+<artifact id="ValueSet/smbp-obs-status" key="ValueSet-smbp-obs-status" name="SMBP Observation Status value set"/>
 <artifact id="Observation/SMBP-Protocol" key="Observation-SMBP-Protocol" name="SMBP-Protocol"/>
-<artifact id="Observation/TwentyFourHourBloodPressure-MS" key="Observation-TwentyFourHourBloodPressure-MS" name="TwentyFourHourBloodPressure-MS"/>
-<artifact id="Observation/TwentyFourHourBloodPressure-Mandatory" key="Observation-TwentyFourHourBloodPressure-Mandatory" name="TwentyFourHourBloodPressure-Mandatory"/>
+<artifact id="CodeSystem/SolorTemporaryCodeSystem" key="CodeSystem-SolorTemporaryCodeSystem" name="SNOMED CT Solor Extension Temporary Code System"/>
+<artifact id="StructureDefinition/self-measured-bp" key="StructureDefinition-self-measured-bp" name="Self-measured Blood Pressure"/>
+<artifact id="StructureDefinition/SleepStatusExt" key="StructureDefinition-SleepStatusExt" name="Sleep Status"/>
+<artifact id="ValueSet/sleepStatusVS" key="ValueSet-sleepStatusVS" name="Sleep Status value set"/>
+<artifact id="StructureDefinition/twenty-four-hour-blood-pressure" key="StructureDefinition-twenty-four-hour-blood-pressure" name="Twenty Four Hour Blood Pressure"/>
 <artifact id="Patient/patient-example-Jake-Donald" key="Patient-patient-example-Jake-Donald" name="patient-example-Jake-Donald"/>
 <artifact id="Patient/patient-example-Sally-Sue" key="Patient-patient-example-Sally-Sue" name="patient-example-Sally-Sue"/>
 <artifact id="Device/phd-bloodpressuremonitor-MS" key="Device-phd-bloodpressuremonitor-MS" name="phd-bloodpressuremonitor-MS"/>

@@ -7,7 +7,7 @@
 Instance: Observation-1AM-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -24,7 +24,7 @@ Usage: #example
 Instance: Observation-2AM-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -41,7 +41,7 @@ Usage: #example
 Instance: Observation-1PM-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -58,7 +58,7 @@ Usage: #example
 Instance: Observation-2PM-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -76,7 +76,7 @@ Usage: #example
 Instance: Observation-1AM-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -93,7 +93,7 @@ Usage: #example
 Instance: Observation-2AM-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -110,7 +110,7 @@ Usage: #example
 Instance: Observation-1PM-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -127,7 +127,7 @@ Usage: #example
 Instance: Observation-2PM-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -144,7 +144,7 @@ Usage: #example
 Instance: Observation-1AM-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -161,7 +161,7 @@ Usage: #example
 Instance: Observation-2AM-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -178,7 +178,7 @@ Usage: #example
 Instance: Observation-1PM-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -195,7 +195,7 @@ Usage: #example
 Instance: Observation-2PM-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -213,7 +213,7 @@ Usage: #example
 Instance: Observation-1AM-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -230,7 +230,7 @@ Usage: #example
 Instance: Observation-2AM-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -247,7 +247,7 @@ Usage: #example
 Instance: Observation-1PM-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -264,7 +264,7 @@ Usage: #example
 Instance: Observation-2PM-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -281,7 +281,7 @@ Usage: #example
 Instance: Observation-1AM-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -298,7 +298,7 @@ Usage: #example
 Instance: Observation-2AM-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -316,7 +316,7 @@ Usage: #example
 Instance: Observation-1PM-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -333,7 +333,7 @@ Usage: #example
 Instance: Observation-2PM-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -351,7 +351,7 @@ Usage: #example
 Instance: Observation-1AM-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -368,7 +368,7 @@ Usage: #example
 Instance: Observation-2AM-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -385,7 +385,7 @@ Usage: #example
 Instance: Observation-1PM-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -402,7 +402,7 @@ Usage: #example
 Instance: Observation-2PM-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -419,7 +419,7 @@ Usage: #example
 Instance: Observation-1AM-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -436,7 +436,7 @@ Usage: #example
 Instance: Observation-2AM-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -453,7 +453,7 @@ Usage: #example
 Instance: Observation-1PM-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -470,7 +470,7 @@ Usage: #example
 Instance: Observation-2PM-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SCT#2643622003 "Home"
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
 * status = #final
 * category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"

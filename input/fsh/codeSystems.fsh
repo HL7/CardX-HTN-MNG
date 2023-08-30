@@ -51,3 +51,13 @@ Title: "SMBP Measurement Setting Code System"
 Description: "A temporary codes system for environments in which a measurement was taken or observed."
 * ^caseSensitive = false
 * #non-clinical "Non-clinical environment"
+
+CodeSystem: SMBPMinMaxBPIDCodeSystem
+Id: smbp-minmax-bp-codesystem
+Title: "SMBP Minimum and Maximum Blood Pressure identifiers code system"
+* ^caseSensitive = false
+* #MaxDiastBP "Maximum Diastolic BP, unknown period"
+* #MaxSystBP "Maximum Systolic BP, unknown period"
+* #MinDiastBP "Minimum Diastolic BP, unknown period"
+* #MinSystBP "Minimum Systolic BP, unknown period"
+* #AvgMinMaxBP "Average, Minimum, and Maximum BP Panel, unknown period"

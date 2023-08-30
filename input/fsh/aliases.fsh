@@ -11,9 +11,8 @@ Alias:   USCoreEthnicity = http://hl7.org/fhir/us/core/StructureDefinition/us-co
 Alias:   USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient
 Alias:   USCorePractitioner = http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner
 Alias:   USCoreObservationLab = http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab
-Alias:   VitalSignsAvgBPProfile = http://hl7.org/fhir/us/vitals/StructureDefinition/average-blood-pressure
-Alias:   VitalSignsHeartRate = http://hl7.org/fhir/us/vitals/StructureDefinition/heart-rate
 Alias:   CoreBPProfile = http://hl7.org/fhir/StructureDefinition/bp
+Alias:   CoreVitalSigns = http://hl7.org/fhir/StructureDefinition/vitalsigns
 
 // Extensions
 Alias:   USCoreBirthSex = http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex

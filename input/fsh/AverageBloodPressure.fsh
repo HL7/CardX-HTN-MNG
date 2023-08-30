@@ -1,5 +1,5 @@
 Profile: AverageBloodPressure
-Parent: Observation
+Parent: CoreVitalSigns
 Id: average-blood-pressure
 Title: "Average Blood Pressure"
 Description: "A calculated average of two or more blood pressure readings in a specified time period or according to a specified algorithm or protocol.  The average blood pressure has a systolic and a diastolic component."

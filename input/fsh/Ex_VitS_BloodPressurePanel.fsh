@@ -28,6 +28,7 @@ Usage: #example
 * code = http://loinc.org#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Jake-Donald)
 * effectiveDateTime = "2022-02-10T12:00:29-09:00"
+* performer = Reference(patient-example-Jake-Donald)
 * component[SystolicBP].code = http://loinc.org#8480-6
 * component[SystolicBP].valueQuantity = 140 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = http://loinc.org#8462-4
