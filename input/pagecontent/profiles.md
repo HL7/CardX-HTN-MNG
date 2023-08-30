@@ -25,16 +25,28 @@ The following Profiles and have been defined for this implementation guide.
             <td>A calculated average of two or more blood pressure readings in a specified time period or according to a specified algorithm or protocol.  The average blood pressure has a systolic and a diastolic component.</td>
           </tr>
           <tr>
+            <td><a href="StructureDefinition-avg-minmax-bp-panel.html">Average, Minimum, and Maximum Blood Pressure Panel</a></td>
+            <td>A collection of the Average, Minimum, and Maximum Blood Pressure Observations for a given period of time.</td>
+          </tr>
+          <tr>
+            <td><a href="StructureDefinition-min-sys-bp.html">Minimum Systolic Blood Pressure</a></td>
+            <td>The systolic blood pressure measurement that is the lowest over a given time period.</td>
+          </tr>
+          <tr>
+            <td><a href="StructureDefinition-min-diast-bp.html">Minimum Diastolic Blood Pressure</a></td>
+            <td>The diastolic blood pressure measurement that is the lowest over a given time period.</td>
+          </tr>
+          <tr>
+            <td><a href="StructureDefinition-max-sys-bp.html">Maximum Systolic Blood Pressure</a></td>
+            <td>The systolic blood pressure measurement that is the highest over a given time period.</td>
+          </tr>
+          <tr>
+            <td><a href="StructureDefinition-max-diast-bp.html">Maximum Diastolic Blood Pressure</a></td>
+            <td>The diastolic blood pressure measurement that is the highest over a given time period.</td>
+          </tr>
+          <tr>
             <td><a href="StructureDefinition-heart-rate.html">Heart Rate</a></td>
             <td>The number of heart beats per minute.</td>
-          </tr>
-          <tr>
-            <td><a href="StructureDefinition-min-blood-pressure-panel.html">Minimum Blood Pressure Panel</a></td>
-            <td>The systolic and diastolic blood pressure measurement that is the lowest over a given time period.</td>
-          </tr>
-          <tr>
-            <td><a href="StructureDefinition-max-blood-pressure-panel.html">Maximum Blood Pressure Panel</a></td>
-            <td>The systolic and diastolic blood pressure measurements that are the highest over a given time period.</td>
           </tr>
         </tbody>
     </table>
