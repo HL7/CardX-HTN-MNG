@@ -7,12 +7,12 @@
 Instance: Observation-1AM-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-01T08:00:29-09:00"
+* issued = "2023-03-01T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -24,12 +24,12 @@ Usage: #example
 Instance: Observation-2AM-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-01T08:01:29-09:00"
+* issued = "2023-03-01T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -41,12 +41,12 @@ Usage: #example
 Instance: Observation-1PM-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-01T07:01:29-09:00"
+* issued = "2023-03-01T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -58,12 +58,12 @@ Usage: #example
 Instance: Observation-2PM-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-01T07:01:29-09:00"
+* issued = "2023-03-01T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -76,12 +76,12 @@ Usage: #example
 Instance: Observation-1AM-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-02T08:09:33-09:00"
+* issued = "2023-03-02T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -93,12 +93,12 @@ Usage: #example
 Instance: Observation-2AM-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-02T08:10:28-09:00"
+* issued = "2023-03-02T08:20:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -110,12 +110,12 @@ Usage: #example
 Instance: Observation-1PM-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-02T07:10:20-09:00"
+* issued = "2023-03-02T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -127,12 +127,12 @@ Usage: #example
 Instance: Observation-2PM-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-02T07:11:20-09:00"
+* issued = "2023-03-02T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -144,12 +144,12 @@ Usage: #example
 Instance: Observation-1AM-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-03T06:55:20-09:00"
+* issued = "2023-03-03T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -161,12 +161,12 @@ Usage: #example
 Instance: Observation-2AM-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-03T06:56:20-09:00"
+* issued = "2023-03-03T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -178,12 +178,12 @@ Usage: #example
 Instance: Observation-1PM-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-03T08:56:20-09:00"
+* issued = "2023-03-03T09:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -195,12 +195,12 @@ Usage: #example
 Instance: Observation-2PM-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-03T08:56:20-09:00"
+* issued = "2023-03-03T09:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -213,12 +213,12 @@ Usage: #example
 Instance: Observation-1AM-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-04T09:00:31-09:00"
+* issued = "2023-03-04T09:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -230,12 +230,12 @@ Usage: #example
 Instance: Observation-2AM-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-04T09:03:31-09:00"
+* issued = "2023-03-04T09:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -247,12 +247,12 @@ Usage: #example
 Instance: Observation-1PM-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-04T08:30:21-09:00"
+* issued = "2023-03-04T09:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -264,12 +264,12 @@ Usage: #example
 Instance: Observation-2PM-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-04T08:32:21-09:00"
+* issued = "2023-03-04T09:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -281,12 +281,12 @@ Usage: #example
 Instance: Observation-1AM-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-05T10:32:21-09:00"
+* issued = "2023-03-05T11:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -298,12 +298,12 @@ Usage: #example
 Instance: Observation-2AM-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-05T10:33:21-09:00"
+* issued = "2023-03-05T11:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -316,12 +316,12 @@ Usage: #example
 Instance: Observation-1PM-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-05T05:33:21-09:00"
+* issued = "2023-03-05T06:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -333,12 +333,12 @@ Usage: #example
 Instance: Observation-2PM-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-05T05:35:21-09:00"
+* issued = "2023-03-05T06:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -351,12 +351,12 @@ Usage: #example
 Instance: Observation-1AM-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-06T10:15:21-09:00"
+* issued = "2023-03-06T11:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -368,12 +368,12 @@ Usage: #example
 Instance: Observation-2AM-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-06T10:16:21-09:00"
+* issued = "2023-03-06T11:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -385,12 +385,12 @@ Usage: #example
 Instance: Observation-1PM-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-06T06:16:21-09:00"
+* issued = "2023-03-06T07:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -402,12 +402,12 @@ Usage: #example
 Instance: Observation-2PM-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-06T06:17:21-09:00"
+* issued = "2023-03-06T07:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -419,12 +419,12 @@ Usage: #example
 Instance: Observation-1AM-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-07T09:45:30-09:00"
+* issued = "2023-03-07T10:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -436,12 +436,12 @@ Usage: #example
 Instance: Observation-2AM-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-07T09:46:30-09:00"
+* issued = "2023-03-07T10:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -453,12 +453,12 @@ Usage: #example
 Instance: Observation-1PM-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-07T07:56:30-09:00"
+* issued = "2023-03-07T08:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
@@ -470,12 +470,12 @@ Usage: #example
 Instance: Observation-2PM-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
-* category = ObsCat#vital-signs
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-07T07:58:30-09:00"
+* issued = "2023-03-07T08:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"

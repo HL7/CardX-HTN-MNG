@@ -2,12 +2,10 @@
 // or Reference(Individual-Diastolic-Readings-1)
 
 Instance: SMBP-Protocol
-InstanceOf: AverageBloodPressure
+InstanceOf: AverageSMBP
 Usage: #example
-* extension[CalcDateTime].valueDateTime = "2019-10-19T12:43:29-09:00"
 * extension[NumberOfMeasurementsExt].valueQuantity.value = 12 
 * status = #final
-* category = ObsCat#vital-signs
 * code = http://loinc.org#96607-7 "Blood pressure panel mean systolic and mean diastolic"
 * subject = Reference(patient-example-Sally-Sue) 
 * effectivePeriod.start = "2019-10-16T12:12:29-09:00"

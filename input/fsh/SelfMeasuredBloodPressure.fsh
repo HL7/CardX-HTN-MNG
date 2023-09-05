@@ -6,9 +6,11 @@ Description: "A blood pressure taken by the patient or a related person, done in
 * extension contains
     MeasurementSettingExt named MeasurementSetting 0..1
 * extension[MeasurementSetting] ^short = "Measurement setting"
-* extension[MeasurementSetting].valueCodeableConcept = SMBPMeasurementSettingCodeSystem#non-clinical
+* extension[MeasurementSetting].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status MS
 * status from SMBPStatusVS (required)
+* effective[x] only dateTime
+* issued 1..1 MS
 * performer 1..1
 * performer only Reference(Patient)
 * method from SMBPMethodVS (extensible)

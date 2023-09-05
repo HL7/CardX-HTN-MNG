@@ -1,12 +1,10 @@
 /// Vital Signs IG Average Blood Pressure Profile Example  
 
 Instance: AverageBloodPressure-MS
-InstanceOf: AverageBloodPressure
+InstanceOf: AverageSMBP
 Usage: #example
-* extension[CalcDateTime].valueDateTime = "2019-10-16T12:43:29-09:00"
 * extension[NumberOfMeasurementsExt].valueQuantity.value = 6 
 * status = #final
-* category = ObsCat#vital-signs
 * code = http://loinc.org#96607-7 "Blood pressure panel mean systolic and mean diastolic"
 * subject = Reference(patient-example-Sally-Sue)
 * effectivePeriod.start = "2019-10-16T12:12:29-09:00"
@@ -23,14 +21,12 @@ Usage: #example
 
 
 Instance: AverageBloodPressure-Mandatory
-InstanceOf: AverageBloodPressure
+InstanceOf: AverageSMBP
 Usage: #example
-* extension[CalcDateTime].valueDateTime = "2019-10-16T12:43:29-09:00"
 * extension[NumberOfMeasurementsExt].url = "http://hl7.org/fhir/us/cardx-htn/StructureDefinition/NumberOfMeasurementsExt"
 * extension[NumberOfMeasurementsExt].valueQuantity.value = 12 
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/average-blood-pressure"
 * status = #final
-* category = ObsCat#vital-signs
 * code = http://loinc.org#96607-7 "Blood pressure panel mean systolic and mean diastolic"
 * subject = Reference(patient-example-Sally-Sue)
 * effectivePeriod.start = "2023-01-16T12:11:29-10:00"

@@ -3,7 +3,7 @@ Parent: CoreVitalSigns
 Id: avg-minmax-bp-panel
 Title: "Average Minimum and Maximum Blood Pressure Panel"
 Description: "A collection of observtions for the average, minimum, and maximum blood pressure measurements in a given time frame."
-* code = SMBPMinMaxBPIDCodeSystem#AvgMinMaxBP
+* code = SMBPCodeSystem#AvgMinMaxBP
 * value[x] 0..0
 * hasMember MS
 * hasMember ^slicing.discriminator.type = #pattern
@@ -17,7 +17,7 @@ Description: "A collection of observtions for the average, minimum, and maximum 
     MaxDiastolicBloodPressure 0..1 and
     MinSystolicBloodPressure 0..1 and
     MinDiastolicBloodPressure 0..1
-* hasMember[AverageBloodPressure] only Reference(AverageBloodPressure)
+* hasMember[AverageBloodPressure] only Reference(AverageSMBP)
 * hasMember[MaxSystolicBloodPressure] only Reference(MaxSystolicBloodPressure)
 * hasMember[MaxDiastolicBloodPressure] only Reference(MaxDiastolicBloodPressure)
 * hasMember[MinSystolicBloodPressure] only Reference(MinSystolicBloodPressure)

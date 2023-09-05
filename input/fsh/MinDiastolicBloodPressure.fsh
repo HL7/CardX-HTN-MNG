@@ -4,7 +4,7 @@ Id: min-diast-bp
 Title: "Minimum Diastolic Blood Pressure"
 Description: "The lowest measured diastolic blood pressure during a given time frame."
 * status from SMBPStatusVS
-* code = SMBPMinMaxBPIDCodeSystem#MinDiastBP "Minimum Diastolic BP, unknown period"
+* code = SMBPCodeSystem#MinDiastBP "Minimum Diastolic BP"
 * effective[x] 1..1 MS
 * effective[x] only Period
 * effectivePeriod.start 1..1 MS

@@ -4,7 +4,7 @@ Id: min-sys-bp
 Title: "Minimum Systolic Blood Pressure"
 Description: "The lowest measured systolic blood pressure during a given time frame."
 * status from SMBPStatusVS
-* code = SMBPMinMaxBPIDCodeSystem#MinSystBP "Minimum Systolic BP, unknown period"
+* code = SMBPCodeSystem#MinSystBP "Minimum Systolic BP"
 * effective[x] 1..1 MS
 * effective[x] only Period
 * effectivePeriod.start 1..1 MS

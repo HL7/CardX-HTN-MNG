@@ -5,8 +5,8 @@
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
 <artifact id="StructureDefinition/AssociatedSituationExt" key="StructureDefinition-AssociatedSituationExt" name="Associated Situation"/>
-<artifact id="StructureDefinition/average-blood-pressure" key="StructureDefinition-average-blood-pressure" name="Average Blood Pressure"/>
 <artifact id="StructureDefinition/avg-minmax-bp-panel" key="StructureDefinition-avg-minmax-bp-panel" name="Average Minimum and Maximum Blood Pressure Panel"/>
+<artifact id="StructureDefinition/average-smbp" key="StructureDefinition-average-smbp" name="Average Self-measured Blood Pressure"/>
 <artifact id="Observation/AverageBloodPressure-MS" key="Observation-AverageBloodPressure-MS" name="AverageBloodPressure-MS"/>
 <artifact id="Observation/AverageBloodPressure-Mandatory" key="Observation-AverageBloodPressure-Mandatory" name="AverageBloodPressure-Mandatory"/>
 <artifact id="ValueSet/bpmeasbodylocationprecoord" key="ValueSet-bpmeasbodylocationprecoord" name="Blood Pressure Measurement Body Location Precoordinated value set"/>
@@ -63,11 +63,9 @@
 <artifact id="Observation/Observation-2PM-Day5" key="Observation-Observation-2PM-Day5" name="Observation-2PM-Day5"/>
 <artifact id="Observation/Observation-2PM-Day6" key="Observation-Observation-2PM-Day6" name="Observation-2PM-Day6"/>
 <artifact id="Observation/Observation-2PM-Day7" key="Observation-Observation-2PM-Day7" name="Observation-2PM-Day7"/>
-<artifact id="CodeSystem/smbp-measurment-setting-CodeSystemtle" key="CodeSystem-smbp-measurment-setting-CodeSystemtle" name="SMBP Measurement Setting Code System"/>
+<artifact id="CodeSystem/smbp-code-system" key="CodeSystem-smbp-code-system" name="SMBP Measurement Setting Code System"/>
 <artifact id="ValueSet/smbp-measurement-setting-vs" key="ValueSet-smbp-measurement-setting-vs" name="SMBP Measurement Setting value set"/>
 <artifact id="ValueSet/smbp-method-vs" key="ValueSet-smbp-method-vs" name="SMBP Method value set"/>
-<artifact id="ValueSet/smbp-minmax-id-valueset" key="ValueSet-smbp-minmax-id-valueset" name="SMBP Minimum and Maximum Blood Pressure Identifier Codes"/>
-<artifact id="CodeSystem/smbp-minmax-bp-codesystem" key="CodeSystem-smbp-minmax-bp-codesystem" name="SMBP Minimum and Maximum Blood Pressure identifiers code system"/>
 <artifact id="ValueSet/smbp-obs-status" key="ValueSet-smbp-obs-status" name="SMBP Observation Status value set"/>
 <artifact id="Observation/SMBP-Protocol" key="Observation-SMBP-Protocol" name="SMBP-Protocol"/>
 <artifact id="CodeSystem/SolorTemporaryCodeSystem" key="CodeSystem-SolorTemporaryCodeSystem" name="SNOMED CT Solor Extension Temporary Code System"/>

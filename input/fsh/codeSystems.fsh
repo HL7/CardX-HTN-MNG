@@ -45,19 +45,14 @@ Description: "A set of codes that are defined in the Solor extension to the SNOM
 * #24781000205105 "Structure of left superficial temporal artery (body structure)" "A body structure of the superficial tempral artery on the left side of the body.  Currently part of the Solor SNOMED CT extension."
 * #24791000205107 "Structure of right superficial temporal artery (body structure)" "A body structure of the superficial tempral artery on the right side of the body.  Currently part of the Solor SNOMED CT extension."
 
-CodeSystem: SMBPMeasurementSettingCodeSystem
-Id: smbp-measurment-setting-CodeSystemtle
+CodeSystem: SMBPCodeSystem
+Id: smbp-code-system
 Title: "SMBP Measurement Setting Code System"
 Description: "A temporary codes system for environments in which a measurement was taken or observed."
 * ^caseSensitive = false
-* #non-clinical "Non-clinical environment"
-
-CodeSystem: SMBPMinMaxBPIDCodeSystem
-Id: smbp-minmax-bp-codesystem
-Title: "SMBP Minimum and Maximum Blood Pressure identifiers code system"
-* ^caseSensitive = false
-* #MaxDiastBP "Maximum Diastolic BP, unknown period"
-* #MaxSystBP "Maximum Systolic BP, unknown period"
-* #MinDiastBP "Minimum Diastolic BP, unknown period"
-* #MinSystBP "Minimum Systolic BP, unknown period"
-* #AvgMinMaxBP "Average, Minimum, and Maximum BP Panel, unknown period"
+* #non-clinical-environment "Non-clinical environment"
+* #MaxDiastBP "Maximum Diastolic BP"
+* #MaxSystBP "Maximum Systolic BP"
+* #MinDiastBP "Minimum Diastolic BP"
+* #MinSystBP "Minimum Systolic BP"
+* #AvgMinMaxBP "Average, Minimum, and Maximum BP Panel"

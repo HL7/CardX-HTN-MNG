@@ -4,7 +4,7 @@ Id: max-sys-bp
 Title: "Maximum Systolic Blood Pressure"
 Description: "The highest measured systolic blood pressure during a given time frame."
 * status from SMBPStatusVS
-* code = SMBPMinMaxBPIDCodeSystem#MaxSystBP "Maximum Systolic BP, unknown period"
+* code = SMBPCodeSystem#MaxSystBP "Maximum Systolic BP"
 * effective[x] 1..1 MS
 * effective[x] only Period
 * effectivePeriod.start 1..1 MS

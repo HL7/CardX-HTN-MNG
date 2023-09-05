@@ -1,21 +1,27 @@
-Profile: AverageBloodPressure
+Profile: AverageSMBP
 Parent: CoreVitalSigns
-Id: average-blood-pressure
-Title: "Average Blood Pressure"
+Id: average-smbp
+Title: "Average Self-measured Blood Pressure"
 Description: "A calculated average of two or more blood pressure readings in a specified time period or according to a specified algorithm or protocol.  The average blood pressure has a systolic and a diastolic component."
 * extension contains
     NumberOfMeasurements named NumberOfMeasurements 1..1 MS and
-    DateTimeOfCalculation named CalcDateTime 0..1 MS
+    MeasurementSettingExt named MeasurementSetting 0..1
 * extension[NumberOfMeasurements] ^short = "Number of Measurements"
-* extension[CalcDateTime] ^short = "Calculation DateTime"
+* extension[MeasurementSetting] ^short = "Measurement setting"
+* extension[MeasurementSetting].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* code = LNC#96607-7
 * subject 1..1
 * effective[x] only Period
 * effectivePeriod 1..1
 * effectivePeriod ^short = "The time range in which measurements were taken to calculate the average."
-* issued
+* effectivePeriod.start 1..1
+* effectivePeriod.end 1..1
+* value[x] 0..0
+* hasMember only Reference(SelfMeasuredBloodPressure)
 * component MS
-* component ^slicing.discriminator.type = #pattern
-* component ^slicing.discriminator.path = "code"
+* component ^slicing.discriminator.type = #value
+* component ^slicing.discriminator.path = "code.coding.code"
+* component ^slicing.discriminator.path = "code.coding.system"
 * component ^slicing.ordered = false
 * component ^slicing.rules = #open
 * component ^short = "Blood pressure components"

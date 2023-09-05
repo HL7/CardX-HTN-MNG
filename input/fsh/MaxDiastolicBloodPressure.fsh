@@ -4,7 +4,7 @@ Id: max-diast-bp
 Title: "Maximum Diastolic Blood Pressure"
 Description: "The highest measured diastolic blood pressure during a given time frame."
 * status from SMBPStatusVS
-* code = SMBPMinMaxBPIDCodeSystem#MaxDiastBP "Maximum Diastolic BP, unknown period"
+* code = SMBPCodeSystem#MaxDiastBP "Maximum Diastolic BP"
 * effective[x] 1..1 MS
 * effective[x] only Period
 * effectivePeriod.start 1..1 MS
