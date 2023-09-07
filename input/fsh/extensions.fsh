@@ -1,10 +1,3 @@
-Extension: MeasurementProtocol
-Id: MeasurementProtocolExt
-Title: "Measurement Protocol"
-Description: "The system or defined process used in a measurement."
-* valueCodeableConcept only CodeableConcept
-* valueCodeableConcept from MeasurementProtocolVS (extensible)
-
 Extension: MeasurementSettingExt
 Id: MeasurementSettingExt
 Title: "Measurement Setting"
@@ -16,12 +9,6 @@ Id: NumberOfMeasurementsExt
 Title: "Number of Measurements"
 Description: "A count of the number of measurements used in a calculation, such as Average Blood Pressure."
 * value[x] only Quantity
-
-Extension: DateTimeOfCalculation
-Id: datetime-of-calculation
-Title: "Date and Time of Calculation"
-Description: "A time stamp that indicates when the calculation of a result was made."
-* value[x] only dateTime
 
 Extension: SleepStatus
 Id: SleepStatusExt

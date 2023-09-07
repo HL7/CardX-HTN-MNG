@@ -9,6 +9,8 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * extension[NumberOfMeasurements] ^short = "Number of Measurements"
 * extension[MeasurementSetting] ^short = "Measurement setting"
 * extension[MeasurementSetting].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* status MS
+* status from SMBPStatusVS (required)
 * code = LNC#96607-7
 * subject 1..1
 * effective[x] only Period
@@ -17,7 +19,7 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * effectivePeriod.start 1..1
 * effectivePeriod.end 1..1
 * value[x] 0..0
-* hasMember only Reference(SelfMeasuredBloodPressure)
+* derivedFrom only Reference(SelfMeasuredBloodPressure)
 * component MS
 * component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code.coding.code"
