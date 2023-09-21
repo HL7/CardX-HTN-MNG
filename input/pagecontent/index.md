@@ -46,10 +46,9 @@ This FHIR Implementation Guide (IG) will align and harmonize existing work to cr
 
 ### Hypertension Use Case Diagram 
 
-<!--<p align="center">
+<p>
 <img src="htn_relation_diagram.png" width="600" >
-</p> -->
-![Hypertension relation diagram](htn_relation_diagram.png "Hypertension relation diagram")
+</p>
 
 ### Actors and Use Cases 
 
