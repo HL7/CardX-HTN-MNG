@@ -58,7 +58,8 @@ The following extensions have been defined as part of this implementation Guide.
 
 |Extension|
 |:----|
-|[Date/Time of calculation](StructureDefinition-datetim-of-calculation.html)|
-|[Blood Pressure Cuff Size](StructureDefinition-bp-cuff-size-ext.html)|
-|[Measurement Protocol](StructureDefinition-MeasurementProtocolExt.html)|
 |[Measurement Setting](StructureDefinition-MeasurementSettingExt.html)|
+|[Number of measurements](StructureDefinition-NumberOfMeasurementsExt.html)|
+|[Sleep status](StructureDefinition-SleepStatusExt.html)|
+|[Exercise association](StructureDefinition-ExerciseAssociationExt.html)|
+|[Associated situation](StructureDefinition-AssociatedSituationExt.html)|
