@@ -2,7 +2,7 @@ Profile: SelfMeasuredBloodPressure
 Parent: CoreBPProfile
 Id: self-measured-bp
 Title: "Self-measured Blood Pressure"
-Description: "A blood pressure taken by the patient or a related person, done in a non-clinical environment."
+Description: "A blood pressure taken by the subject or a related person, done in a non-clinical environment."
 * extension contains
     MeasurementSettingExt named MeasurementSetting 0..1
 * extension[MeasurementSetting] ^short = "Measurement setting"

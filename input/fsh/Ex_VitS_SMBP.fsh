@@ -16,3 +16,5 @@ Usage: #example
 * component[SystolicBP].valueQuantity = 120 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = http://loinc.org#8462-4
 * component[DiastolicBP].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
+
+

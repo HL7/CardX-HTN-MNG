@@ -18,7 +18,7 @@ The following Profiles and have been defined for this implementation guide.
 		<tbody>
           <tr>
             <td><a href="StructureDefinition-self-measured-bp.html">Self-measured Blood Pressure</a></td>
-            <td>A blood pressure measurment taken in a non-clinical environment by the individual or related person.</td>
+            <td>A blood pressure measurment taken in a non-clinical environment by the subject or related person.</td>
           </tr>
           <tr>
             <td><a href="StructureDefinition-average-smbp.html">Average Self-measured Blood Pressure</a></td>

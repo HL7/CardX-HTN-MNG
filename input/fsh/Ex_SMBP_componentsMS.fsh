@@ -4,7 +4,7 @@
     /// Min -3 Days 
     ///Preferred 7 days 
 
-Instance: Observation-1AM-Day1
+Instance: SMBP-1AM-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -21,7 +21,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-2AM-Day1
+Instance: SMBP-2AM-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -38,7 +38,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-1PM-Day1
+Instance: SMBP-1PM-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -55,7 +55,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 83 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-2PM-Day1
+Instance: SMBP-2PM-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -73,7 +73,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 83 'mm[Hg]' "mm[Hg]"
 
 
-Instance: Observation-1AM-Day2
+Instance: SMBP-1AM-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -90,7 +90,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 90 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-2AM-Day2
+Instance: SMBP-2AM-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -107,7 +107,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 92 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-1PM-Day2
+Instance: SMBP-1PM-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -124,7 +124,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 92 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-2PM-Day2
+Instance: SMBP-2PM-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -141,7 +141,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 94 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-1AM-Day3
+Instance: SMBP-1AM-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -158,7 +158,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 94 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-2AM-Day3
+Instance: SMBP-2AM-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -175,7 +175,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 95 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-1PM-Day3
+Instance: SMBP-1PM-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -192,7 +192,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 90 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-2PM-Day3
+Instance: SMBP-2PM-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -210,7 +210,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 90 'mm[Hg]' "mm[Hg]"
 
 
-Instance: Observation-1AM-Day4
+Instance: SMBP-1AM-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -227,7 +227,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 98 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-2AM-Day4
+Instance: SMBP-2AM-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -244,7 +244,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 95 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-1PM-Day4
+Instance: SMBP-1PM-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -261,7 +261,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-2PM-Day4
+Instance: SMBP-2PM-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -278,7 +278,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-1AM-Day5
+Instance: SMBP-1AM-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -295,7 +295,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-2AM-Day5
+Instance: SMBP-2AM-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -313,7 +313,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
 
-Instance: Observation-1PM-Day5
+Instance: SMBP-1PM-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -330,7 +330,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 86 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-2PM-Day5
+Instance: SMBP-2PM-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -348,7 +348,7 @@ Usage: #example
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
 
-Instance: Observation-1AM-Day6
+Instance: SMBP-1AM-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -365,7 +365,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 95 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-2AM-Day6
+Instance: SMBP-2AM-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -382,7 +382,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 90 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-1PM-Day6
+Instance: SMBP-1PM-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -399,7 +399,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 85 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-2PM-Day6
+Instance: SMBP-2PM-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -416,7 +416,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 85 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-1AM-Day7
+Instance: SMBP-1AM-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -433,7 +433,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-2AM-Day7
+Instance: SMBP-2AM-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -450,7 +450,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-1PM-Day7
+Instance: SMBP-1PM-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -467,7 +467,7 @@ Usage: #example
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
-Instance: Observation-2PM-Day7
+Instance: SMBP-2PM-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment

@@ -74,9 +74,8 @@ menu:
   Supporting Info: dataRequirements.html
   Profiles: profiles.html
   Examples: 
+    Examples for IG: IG-examples.html
     SMBP Examples: SMBP-Protocol-Examples.html
-    Manual vs. Device Examples: device-manual-generated-examples.html
-    Prior Art Conformant Examples: PriorArt-IG-Conformant-Examples.html
 
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮

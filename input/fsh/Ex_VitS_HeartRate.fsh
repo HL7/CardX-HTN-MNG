@@ -1,6 +1,6 @@
 
 Instance: HeartRate-example
-InstanceOf: heart-rate
+InstanceOf: smbp-associated-heart-rate
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/heart-rate"
 * extension[bodyPosition].valueCodeableConcept = http://snomed.info/sct#30212006 "Fowlers Position"
