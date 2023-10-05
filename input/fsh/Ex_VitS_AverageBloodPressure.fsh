@@ -28,7 +28,7 @@ Usage: #example
 Instance: SMBP-Protocol
 InstanceOf: AverageSMBP
 Usage: #example
-* extension[NumberOfMeasurementsExt].valueQuantity.value = 7 
+* extension[NumberOfMeasurementsExt].valueQuantity.value = 28 
 * status = #final
 * code = http://loinc.org#96607-7 "Blood pressure panel mean systolic and mean diastolic"
 * subject = Reference(patient-example-Sally-Sue)
