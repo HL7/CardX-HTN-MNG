@@ -4,7 +4,7 @@
     /// Min -3 Days 
     ///Preferred 7 days 
 
-Instance: SMBP-1AM-Day1
+Instance: SMBP-FirstAM-Measurment-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -15,13 +15,12 @@ Usage: #example
 * issued = "2023-03-01T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 125 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-2AM-Day1
+Instance: SMBP-SecondAM-Measurment-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -32,13 +31,13 @@ Usage: #example
 * issued = "2023-03-01T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
+
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 126 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-1PM-Day1
+Instance: SMBP-FirstPM-Measurment-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -49,13 +48,12 @@ Usage: #example
 * issued = "2023-03-01T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 130 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 83 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-2PM-Day1
+Instance: SMBP-SecondPM-Measurment-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -66,14 +64,13 @@ Usage: #example
 * issued = "2023-03-01T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 130 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 83 'mm[Hg]' "mm[Hg]"
 
 
-Instance: SMBP-1AM-Day2
+Instance: SMBP-FirstAM-Measurment-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -84,13 +81,12 @@ Usage: #example
 * issued = "2023-03-02T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 140 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 90 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-2AM-Day2
+Instance: SMBP-SecondAM-Measurment-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -101,13 +97,12 @@ Usage: #example
 * issued = "2023-03-02T08:20:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 143 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 92 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-1PM-Day2
+Instance: SMBP-FirstPM-Measurment-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -118,13 +113,12 @@ Usage: #example
 * issued = "2023-03-02T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 150 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 92 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-2PM-Day2
+Instance: SMBP-SecondPM-Measurment-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -135,13 +129,12 @@ Usage: #example
 * issued = "2023-03-02T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 148 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 94 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-1AM-Day3
+Instance: SMBP-FirstAM-Measurment-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -152,13 +145,12 @@ Usage: #example
 * issued = "2023-03-03T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 150 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 94 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-2AM-Day3
+Instance: SMBP-SecondAM-Measurment-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -169,13 +161,12 @@ Usage: #example
 * issued = "2023-03-03T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 148 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 95 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-1PM-Day3
+Instance: SMBP-FirstPM-Measurment-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -186,13 +177,12 @@ Usage: #example
 * issued = "2023-03-03T09:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 140 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 90 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-2PM-Day3
+Instance: SMBP-SecondPM-Measurment-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -203,14 +193,13 @@ Usage: #example
 * issued = "2023-03-03T09:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 140 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 90 'mm[Hg]' "mm[Hg]"
 
 
-Instance: SMBP-1AM-Day4
+Instance: SMBP-FirstAM-Measurment-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -221,13 +210,12 @@ Usage: #example
 * issued = "2023-03-04T09:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 155 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 98 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-2AM-Day4
+Instance: SMBP-SecondAM-Measurment-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -238,13 +226,12 @@ Usage: #example
 * issued = "2023-03-04T09:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 149 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 95 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-1PM-Day4
+Instance: SMBP-FirstPM-Measurment-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -255,13 +242,12 @@ Usage: #example
 * issued = "2023-03-04T09:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 130 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-2PM-Day4
+Instance: SMBP-SecondPM-Measurment-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -272,13 +258,12 @@ Usage: #example
 * issued = "2023-03-04T09:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 128 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-1AM-Day5
+Instance: SMBP-FirstAM-Measurment-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -289,13 +274,12 @@ Usage: #example
 * issued = "2023-03-05T11:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 120 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-2AM-Day5
+Instance: SMBP-SecondAM-Measurment-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -306,14 +290,13 @@ Usage: #example
 * issued = "2023-03-05T11:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 125 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
 
-Instance: SMBP-1PM-Day5
+Instance: SMBP-FirstPM-Measurment-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -324,13 +307,12 @@ Usage: #example
 * issued = "2023-03-05T06:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 128 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 86 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-2PM-Day5
+Instance: SMBP-SecondPM-Measurment-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -341,14 +323,13 @@ Usage: #example
 * issued = "2023-03-05T06:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 122 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
 
-Instance: SMBP-1AM-Day6
+Instance: SMBP-FirstAM-Measurment-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -359,13 +340,12 @@ Usage: #example
 * issued = "2023-03-06T11:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 145 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 95 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-2AM-Day6
+Instance: SMBP-SecondAM-Measurment-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -376,13 +356,12 @@ Usage: #example
 * issued = "2023-03-06T11:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 140 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 90 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-1PM-Day6
+Instance: SMBP-FirstPM-Measurment-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -393,13 +372,12 @@ Usage: #example
 * issued = "2023-03-06T07:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 130 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 85 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-2PM-Day6
+Instance: SMBP-SecondPM-Measurment-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -410,13 +388,12 @@ Usage: #example
 * issued = "2023-03-06T07:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 128 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 85 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-1AM-Day7
+Instance: SMBP-FirstAM-Measurment-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -427,13 +404,12 @@ Usage: #example
 * issued = "2023-03-07T10:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 125 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-2AM-Day7
+Instance: SMBP-SecondAM-Measurment-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -444,13 +420,12 @@ Usage: #example
 * issued = "2023-03-07T10:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 126 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-1PM-Day7
+Instance: SMBP-FirstPM-Measurment-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -461,13 +436,12 @@ Usage: #example
 * issued = "2023-03-07T08:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 120 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-2PM-Day7
+Instance: SMBP-SecondPM-Measurment-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
@@ -478,7 +452,6 @@ Usage: #example
 * issued = "2023-03-07T08:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
 * device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 120 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4

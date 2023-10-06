@@ -12,6 +12,7 @@ Usage: #example
 * performer = Reference(patient-example-Jake-Donald)
 * device = Reference(phd-bloodpressuremonitor-MS)
 * method = SCT#31813000 "Vascular oscillometry (procedure)"
+* bodySite = SCT#723961002 "Structure of left brachial artery (body structure)"
 * component[SystolicBP].code = http://loinc.org#8480-6
 * component[SystolicBP].valueQuantity = 120 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = http://loinc.org#8462-4

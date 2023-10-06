@@ -5,57 +5,53 @@
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
 <artifact id="StructureDefinition/AssociatedSituationExt" key="StructureDefinition-AssociatedSituationExt" name="Associated Situation"/>
-<artifact id="StructureDefinition/avg-minmax-bp-panel" key="StructureDefinition-avg-minmax-bp-panel" name="Average Minimum and Maximum Blood Pressure Panel"/>
 <artifact id="StructureDefinition/average-smbp" key="StructureDefinition-average-smbp" name="Average Self-measured Blood Pressure"/>
 <artifact id="Observation/AverageBloodPressure-example" key="Observation-AverageBloodPressure-example" name="AverageBloodPressure-example"/>
 <artifact id="ValueSet/bodyPositionVS" key="ValueSet-bodyPositionVS" name="Body Position value set"/>
 <artifact id="StructureDefinition/ExerciseAssociationExt" key="StructureDefinition-ExerciseAssociationExt" name="Exercise Association"/>
 <artifact id="ValueSet/exertionPhaseVS" key="ValueSet-exertionPhaseVS" name="Exertion Phase value set"/>
 <artifact id="CodeSystem/organization-hspc-organizationtype" key="CodeSystem-organization-hspc-organizationtype" name="HSPC Organization Type Code System"/>
-<artifact id="StructureDefinition/heart-rate" key="StructureDefinition-heart-rate" name="Heart Rate"/>
 <artifact id="ValueSet/heartRateMeasBodyLocationPrecoordVS" key="ValueSet-heartRateMeasBodyLocationPrecoordVS" name="Heart Rate Measurement Body Location Precoordinated value set"/>
 <artifact id="ValueSet/heartRateMeasDeviceVS" key="ValueSet-heartRateMeasDeviceVS" name="Heart Rate Measurement Device value set"/>
 <artifact id="ValueSet/heartRateMeasMethodVS" key="ValueSet-heartRateMeasMethodVS" name="Heart Rate Measurement Method value set"/>
 <artifact id="Observation/HeartRate-example" key="Observation-HeartRate-example" name="HeartRate-example"/>
-<artifact id="StructureDefinition/max-diast-bp" key="StructureDefinition-max-diast-bp" name="Maximum Diastolic Blood Pressure"/>
-<artifact id="StructureDefinition/max-sys-bp" key="StructureDefinition-max-sys-bp" name="Maximum Systolic Blood Pressure"/>
 <artifact id="CodeSystem/MeasurementProtocolTemporaryCodeSystem" key="CodeSystem-MeasurementProtocolTemporaryCodeSystem" name="Measurement Protocol Temporary Code System"/>
 <artifact id="StructureDefinition/MeasurementSettingExt" key="StructureDefinition-MeasurementSettingExt" name="Measurement Setting"/>
-<artifact id="StructureDefinition/min-diast-bp" key="StructureDefinition-min-diast-bp" name="Minimum Diastolic Blood Pressure"/>
-<artifact id="StructureDefinition/min-sys-bp" key="StructureDefinition-min-sys-bp" name="Minimum Systolic Blood Pressure"/>
 <artifact id="StructureDefinition/NumberOfMeasurementsExt" key="StructureDefinition-NumberOfMeasurementsExt" name="Number of Measurements"/>
 <artifact id="ValueSet/NumericResultIntVS" key="ValueSet-NumericResultIntVS" name="Numeric Result Interpretation value set"/>
-<artifact id="Observation/Observation-1AM-Day1" key="Observation-Observation-1AM-Day1" name="Observation-1AM-Day1"/>
-<artifact id="Observation/Observation-1AM-Day2" key="Observation-Observation-1AM-Day2" name="Observation-1AM-Day2"/>
-<artifact id="Observation/Observation-1AM-Day3" key="Observation-Observation-1AM-Day3" name="Observation-1AM-Day3"/>
-<artifact id="Observation/Observation-1AM-Day4" key="Observation-Observation-1AM-Day4" name="Observation-1AM-Day4"/>
-<artifact id="Observation/Observation-1AM-Day5" key="Observation-Observation-1AM-Day5" name="Observation-1AM-Day5"/>
-<artifact id="Observation/Observation-1AM-Day6" key="Observation-Observation-1AM-Day6" name="Observation-1AM-Day6"/>
-<artifact id="Observation/Observation-1AM-Day7" key="Observation-Observation-1AM-Day7" name="Observation-1AM-Day7"/>
-<artifact id="Observation/Observation-1PM-Day1" key="Observation-Observation-1PM-Day1" name="Observation-1PM-Day1"/>
-<artifact id="Observation/Observation-1PM-Day2" key="Observation-Observation-1PM-Day2" name="Observation-1PM-Day2"/>
-<artifact id="Observation/Observation-1PM-Day3" key="Observation-Observation-1PM-Day3" name="Observation-1PM-Day3"/>
-<artifact id="Observation/Observation-1PM-Day4" key="Observation-Observation-1PM-Day4" name="Observation-1PM-Day4"/>
-<artifact id="Observation/Observation-1PM-Day5" key="Observation-Observation-1PM-Day5" name="Observation-1PM-Day5"/>
-<artifact id="Observation/Observation-1PM-Day6" key="Observation-Observation-1PM-Day6" name="Observation-1PM-Day6"/>
-<artifact id="Observation/Observation-1PM-Day7" key="Observation-Observation-1PM-Day7" name="Observation-1PM-Day7"/>
-<artifact id="Observation/Observation-2AM-Day1" key="Observation-Observation-2AM-Day1" name="Observation-2AM-Day1"/>
-<artifact id="Observation/Observation-2AM-Day2" key="Observation-Observation-2AM-Day2" name="Observation-2AM-Day2"/>
-<artifact id="Observation/Observation-2AM-Day3" key="Observation-Observation-2AM-Day3" name="Observation-2AM-Day3"/>
-<artifact id="Observation/Observation-2AM-Day4" key="Observation-Observation-2AM-Day4" name="Observation-2AM-Day4"/>
-<artifact id="Observation/Observation-2AM-Day5" key="Observation-Observation-2AM-Day5" name="Observation-2AM-Day5"/>
-<artifact id="Observation/Observation-2AM-Day6" key="Observation-Observation-2AM-Day6" name="Observation-2AM-Day6"/>
-<artifact id="Observation/Observation-2AM-Day7" key="Observation-Observation-2AM-Day7" name="Observation-2AM-Day7"/>
-<artifact id="Observation/Observation-2PM-Day1" key="Observation-Observation-2PM-Day1" name="Observation-2PM-Day1"/>
-<artifact id="Observation/Observation-2PM-Day2" key="Observation-Observation-2PM-Day2" name="Observation-2PM-Day2"/>
-<artifact id="Observation/Observation-2PM-Day3" key="Observation-Observation-2PM-Day3" name="Observation-2PM-Day3"/>
-<artifact id="Observation/Observation-2PM-Day4" key="Observation-Observation-2PM-Day4" name="Observation-2PM-Day4"/>
-<artifact id="Observation/Observation-2PM-Day5" key="Observation-Observation-2PM-Day5" name="Observation-2PM-Day5"/>
-<artifact id="Observation/Observation-2PM-Day6" key="Observation-Observation-2PM-Day6" name="Observation-2PM-Day6"/>
-<artifact id="Observation/Observation-2PM-Day7" key="Observation-Observation-2PM-Day7" name="Observation-2PM-Day7"/>
+<artifact id="StructureDefinition/smbp-associated-heart-rate" key="StructureDefinition-smbp-associated-heart-rate" name="SMBP Associated Heart Rate"/>
 <artifact id="CodeSystem/smbp-code-system" key="CodeSystem-smbp-code-system" name="SMBP Measurement Setting Code System"/>
 <artifact id="ValueSet/smbp-method-vs" key="ValueSet-smbp-method-vs" name="SMBP Method value set"/>
 <artifact id="ValueSet/smbp-obs-status" key="ValueSet-smbp-obs-status" name="SMBP Observation Status value set"/>
+<artifact id="Observation/SMBP-FirstAM-Measurment-Day1" key="Observation-SMBP-FirstAM-Measurment-Day1" name="SMBP-FirstAM-Measurment-Day1"/>
+<artifact id="Observation/SMBP-FirstAM-Measurment-Day2" key="Observation-SMBP-FirstAM-Measurment-Day2" name="SMBP-FirstAM-Measurment-Day2"/>
+<artifact id="Observation/SMBP-FirstAM-Measurment-Day3" key="Observation-SMBP-FirstAM-Measurment-Day3" name="SMBP-FirstAM-Measurment-Day3"/>
+<artifact id="Observation/SMBP-FirstAM-Measurment-Day4" key="Observation-SMBP-FirstAM-Measurment-Day4" name="SMBP-FirstAM-Measurment-Day4"/>
+<artifact id="Observation/SMBP-FirstAM-Measurment-Day5" key="Observation-SMBP-FirstAM-Measurment-Day5" name="SMBP-FirstAM-Measurment-Day5"/>
+<artifact id="Observation/SMBP-FirstAM-Measurment-Day6" key="Observation-SMBP-FirstAM-Measurment-Day6" name="SMBP-FirstAM-Measurment-Day6"/>
+<artifact id="Observation/SMBP-FirstAM-Measurment-Day7" key="Observation-SMBP-FirstAM-Measurment-Day7" name="SMBP-FirstAM-Measurment-Day7"/>
+<artifact id="Observation/SMBP-FirstPM-Measurment-Day1" key="Observation-SMBP-FirstPM-Measurment-Day1" name="SMBP-FirstPM-Measurment-Day1"/>
+<artifact id="Observation/SMBP-FirstPM-Measurment-Day2" key="Observation-SMBP-FirstPM-Measurment-Day2" name="SMBP-FirstPM-Measurment-Day2"/>
+<artifact id="Observation/SMBP-FirstPM-Measurment-Day3" key="Observation-SMBP-FirstPM-Measurment-Day3" name="SMBP-FirstPM-Measurment-Day3"/>
+<artifact id="Observation/SMBP-FirstPM-Measurment-Day4" key="Observation-SMBP-FirstPM-Measurment-Day4" name="SMBP-FirstPM-Measurment-Day4"/>
+<artifact id="Observation/SMBP-FirstPM-Measurment-Day5" key="Observation-SMBP-FirstPM-Measurment-Day5" name="SMBP-FirstPM-Measurment-Day5"/>
+<artifact id="Observation/SMBP-FirstPM-Measurment-Day6" key="Observation-SMBP-FirstPM-Measurment-Day6" name="SMBP-FirstPM-Measurment-Day6"/>
+<artifact id="Observation/SMBP-FirstPM-Measurment-Day7" key="Observation-SMBP-FirstPM-Measurment-Day7" name="SMBP-FirstPM-Measurment-Day7"/>
+<artifact id="Observation/SMBP-Protocol" key="Observation-SMBP-Protocol" name="SMBP-Protocol"/>
+<artifact id="Observation/SMBP-SecondAM-Measurment-Day1" key="Observation-SMBP-SecondAM-Measurment-Day1" name="SMBP-SecondAM-Measurment-Day1"/>
+<artifact id="Observation/SMBP-SecondAM-Measurment-Day2" key="Observation-SMBP-SecondAM-Measurment-Day2" name="SMBP-SecondAM-Measurment-Day2"/>
+<artifact id="Observation/SMBP-SecondAM-Measurment-Day3" key="Observation-SMBP-SecondAM-Measurment-Day3" name="SMBP-SecondAM-Measurment-Day3"/>
+<artifact id="Observation/SMBP-SecondAM-Measurment-Day4" key="Observation-SMBP-SecondAM-Measurment-Day4" name="SMBP-SecondAM-Measurment-Day4"/>
+<artifact id="Observation/SMBP-SecondAM-Measurment-Day5" key="Observation-SMBP-SecondAM-Measurment-Day5" name="SMBP-SecondAM-Measurment-Day5"/>
+<artifact id="Observation/SMBP-SecondAM-Measurment-Day6" key="Observation-SMBP-SecondAM-Measurment-Day6" name="SMBP-SecondAM-Measurment-Day6"/>
+<artifact id="Observation/SMBP-SecondAM-Measurment-Day7" key="Observation-SMBP-SecondAM-Measurment-Day7" name="SMBP-SecondAM-Measurment-Day7"/>
+<artifact id="Observation/SMBP-SecondPM-Measurment-Day1" key="Observation-SMBP-SecondPM-Measurment-Day1" name="SMBP-SecondPM-Measurment-Day1"/>
+<artifact id="Observation/SMBP-SecondPM-Measurment-Day2" key="Observation-SMBP-SecondPM-Measurment-Day2" name="SMBP-SecondPM-Measurment-Day2"/>
+<artifact id="Observation/SMBP-SecondPM-Measurment-Day3" key="Observation-SMBP-SecondPM-Measurment-Day3" name="SMBP-SecondPM-Measurment-Day3"/>
+<artifact id="Observation/SMBP-SecondPM-Measurment-Day4" key="Observation-SMBP-SecondPM-Measurment-Day4" name="SMBP-SecondPM-Measurment-Day4"/>
+<artifact id="Observation/SMBP-SecondPM-Measurment-Day5" key="Observation-SMBP-SecondPM-Measurment-Day5" name="SMBP-SecondPM-Measurment-Day5"/>
+<artifact id="Observation/SMBP-SecondPM-Measurment-Day6" key="Observation-SMBP-SecondPM-Measurment-Day6" name="SMBP-SecondPM-Measurment-Day6"/>
+<artifact id="Observation/SMBP-SecondPM-Measurment-Day7" key="Observation-SMBP-SecondPM-Measurment-Day7" name="SMBP-SecondPM-Measurment-Day7"/>
 <artifact id="CodeSystem/SolorTemporaryCodeSystem" key="CodeSystem-SolorTemporaryCodeSystem" name="SNOMED CT Solor Extension Temporary Code System"/>
 <artifact id="StructureDefinition/self-measured-bp" key="StructureDefinition-self-measured-bp" name="Self-measured Blood Pressure"/>
 <artifact id="Observation/SelfMeasuredBloodPressure-example" key="Observation-SelfMeasuredBloodPressure-example" name="SelfMeasuredBloodPressure-example"/>
@@ -70,9 +66,8 @@
 <page key="artifacts" name="Artifacts Summary"/>
 <page key="cardx-background" name="Cardx Background"/>
 <page key="dataRequirements" name="Data Requirements"/>
-<page key="device-manual-generated-examples" name="Device Manual Generated Examples"/>
 <page key="index" name="Home"/>
-<page key="PriorArt-IG-Conformant-Examples" name="Prior Art IG Conformant Examples"/>
+<page key="IG-examples" name="IG Examples"/>
 <page key="priorart" name="Priorart"/>
 <page key="profiles" name="Profiles"/>
 <page key="related-igs" name="Related Igs"/>

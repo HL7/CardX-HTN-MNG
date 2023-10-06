@@ -4,21 +4,9 @@ Id: smbp-associated-heart-rate
 Title: "SMBP Associated Heart Rate"
 Description: "The number of heart beats in a minute."
 * extension contains
-    ExtDeviceCode named measurementDevice 0..1 and
-    ExerciseAssociationExt named exerciseAssociation 0..1 and
-    ExtBodyPosition named bodyPosition 0..1 and
-    MeasurementSettingExt named measurementSetting 0..1 and
-    SleepStatus named sleepStatus 0..1 and
-    AssociatedSituationExt named associatedSituation 0..1
-* extension[measurementDevice].value[x] only CodeableConcept
-* extension[measurementDevice].valueCodeableConcept from HeartRateMeasurementDevicevalueset (extensible)
-* extension[measurementDevice] ^short = "Measurement Device Type"
-* extension[exerciseAssociation] ^short = "Exercise Association"
-* extension[bodyPosition] ^short = "Body Position"
-* extension[bodyPosition].valueCodeableConcept from BodyPositionvalueset (extensible)
+    MeasurementSettingExt named measurementSetting 0..1
 * extension[measurementSetting] ^short = "Measurement setting"
-* extension[sleepStatus] ^short = "Sleep Status"
-* extension[associatedSituation] ^short = "Associated Situation"
+* extension[measurementSetting].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status MS
 * category.coding.system = "http://terminology.hl7.org/CodeSystem/observation-category"
 * category.coding.code = ObsCat#vital-signs

@@ -22,11 +22,11 @@ The following Profiles and have been defined for this implementation guide.
           </tr>
           <tr>
             <td><a href="StructureDefinition-average-smbp.html">Average Self-measured Blood Pressure</a></td>
-            <td>A calculated average of two or more self-measured blood pressure readings in a specified time period or according to a specified algorithm or protocol.  The average blood pressure has a systolic and a diastolic component.</td>
+            <td>A calculated average of two or more self-measured blood pressure readings in a specified time period or according to a specified algorithm or protocol.  The average blood pressure has systolic and diastolic components.</td>
           </tr>
           <tr>
-            <td><a href="StructureDefinition-heart-rate.html">Heart Rate</a></td>
-            <td>The number of heart beats per minute.</td>
+            <td><a href="StructureDefinition-smbp-associated-heart-rate.html">SMBP Associaated Heart Rate</a></td>
+            <td>A heart rate measurement taken and reported by the same device as a self-measured blood pressure.</td>
           </tr>
         </tbody>
     </table>
@@ -40,6 +40,3 @@ The following extensions have been defined as part of this implementation Guide.
 |:----|
 |[Measurement Setting](StructureDefinition-MeasurementSettingExt.html)|
 |[Number of measurements](StructureDefinition-NumberOfMeasurementsExt.html)|
-|[Sleep status](StructureDefinition-SleepStatusExt.html)|
-|[Exercise association](StructureDefinition-ExerciseAssociationExt.html)|
-|[Associated situation](StructureDefinition-AssociatedSituationExt.html)|
