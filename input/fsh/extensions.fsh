@@ -2,7 +2,8 @@ Extension: MeasurementSettingExt
 Id: MeasurementSettingExt
 Title: "Measurement Setting"
 Description: "The location or setting the subject was in when the measurement was obtained. For example, home, clinic, hospital. etc."
-* valueCodeableConcept only CodeableConcept
+* value[x] only CodeableConcept
+* valueCodeableConcept 1..1
 
 Extension: NumberOfMeasurements
 Id: NumberOfMeasurementsExt
