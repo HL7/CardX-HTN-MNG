@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="http://hl7.org/fhir/us/cardx-htn" defaultVersion="current" defaultWorkgroup="cic" url="http://hl7.org/fhir/us/cardx-htn">
-<version code="current" url="http://hl7.org/fhir/us/cardx-htn"/>
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="" defaultVersion="current" defaultWorkgroup="cic" url="http://hl7.org/fhir/us/cardx-htn">
+<version code="current" url=""/>
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
-<artifact id="StructureDefinition/AssociatedSituationExt" key="StructureDefinition-AssociatedSituationExt" name="Associated Situation"/>
 <artifact id="StructureDefinition/average-smbp" key="StructureDefinition-average-smbp" name="Average Self-measured Blood Pressure"/>
 <artifact id="Observation/AverageBloodPressure-example" key="Observation-AverageBloodPressure-example" name="AverageBloodPressure-example"/>
-<artifact id="ValueSet/bodyPositionVS" key="ValueSet-bodyPositionVS" name="Body Position value set"/>
-<artifact id="StructureDefinition/ExerciseAssociationExt" key="StructureDefinition-ExerciseAssociationExt" name="Exercise Association"/>
-<artifact id="ValueSet/exertionPhaseVS" key="ValueSet-exertionPhaseVS" name="Exertion Phase value set"/>
-<artifact id="CodeSystem/organization-hspc-organizationtype" key="CodeSystem-organization-hspc-organizationtype" name="HSPC Organization Type Code System"/>
-<artifact id="ValueSet/heartRateMeasBodyLocationPrecoordVS" key="ValueSet-heartRateMeasBodyLocationPrecoordVS" name="Heart Rate Measurement Body Location Precoordinated value set"/>
-<artifact id="ValueSet/heartRateMeasDeviceVS" key="ValueSet-heartRateMeasDeviceVS" name="Heart Rate Measurement Device value set"/>
-<artifact id="ValueSet/heartRateMeasMethodVS" key="ValueSet-heartRateMeasMethodVS" name="Heart Rate Measurement Method value set"/>
 <artifact id="Observation/HeartRate-example" key="Observation-HeartRate-example" name="HeartRate-example"/>
-<artifact id="CodeSystem/MeasurementProtocolTemporaryCodeSystem" key="CodeSystem-MeasurementProtocolTemporaryCodeSystem" name="Measurement Protocol Temporary Code System"/>
 <artifact id="StructureDefinition/MeasurementSettingExt" key="StructureDefinition-MeasurementSettingExt" name="Measurement Setting"/>
 <artifact id="StructureDefinition/NumberOfMeasurementsExt" key="StructureDefinition-NumberOfMeasurementsExt" name="Number of Measurements"/>
 <artifact id="ValueSet/NumericResultIntVS" key="ValueSet-NumericResultIntVS" name="Numeric Result Interpretation value set"/>
@@ -52,11 +43,8 @@
 <artifact id="Observation/SMBP-SecondPM-Measurment-Day5" key="Observation-SMBP-SecondPM-Measurment-Day5" name="SMBP-SecondPM-Measurment-Day5"/>
 <artifact id="Observation/SMBP-SecondPM-Measurment-Day6" key="Observation-SMBP-SecondPM-Measurment-Day6" name="SMBP-SecondPM-Measurment-Day6"/>
 <artifact id="Observation/SMBP-SecondPM-Measurment-Day7" key="Observation-SMBP-SecondPM-Measurment-Day7" name="SMBP-SecondPM-Measurment-Day7"/>
-<artifact id="CodeSystem/SolorTemporaryCodeSystem" key="CodeSystem-SolorTemporaryCodeSystem" name="SNOMED CT Solor Extension Temporary Code System"/>
 <artifact id="StructureDefinition/self-measured-bp" key="StructureDefinition-self-measured-bp" name="Self-measured Blood Pressure"/>
 <artifact id="Observation/SelfMeasuredBloodPressure-example" key="Observation-SelfMeasuredBloodPressure-example" name="SelfMeasuredBloodPressure-example"/>
-<artifact id="StructureDefinition/SleepStatusExt" key="StructureDefinition-SleepStatusExt" name="Sleep Status"/>
-<artifact id="ValueSet/sleepStatusVS" key="ValueSet-sleepStatusVS" name="Sleep Status value set"/>
 <artifact id="Patient/patient-example-Jake-Donald" key="Patient-patient-example-Jake-Donald" name="patient-example-Jake-Donald"/>
 <artifact id="Patient/patient-example-Sally-Sue" key="Patient-patient-example-Sally-Sue" name="patient-example-Sally-Sue"/>
 <artifact id="Device/phd-bloodpressuremonitor-MS" key="Device-phd-bloodpressuremonitor-MS" name="phd-bloodpressuremonitor-MS"/>
