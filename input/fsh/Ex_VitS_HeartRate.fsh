@@ -2,7 +2,6 @@
 Instance: HeartRate-example
 InstanceOf: smbp-associated-heart-rate
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/us/vitals/StructureDefinition/heart-rate"
 * extension[measurementSetting].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * category = ObsCat#vital-signs

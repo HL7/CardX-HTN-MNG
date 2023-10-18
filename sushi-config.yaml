@@ -9,6 +9,9 @@ name: HTN-Mng-CardX
 title: CardX Hypertension Management Use Case 
 #description: Example HTN Implementation Guide 
 status: draft # draft | active | retired | unknown
+extension: 
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
+    valueCode: pc 
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2022+
