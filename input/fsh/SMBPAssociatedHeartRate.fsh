@@ -27,7 +27,5 @@ Description: "The number of heart beats in a minute."
 * valueQuantity.code = #/min (exactly)
 * dataAbsentReason MS
 * interpretation from NumericResultInterpretationNom (extensible)
-* bodySite MS
-* bodySite from HeartRateMeasurementBodyLocationPrecoordinatedvalueset (extensible)
 * method MS
-* method from HeartRateMeasurementMethodvalueset (extensible)
+* method from SMBPMethodVS (extensible)
