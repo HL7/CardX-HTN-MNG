@@ -1,6 +1,7 @@
 Instance: AverageBloodPressure-example
 InstanceOf: AverageSMBP
 Usage: #example
+Description: "An example of an average blood pressure derived from SMBP measurements."
 * extension[NumberOfMeasurementsExt].valueQuantity.value = 7 
 * status = #final
 * code = http://loinc.org#96607-7 "Blood pressure panel mean systolic and mean diastolic"
@@ -27,6 +28,7 @@ Usage: #example
 Instance: SMBP-Protocol
 InstanceOf: AverageSMBP
 Usage: #example
+Description: "An example of an average blood pressure derived from measurements that follow the SMBP protocol."
 * extension[NumberOfMeasurementsExt].valueQuantity.value = 28 
 * status = #final
 * code = http://loinc.org#96607-7 "Blood pressure panel mean systolic and mean diastolic"

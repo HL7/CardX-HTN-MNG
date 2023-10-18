@@ -1,12 +1,7 @@
-// Examples of individual readings Mandatory
-//SMBP Protocol 
-    /// 4 Readings (2 Morn + 2 Night)
-    /// Min -3 Days 
-    ///Preferred 7 days 
-
 Instance: SMBP-FirstAM-Measurment-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -23,6 +18,7 @@ Usage: #example
 Instance: SMBP-SecondAM-Measurment-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -40,6 +36,7 @@ Usage: #example
 Instance: SMBP-FirstPM-Measurment-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -56,6 +53,7 @@ Usage: #example
 Instance: SMBP-SecondPM-Measurment-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -73,6 +71,7 @@ Usage: #example
 Instance: SMBP-FirstAM-Measurment-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -89,6 +88,7 @@ Usage: #example
 Instance: SMBP-SecondAM-Measurment-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -105,6 +105,7 @@ Usage: #example
 Instance: SMBP-FirstPM-Measurment-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -121,6 +122,7 @@ Usage: #example
 Instance: SMBP-SecondPM-Measurment-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -137,6 +139,7 @@ Usage: #example
 Instance: SMBP-FirstAM-Measurment-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -153,6 +156,7 @@ Usage: #example
 Instance: SMBP-SecondAM-Measurment-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -169,6 +173,7 @@ Usage: #example
 Instance: SMBP-FirstPM-Measurment-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -185,6 +190,7 @@ Usage: #example
 Instance: SMBP-SecondPM-Measurment-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -202,6 +208,7 @@ Usage: #example
 Instance: SMBP-FirstAM-Measurment-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -218,6 +225,7 @@ Usage: #example
 Instance: SMBP-SecondAM-Measurment-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -234,6 +242,7 @@ Usage: #example
 Instance: SMBP-FirstPM-Measurment-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -250,6 +259,7 @@ Usage: #example
 Instance: SMBP-SecondPM-Measurment-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -266,6 +276,7 @@ Usage: #example
 Instance: SMBP-FirstAM-Measurment-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -282,6 +293,7 @@ Usage: #example
 Instance: SMBP-SecondAM-Measurment-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -299,6 +311,7 @@ Usage: #example
 Instance: SMBP-FirstPM-Measurment-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -315,6 +328,7 @@ Usage: #example
 Instance: SMBP-SecondPM-Measurment-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -332,6 +346,7 @@ Usage: #example
 Instance: SMBP-FirstAM-Measurment-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -348,6 +363,7 @@ Usage: #example
 Instance: SMBP-SecondAM-Measurment-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -364,6 +380,7 @@ Usage: #example
 Instance: SMBP-FirstPM-Measurment-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -380,6 +397,7 @@ Usage: #example
 Instance: SMBP-SecondPM-Measurment-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -396,6 +414,7 @@ Usage: #example
 Instance: SMBP-FirstAM-Measurment-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -412,6 +431,7 @@ Usage: #example
 Instance: SMBP-SecondAM-Measurment-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -428,6 +448,7 @@ Usage: #example
 Instance: SMBP-FirstPM-Measurment-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
@@ -444,6 +465,7 @@ Usage: #example
 Instance: SMBP-SecondPM-Measurment-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
+Description: "An example of a self measured blood pressure on a specific day and time frame."
 * extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
