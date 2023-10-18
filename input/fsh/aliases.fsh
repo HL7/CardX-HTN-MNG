@@ -16,6 +16,7 @@ Alias:   USCoreBirthSex = http://hl7.org/fhir/us/core/StructureDefinition/us-cor
 Alias:   USCoreRace = http://hl7.org/fhir/us/core/StructureDefinition/us-core-race
 Alias:   ExtBodyPosition = http://hl7.org/fhir/StructureDefinition/observation-bodyPosition
 Alias:   ExtDeviceCode = http://hl7.org/fhir/StructureDefinition/observation-deviceCode
+Alias:   WG = http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
 
 // External Code Systems with a canonical recognized by terminology.hl7.org
 Alias:   UCUM = http://unitsofmeasure.org

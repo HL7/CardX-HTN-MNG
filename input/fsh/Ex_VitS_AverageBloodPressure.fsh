@@ -19,9 +19,9 @@ Usage: #example
 * derivedFrom[5] = Reference(SMBP-SecondAM-Measurment-Day2)
 * derivedFrom[6] = Reference(SMBP-FirstPM-Measurment-Day2)
 * derivedFrom[7] = Reference(SMBP-SecondPM-Measurment-Day2)
-* component[SystolicBP].code = http://loinc.org#96608-5 "Systolic blood pressure mean"
+* component[SystolicBP].code = LNC#96608-5 "Systolic blood pressure mean"
 * component[SystolicBP].valueQuantity = 136 'mm[Hg]' "mm[Hg]"
-* component[DiastolicBP].code = http://loinc.org#96609-3 "Diastolic blood pressure mean"
+* component[DiastolicBP].code = LNC#96609-3 "Diastolic blood pressure mean"
 * component[DiastolicBP].valueQuantity = 86 'mm[Hg]' "mm[Hg]"
 
 Instance: SMBP-Protocol
@@ -65,7 +65,7 @@ Usage: #example
 * derivedFrom[25] = Reference(SMBP-SecondAM-Measurment-Day7)
 * derivedFrom[26] = Reference(SMBP-FirstPM-Measurment-Day7)
 * derivedFrom[27] = Reference(SMBP-SecondPM-Measurment-Day7)
-* component[SystolicBP].code = http://loinc.org#96608-5 "Systolic blood pressure mean"
+* component[SystolicBP].code = LNC#96608-5 "Systolic blood pressure mean"
 * component[SystolicBP].valueQuantity = 134 'mm[Hg]' "mm[Hg]"
-* component[DiastolicBP].code = http://loinc.org#96609-3 "Diastolic blood pressure mean"
+* component[DiastolicBP].code = LNC#96609-3 "Diastolic blood pressure mean"
 * component[DiastolicBP].valueQuantity = 84 'mm[Hg]' "mm[Hg]"
