@@ -1,4 +1,4 @@
-Instance: SMBP-FirstAM-Measurment-Day1
+Instance: SMBP-FirstAM-Measurement-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -15,7 +15,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-SecondAM-Measurment-Day1
+Instance: SMBP-SecondAM-Measurement-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -33,7 +33,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-FirstPM-Measurment-Day1
+Instance: SMBP-FirstPM-Measurement-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -50,7 +50,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 83 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-SecondPM-Measurment-Day1
+Instance: SMBP-SecondPM-Measurement-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -68,7 +68,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].valueQuantity = 83 'mm[Hg]' "mm[Hg]"
 
 
-Instance: SMBP-FirstAM-Measurment-Day2
+Instance: SMBP-FirstAM-Measurement-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -85,7 +85,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 90 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-SecondAM-Measurment-Day2
+Instance: SMBP-SecondAM-Measurement-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -102,7 +102,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 92 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-FirstPM-Measurment-Day2
+Instance: SMBP-FirstPM-Measurement-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -119,7 +119,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 92 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-SecondPM-Measurment-Day2
+Instance: SMBP-SecondPM-Measurement-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -136,7 +136,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 94 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-FirstAM-Measurment-Day3
+Instance: SMBP-FirstAM-Measurement-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -153,7 +153,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 94 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-SecondAM-Measurment-Day3
+Instance: SMBP-SecondAM-Measurement-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -170,7 +170,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 95 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-FirstPM-Measurment-Day3
+Instance: SMBP-FirstPM-Measurement-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -187,7 +187,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 90 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-SecondPM-Measurment-Day3
+Instance: SMBP-SecondPM-Measurement-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -205,7 +205,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].valueQuantity = 90 'mm[Hg]' "mm[Hg]"
 
 
-Instance: SMBP-FirstAM-Measurment-Day4
+Instance: SMBP-FirstAM-Measurement-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -222,7 +222,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 98 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-SecondAM-Measurment-Day4
+Instance: SMBP-SecondAM-Measurement-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -239,7 +239,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 95 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-FirstPM-Measurment-Day4
+Instance: SMBP-FirstPM-Measurement-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -256,7 +256,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-SecondPM-Measurment-Day4
+Instance: SMBP-SecondPM-Measurement-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -273,7 +273,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-FirstAM-Measurment-Day5
+Instance: SMBP-FirstAM-Measurement-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -290,7 +290,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 80 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-SecondAM-Measurment-Day5
+Instance: SMBP-SecondAM-Measurement-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -308,7 +308,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
 
-Instance: SMBP-FirstPM-Measurment-Day5
+Instance: SMBP-FirstPM-Measurement-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -325,7 +325,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 86 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-SecondPM-Measurment-Day5
+Instance: SMBP-SecondPM-Measurement-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -343,7 +343,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
 
-Instance: SMBP-FirstAM-Measurment-Day6
+Instance: SMBP-FirstAM-Measurement-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -360,7 +360,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 95 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-SecondAM-Measurment-Day6
+Instance: SMBP-SecondAM-Measurement-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -377,7 +377,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 90 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-FirstPM-Measurment-Day6
+Instance: SMBP-FirstPM-Measurement-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -394,7 +394,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 85 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-SecondPM-Measurment-Day6
+Instance: SMBP-SecondPM-Measurement-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -411,7 +411,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 85 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-FirstAM-Measurment-Day7
+Instance: SMBP-FirstAM-Measurement-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -428,7 +428,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-SecondAM-Measurment-Day7
+Instance: SMBP-SecondAM-Measurement-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -445,7 +445,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-FirstPM-Measurment-Day7
+Instance: SMBP-FirstPM-Measurement-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
@@ -462,7 +462,7 @@ Description: "An example of a self measured blood pressure on a specific day and
 * component[DiastolicBP].code = LNC#8462-4
 * component[DiastolicBP].valueQuantity = 82 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-SecondPM-Measurment-Day7
+Instance: SMBP-SecondPM-Measurement-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."

@@ -24,7 +24,7 @@
 
 #### Individual Readings Examples
 
-- [Day 1, AM-1 BP Reading](Observation-SMBP-FirstAM-Measurment-Day1.html)
+- [Day 1, AM-1 BP Reading](Observation-SMBP-FirstAM-Measurement-Day1.html)
 - [Day 1, AM-2 BP Reading](Observation-SMBP-SecondAM-Measurement-Day1.html)
 - [Day 1, PM-1 BP Reading](Observation-SMBP-FirstPM-Measurement-Day1.html)
 - [Day 1, PM-2 BP Reading](Observation-SMBP-SecondPM-Measurement-Day1.html)
