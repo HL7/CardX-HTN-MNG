@@ -25,7 +25,7 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * component MS
 * component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code.coding.code"
-* component ^slicing.discriminator.path = "code.coding.system"
+//* component ^slicing.discriminator.path = "code.coding.system"
 * component ^slicing.ordered = false
 * component ^slicing.rules = #open
 * component ^short = "Blood pressure components"
