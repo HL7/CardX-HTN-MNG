@@ -24,7 +24,7 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * derivedFrom only Reference(SelfMeasuredBloodPressure)
 * component MS
 * component ^slicing.discriminator.type = #value
-* component ^slicing.discriminator.path = "code.coding.code"
+* component ^slicing.discriminator.path = "code"
 //* component ^slicing.discriminator.path = "code.coding.system"
 * component ^slicing.ordered = false
 * component ^slicing.rules = #open

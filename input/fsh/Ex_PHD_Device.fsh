@@ -1,12 +1,10 @@
 Instance: phd-bloodpressuremonitor-MS
 InstanceOf: Device
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/uv/phd/StructureDefinition/PhdDevice"
-* identifier[0].type = http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers#SYSID
-* identifier[=].system = "urn:oid:1.2.840.10004.1.1.1.0.0.1.0.0.1.2680"
+//* meta.profile = "http://hl7.org/fhir/uv/phd/StructureDefinition/PhdDevice"
+* identifier[0].type.text = "SYSID"
 * identifier[=].value = "71-10-00-FE-FF-5F-49-B0"
-* identifier[+].type = http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers#BTMAC
-* identifier[=].system = "http://hl7.org/fhir/sid/eui-48/bluetooth"
+* identifier[+].type.text = "Bluetooth MAC address"
 * identifier[=].value = "B0-49-5F-00-10-71"
 * manufacturer = "OMRONHEALTHCARE"
 * serialNumber = "20150200002A"

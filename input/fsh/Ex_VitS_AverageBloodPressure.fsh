@@ -6,9 +6,9 @@ Description: "An example of an average blood pressure derived from SMBP measurem
 * status = #final
 * code = http://loinc.org#96607-7 "Blood pressure panel mean systolic and mean diastolic"
 * subject = Reference(patient-example-Sally-Sue)
-* effectivePeriod.start = "2019-10-16T12:12:29-09:00"
-* effectivePeriod.end = "2019-10-16T12:42:29-09:00"
-* issued = "2019-10-16T12:12:29-10:00"
+* effectivePeriod.start = "2019-10-16T06:04:00-0600"
+* effectivePeriod.end = "2019-10-17T20:12:00-0600"
+* issued = "2019-10-17T20:12:29-0600"
 * performer = Reference(practitioner-example-Mary-Hill)
 * bodySite = SCT#723961002 "Structure of left brachial artery (body structure)"
 * device = Reference(phd-bloodpressuremonitor-MS)
@@ -33,8 +33,8 @@ Description: "An example of an average blood pressure derived from measurements 
 * status = #final
 * code = http://loinc.org#96607-7 "Blood pressure panel mean systolic and mean diastolic"
 * subject = Reference(patient-example-Sally-Sue)
-* effectivePeriod.start = "2023-03-01T08:00:29-09:00"
-* effectivePeriod.end = "2023-03-07T07:58:30-09:00"
+* effectivePeriod.start = "2023-03-01"
+* effectivePeriod.end = "2023-03-07"
 * issued = "2019-03-07T12:12:29-10:00"
 * performer = Reference(practitioner-example-Mary-Hill)
 * bodySite = SCT#723961002 "Structure of left brachial artery (body structure)"

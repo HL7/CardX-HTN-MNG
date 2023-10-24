@@ -3,8 +3,8 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.us.cardx-htn
-canonical: http://hl7.org/fhir/us/cardx-htn
+id: hl7.fhir.uv.cardx-htn
+canonical: http://hl7.org/fhir/uv/cardx-htn
 name: HTN-Mng-CardX
 title: CardX Hypertension Management Use Case 
 #description: Example HTN Implementation Guide 
