@@ -34,12 +34,13 @@ This FHIR Implementation Guide (IG) will align and harmonize existing work to cr
 
 ### HTN Management Goals 
 
+- 	Ensure providers can view actionable, structured average blood pressure measurements within the context of the patient’s chart in the EHR.  
 - Create integrated, automated, vendor-agnostic hypertension standards by developing FHIR resources and open APIs that enable interoperable, scalable, and accessible hypertension management both at home and in the clinic
 - Define the methodology to enable data liquidity between **home blood pressure measurement devices**, **Personal Health Intermediaries**, and **EHR devices**.
 - Harmonize HTN vocabulary (demographics, VS, diagnoses, assessments, labs, meds, care plan)
 - Develop device data exchange standards (“plug and play”) for:
     - Home BP device data
-    - Communication between patient-facing and clinician EHR systems
+    - Communication between patient-facing and clinician Population Health Management and EHR systems
 
 
 
@@ -62,6 +63,29 @@ This FHIR Implementation Guide (IG) will align and harmonize existing work to cr
 
 #### Scenario 2
 
+### Dependencies on Other IGs
+
+| Implementation Guide | Version | Dependency |
+| -------------------- | ------- | ---------- |
+| [FHIR R4 Vital Signs: BP](http://hl7.org/fhir/R4/bp.html)| 4.0.0  | The Blood Pressure profiles specified in this implementation guide depend on the FHIR R4 base Vital Signs BP base resource.    |
+{:.grid}
+
+### Relationships to Other IGs
+
+| Implementation Guide |  Relationship  |
+| -------------------- |  ---------- |
+| [US Core](https://hl7.org/fhir/us/core/STU3.1.1/) | 3.1.1 | Where possible, all profiles in this IG align with US Core 3.1.1 or aligned with that release and future releases as much as possible.  U.S. Core also sets expectations for a variety of referenced resources and establishes baseline conformance expectations.  |
+| [Vital Signs with Qualifying Elements](https://build.fhir.org/ig/HL7/cimi-vital-signs/) | All profiles in this implementation guide align with the profiles in the Vital Signs with Qualifying Elements IG (Universal Realm) |
+| [FHIR Write](https://hackmd.io/@argonaut/SkGWnfQdn) | Specifies FHIR write back capabailities for Vital Sign Observations |
+
+### Additional External Drivers
+
+| Initiative |  Description  |
+| -------------------- |  ---------- |
+| [CDC Million Hearts 2027 Optimizing Care Initiative](https://millionhearts.hhs.gov/about-million-hearts/optimizing-care/smbp.html) |  An evidence-based strategy that has been shown to lower blood pressure and improve control in persons with hypertension is self-measured blood pressure monitoring (SMBP). When combined with additional clinical support, SMBP may also reduce therapeutic inertia and improve medication adherence. |
+| [AHA's National Hypertension Council Initiative](https://nhci.heart.org/) |  An evidence-based community program with the goal to reduce high blood pressure, in under-resourced neighborhoods. |
+| [Target: BP](https://targetbp.org/) | A national initiative launched by the American Heart Association and the American Medical Association in response to the high prevalence of uncontrolled BP.  |
+{:.grid}
 
 
 ### Contact Information
