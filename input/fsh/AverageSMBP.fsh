@@ -8,7 +8,7 @@ Description: "A calculated average of two or more blood pressure readings in a s
     MeasurementSettingExt named MeasurementSetting 0..1
 * extension[NumberOfMeasurements] ^short = "Number of Measurements"
 * extension[MeasurementSetting] ^short = "Measurement setting"
-* extension[MeasurementSetting].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSetting].valueCodeableConcept = SCT#264362003
 * status MS
 * status from SMBPStatusVS (required)
 * code ^short = "Average blood pressure"

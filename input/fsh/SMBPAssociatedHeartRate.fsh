@@ -6,7 +6,7 @@ Description: "The number of heart beats in a minute."
 * extension contains
     MeasurementSettingExt named measurementSetting 0..1
 * extension[measurementSetting] ^short = "Measurement setting"
-* extension[measurementSetting].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[measurementSetting].valueCodeableConcept = SCT#264362003
 * status MS
 * category.coding.system = "http://terminology.hl7.org/CodeSystem/observation-category"
 * category.coding.code = ObsCat#vital-signs
@@ -27,5 +27,3 @@ Description: "The number of heart beats in a minute."
 * valueQuantity.code = #/min (exactly)
 * dataAbsentReason MS
 * interpretation from NumericResultInterpretationNom (extensible)
-* method MS
-* method from SMBPMethodVS (extensible)

@@ -6,8 +6,8 @@
 
 ## Average Blood Pressure
 
-* [Average Blood Pressure](Observation-AverageBloodPressure-example.html)
+* [Average Blood Pressure](Observation-AverageSMBP-example.html)
 
 ## Heart Rate
 
-* [Heart Rate](Observation-HeartRate-example.html)
+* [Heart Rate](Observation-SMBP-Associated-HeartRate-example.html)

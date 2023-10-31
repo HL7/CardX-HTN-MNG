@@ -1,8 +1,8 @@
 
-Instance: HeartRate-example
+Instance: SMBP-Associated-HeartRate-example
 InstanceOf: smbp-associated-heart-rate
 Usage: #example
-* extension[measurementSetting].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[measurementSetting].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * category = ObsCat#vital-signs
 * code = http://loinc.org#8867-4

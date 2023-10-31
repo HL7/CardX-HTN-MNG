@@ -2,14 +2,14 @@ Instance: SMBP-FirstAM-Measurement-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
-* effectiveDateTime = "2023-03-01T08:00:29-09:00"
+* effectiveDateTime = "2023-03-01T08:00:00-09:00"
 * issued = "2023-03-01T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 125 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -19,15 +19,14 @@ Instance: SMBP-SecondAM-Measurement-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
-* effectiveDateTime = "2023-03-01T08:01:29-09:00"
+* effectiveDateTime = "2023-03-01T08:01:00-09:00"
 * issued = "2023-03-01T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
-
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 126 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -37,14 +36,14 @@ Instance: SMBP-FirstPM-Measurement-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
-* effectiveDateTime = "2023-03-01T07:01:29-09:00"
-* issued = "2023-03-01T08:10:00-09:00"
+* effectiveDateTime = "2023-03-01T14:00:00-09:00"
+* issued = "2023-03-01T14:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 130 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -54,14 +53,14 @@ Instance: SMBP-SecondPM-Measurement-Day1
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
-* effectiveDateTime = "2023-03-01T07:01:29-09:00"
+* effectiveDateTime = "2023-03-01T14:01:00-09:00"
 * issued = "2023-03-01T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 130 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -72,14 +71,14 @@ Instance: SMBP-FirstAM-Measurement-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
-* effectiveDateTime = "2023-03-02T08:09:33-09:00"
+* effectiveDateTime = "2023-03-02T08:00:00-09:00"
 * issued = "2023-03-02T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 140 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -89,14 +88,14 @@ Instance: SMBP-SecondAM-Measurement-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
-* effectiveDateTime = "2023-03-02T08:10:28-09:00"
-* issued = "2023-03-02T08:20:00-09:00"
+* effectiveDateTime = "2023-03-02T08:01:00-09:00"
+* issued = "2023-03-02T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 143 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -106,14 +105,14 @@ Instance: SMBP-FirstPM-Measurement-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
-* effectiveDateTime = "2023-03-02T07:10:20-09:00"
-* issued = "2023-03-02T08:10:00-09:00"
+* effectiveDateTime = "2023-03-02T17:10:00-09:00"
+* issued = "2023-03-02T17:20:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 150 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -123,14 +122,14 @@ Instance: SMBP-SecondPM-Measurement-Day2
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
-* effectiveDateTime = "2023-03-02T07:11:20-09:00"
-* issued = "2023-03-02T08:10:00-09:00"
+* effectiveDateTime = "2023-03-02T17:11:00-09:00"
+* issued = "2023-03-02T17:20:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 148 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -140,14 +139,14 @@ Instance: SMBP-FirstAM-Measurement-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
-* effectiveDateTime = "2023-03-03T06:55:20-09:00"
-* issued = "2023-03-03T08:10:00-09:00"
+* effectiveDateTime = "2023-03-03T06:55:00-09:00"
+* issued = "2023-03-03T07:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 150 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -157,14 +156,14 @@ Instance: SMBP-SecondAM-Measurement-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-03T06:56:20-09:00"
-* issued = "2023-03-03T08:10:00-09:00"
+* issued = "2023-03-03T07:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 148 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -174,14 +173,14 @@ Instance: SMBP-FirstPM-Measurement-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
-* effectiveDateTime = "2023-03-03T08:56:20-09:00"
-* issued = "2023-03-03T09:10:00-09:00"
+* effectiveDateTime = "2023-03-03T17:00:20-09:00"
+* issued = "2023-03-03T17:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 140 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -191,14 +190,14 @@ Instance: SMBP-SecondPM-Measurement-Day3
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
-* effectiveDateTime = "2023-03-03T08:56:20-09:00"
-* issued = "2023-03-03T09:10:00-09:00"
+* effectiveDateTime = "2023-03-03T17:01:20-09:00"
+* issued = "2023-03-03T17:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 140 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -209,14 +208,14 @@ Instance: SMBP-FirstAM-Measurement-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-04T09:00:31-09:00"
 * issued = "2023-03-04T09:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 155 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -226,14 +225,14 @@ Instance: SMBP-SecondAM-Measurement-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-04T09:03:31-09:00"
 * issued = "2023-03-04T09:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 149 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -243,14 +242,14 @@ Instance: SMBP-FirstPM-Measurement-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
-* effectiveDateTime = "2023-03-04T08:30:21-09:00"
-* issued = "2023-03-04T09:10:00-09:00"
+* effectiveDateTime = "2023-03-04T18:30:21-09:00"
+* issued = "2023-03-04T09:18:35-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 130 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -260,14 +259,14 @@ Instance: SMBP-SecondPM-Measurement-Day4
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
-* effectiveDateTime = "2023-03-04T08:32:21-09:00"
-* issued = "2023-03-04T09:10:00-09:00"
+* effectiveDateTime = "2023-03-04T18:32:21-09:00"
+* issued = "2023-03-04T18:35:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 128 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -277,14 +276,14 @@ Instance: SMBP-FirstAM-Measurement-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-05T10:32:21-09:00"
 * issued = "2023-03-05T11:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 120 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -294,14 +293,14 @@ Instance: SMBP-SecondAM-Measurement-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-05T10:33:21-09:00"
 * issued = "2023-03-05T11:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 125 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -312,14 +311,14 @@ Instance: SMBP-FirstPM-Measurement-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
-* effectiveDateTime = "2023-03-05T05:33:21-09:00"
-* issued = "2023-03-05T06:00:00-09:00"
+* effectiveDateTime = "2023-03-05T17:33:21-09:00"
+* issued = "2023-03-05T18:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 128 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -329,14 +328,14 @@ Instance: SMBP-SecondPM-Measurement-Day5
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
-* effectiveDateTime = "2023-03-05T05:35:21-09:00"
-* issued = "2023-03-05T06:00:00-09:00"
+* effectiveDateTime = "2023-03-05T17:35:21-09:00"
+* issued = "2023-03-05T18:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 122 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -347,14 +346,14 @@ Instance: SMBP-FirstAM-Measurement-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-06T10:15:21-09:00"
 * issued = "2023-03-06T11:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 145 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -364,14 +363,14 @@ Instance: SMBP-SecondAM-Measurement-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-06T10:16:21-09:00"
 * issued = "2023-03-06T11:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 140 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -381,14 +380,14 @@ Instance: SMBP-FirstPM-Measurement-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
-* effectiveDateTime = "2023-03-06T06:16:21-09:00"
-* issued = "2023-03-06T07:00:00-09:00"
+* effectiveDateTime = "2023-03-06T16:16:21-09:00"
+* issued = "2023-03-06T17:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 130 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -398,14 +397,14 @@ Instance: SMBP-SecondPM-Measurement-Day6
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
-* effectiveDateTime = "2023-03-06T06:17:21-09:00"
-* issued = "2023-03-06T07:00:00-09:00"
+* effectiveDateTime = "2023-03-06T16:17:21-09:00"
+* issued = "2023-03-06T17:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 128 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -415,14 +414,14 @@ Instance: SMBP-FirstAM-Measurement-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-07T09:45:30-09:00"
 * issued = "2023-03-07T10:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 125 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -432,14 +431,14 @@ Instance: SMBP-SecondAM-Measurement-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-07T09:46:30-09:00"
 * issued = "2023-03-07T10:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 126 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -449,14 +448,14 @@ Instance: SMBP-FirstPM-Measurement-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
-* effectiveDateTime = "2023-03-07T07:56:30-09:00"
-* issued = "2023-03-07T08:00:00-09:00"
+* effectiveDateTime = "2023-03-07T17:56:30-09:00"
+* issued = "2023-03-07T18:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 120 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4
@@ -466,14 +465,14 @@ Instance: SMBP-SecondPM-Measurement-Day7
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
-* effectiveDateTime = "2023-03-07T07:58:30-09:00"
-* issued = "2023-03-07T08:00:00-09:00"
+* effectiveDateTime = "2023-03-07T17:58:30-09:00"
+* issued = "2023-03-07T18:00:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * component[SystolicBP].code = LNC#8480-6
 * component[SystolicBP].valueQuantity = 120 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = LNC#8462-4

@@ -3,15 +3,14 @@
 Instance: SelfMeasuredBloodPressure-example
 InstanceOf: SelfMeasuredBloodPressure
 Usage: #example
-* extension[MeasurementSettingExt].valueCodeableConcept = SMBPCodeSystem#non-clinical-environment "Non-clinical environment"
+* extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
 * code = http://loinc.org#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Jake-Donald)
 * effectiveDateTime = "2023-03-16T12:12:29-09:00"
 * issued = "2023-03-16T12:13:00-09:00"
 * performer = Reference(patient-example-Jake-Donald)
-* device = Reference(phd-bloodpressuremonitor-MS)
-* method = SCT#31813000 "Vascular oscillometry (procedure)"
+* device = Reference(example-smbp-device)
 * bodySite = SCT#723961002 "Structure of left brachial artery (body structure)"
 * component[SystolicBP].code = http://loinc.org#8480-6
 * component[SystolicBP].valueQuantity = 120 'mm[Hg]' "mm[Hg]"

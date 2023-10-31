@@ -25,7 +25,7 @@ The following Profiles and have been defined for this implementation guide.
             <td>A calculated average of two or more self-measured blood pressure readings in a specified time period or according to a specified algorithm or protocol.  The average blood pressure has systolic and diastolic components.</td>
           </tr>
           <tr>
-            <td><a href="StructureDefinition-smbp-associated-heart-rate.html">SMBP Associaated Heart Rate</a></td>
+            <td><a href="StructureDefinition-smbp-associated-heart-rate.html">SMBP Associated Heart Rate</a></td>
             <td>A heart rate measurement taken and reported by the same device as a self-measured blood pressure.</td>
           </tr>
         </tbody>

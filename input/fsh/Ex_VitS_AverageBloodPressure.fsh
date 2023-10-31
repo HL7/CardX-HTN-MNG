@@ -1,4 +1,4 @@
-Instance: AverageBloodPressure-example
+Instance: AverageSMBP-example
 InstanceOf: AverageSMBP
 Usage: #example
 Description: "An example of an average blood pressure derived from SMBP measurements."
@@ -6,12 +6,12 @@ Description: "An example of an average blood pressure derived from SMBP measurem
 * status = #final
 * code = http://loinc.org#96607-7 "Blood pressure panel mean systolic and mean diastolic"
 * subject = Reference(patient-example-Sally-Sue)
-* effectivePeriod.start = "2019-10-16T06:00:00-06:00"
-* effectivePeriod.end = "2019-10-17T20:00:00-06:00"
-* issued = "2019-10-17T20:12:29-06:00"
+* effectivePeriod.start = "2023-03-01T06:00:00-06:00"
+* effectivePeriod.end = "2023-03-02T20:00:00-06:00"
+* issued = "2023-03-02T20:12:29-06:00"
 * performer = Reference(practitioner-example-Mary-Hill)
 * bodySite = SCT#723961002 "Structure of left brachial artery (body structure)"
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * derivedFrom[0] = Reference(SMBP-FirstAM-Measurement-Day1)
 * derivedFrom[1] = Reference(SMBP-SecondAM-Measurement-Day1)
 * derivedFrom[2] = Reference(SMBP-FirstPM-Measurement-Day1)
@@ -25,7 +25,7 @@ Description: "An example of an average blood pressure derived from SMBP measurem
 * component[DiastolicBP].code = LNC#96609-3 "Diastolic blood pressure mean"
 * component[DiastolicBP].valueQuantity = 86 'mm[Hg]' "mm[Hg]"
 
-Instance: SMBP-Protocol
+Instance: AverageSMBP-Protocol-example
 InstanceOf: AverageSMBP
 Usage: #example
 Description: "An example of an average blood pressure derived from measurements that follow the SMBP protocol."
@@ -35,10 +35,10 @@ Description: "An example of an average blood pressure derived from measurements 
 * subject = Reference(patient-example-Sally-Sue)
 * effectivePeriod.start = "2023-03-01T06:00:00-06:00"
 * effectivePeriod.end = "2023-03-07T18:00:00-06:00"
-* issued = "2019-03-07T18:12:29-10:00"
+* issued = "2019-03-07T19:12:29-10:00"
 * performer = Reference(practitioner-example-Mary-Hill)
 * bodySite = SCT#723961002 "Structure of left brachial artery (body structure)"
-* device = Reference(phd-bloodpressuremonitor-MS)
+* device = Reference(example-smbp-device)
 * derivedFrom[0] = Reference(SMBP-FirstAM-Measurement-Day1)
 * derivedFrom[1] = Reference(SMBP-SecondAM-Measurement-Day1)
 * derivedFrom[2] = Reference(SMBP-FirstPM-Measurement-Day1)
