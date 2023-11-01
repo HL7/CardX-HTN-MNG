@@ -10,3 +10,6 @@ The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced
 The nominated WG 'pc' means that the publisher should be 'HL7 International / Patient Care' but 'Clinical Interoperability Council' was found
 The nominated WG 'pc' means that the contact url should be 'http://www.hl7.org/Special/committees/patientcare' but it was not found
 Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+
+# The extension is meant to be used in any observation where it's needed.
+Review the extension type for MeasurementSettingExt: extensions should not have a context of Element unless it's really intended that they can be used anywhere
