@@ -1,5 +1,6 @@
 Instance: patient-example-Sally-Sue
 InstanceOf: Patient
+Description: "A patient example to enhance other examples in this IG."
 Usage: #example
 * meta.security = http://example.org#HTEST "test health data"
 * gender = #female
@@ -28,6 +29,7 @@ Usage: #example
 
 Instance: patient-example-Jake-Donald 
 InstanceOf: Patient
+Description: "Another patient example for this IG."
 Usage: #example
 * identifier.use = #usual
 * identifier.type = http://example.org#MR "Medical record number"
@@ -53,6 +55,7 @@ Usage: #example
 
 Instance: practitioner-example-Mary-Hill
 InstanceOf: Practitioner
+Description: "A practitioner example for this IG."
 Usage: #example
 * identifier.value = "9941339108"
 * name.family = "Mary"

@@ -1,5 +1,12 @@
 == Suppressed Messages ==
 
-# Add warning and/or information messages here after you've confirmed that they aren't really a problem
-# (And include comments like this justifying why)
-# See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+# None of these are needed
+The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+
+# CIC is the sponsoring working group for this IG.  However, CIC is not an allowed "owner" for the resources and extensions.  This is why we have different publisher vs owner.
+The nominated WG 'pc' means that the publisher should be 'HL7 International / Patient Care' but 'Clinical Interoperability Council' was found
+The nominated WG 'pc' means that the contact url should be 'http://www.hl7.org/Special/committees/patientcare' but it was not found
+Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere

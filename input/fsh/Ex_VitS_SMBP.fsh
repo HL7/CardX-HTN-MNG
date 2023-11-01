@@ -1,7 +1,6 @@
-/// Device Generated!
-//Vital Sign IG Blood Pressure Panel Example (MS)
 Instance: SelfMeasuredBloodPressure-example
 InstanceOf: SelfMeasuredBloodPressure
+Description: "A simple example of a self-measured blood pressure."
 Usage: #example
 * extension[MeasurementSettingExt].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
