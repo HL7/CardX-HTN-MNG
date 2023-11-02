@@ -34,7 +34,15 @@ The potential impact of this Implementation Guide includes:
 The intended actors include: 
 
 
-**TO DO**
+| Actor    |  Description |
+| ----------  | ------------------ |
+| ![patienticon] Patient  | An individual diagnosed with Hypertension and enrolled in a self-measure blood pressure monitoring program.   |
+| ![clinicianicon] Clinician  | Includes licensed physicians and others that interact with the patient to diagnosis, refer, monitor, and treat hypertension.   |
+| ![personal-health-device-icon]  Personal Health Device  | Any system that allows patients and caregivers to capture and share information about their blood pressure, integrate device provided data. These may be web-based applications, mobile applications, or traditional software.  These systems will primarily act as FHIR clients.   |
+| ![personal-health-gateway-icon] Personal Health Intermediary   | Any system that supports hypertension patients - These may be web-based applications, mobile applications, or device gateways. These systems act as FHIR servers to receive data from a device and act as FHIR clients capable of sending data to other systems.   |
+| ![patient-data-manager-icon] Device Gateway   | Any system that allows patients and caregivers to capture and share information about their blood pressure, integrate device provided data. These may be web-based applications, mobile applications, or traditional software.  These systems will primarily act as FHIR clients.   |
+| ![ehricon] Electronic Health Record System | An EHR or other system involved in reviewing patient hypertension related data, that may receive SMBP observations from other systems, and that will coordinate all management activities for hypertension patients. These systems could also represent Patient Portals.  |
+{:.grid}
 
 
 
@@ -64,6 +72,7 @@ The Personal Health Intermediary Platform generates an Average Blood pressure re
 {:.grid}
 
 ### Additional External Drivers
+
 | Initiative |  Description  |
 | -------------------- |  ---------- |
 | [CDC Million Hearts 2027 Optimizing Care Initiative](https://millionhearts.hhs.gov/about-million-hearts/optimizing-care/smbp.html) |  An evidence-based strategy that has been shown to lower blood pressure and improve control in persons with hypertension is self-measured blood pressure monitoring (SMBP). When combined with additional clinical support, SMBP may also reduce therapeutic inertia and improve medication adherence.  |
