@@ -61,6 +61,7 @@ The Personal Health Intermediary Platform generates an Average Blood pressure re
 | [US Core](https://hl7.org/fhir/us/core/STU3.1.1/) |  Where possible, all profiles in this IG align with US Core 3.1.1 or aligned with that release and future releases as much as possible.  U.S. Core also sets expectations for a variety of referenced resources and establishes baseline conformance expectations.  |
 | [Vital Signs with Qualifying Elements](https://build.fhir.org/ig/HL7/cimi-vital-signs/) | All profiles in this implementation guide align with the profiles in the Vital Signs with Qualifying Elements IG (Universal Realm) |
 | [FHIR Write](https://hackmd.io/@argonaut/SkGWnfQdn) | Specifies FHIR write back capabailities for Vital Sign Observations |
+{:.grid}
 
 ### Additional External Drivers
 | Initiative |  Description  |
@@ -68,7 +69,7 @@ The Personal Health Intermediary Platform generates an Average Blood pressure re
 | [CDC Million Hearts 2027 Optimizing Care Initiative](https://millionhearts.hhs.gov/about-million-hearts/optimizing-care/smbp.html) |  An evidence-based strategy that has been shown to lower blood pressure and improve control in persons with hypertension is self-measured blood pressure monitoring (SMBP). When combined with additional clinical support, SMBP may also reduce therapeutic inertia and improve medication adherence.  |
 | [AHA's National Hypertension Council Initiative](https://nhci.heart.org/)  | An evidence-based community program with the goal to reduce high blood pressure, in under-resourced neighborhoods. |
 | [Target: BP](https://targetbp.org/) | A national initiative launched by the American Heart Association and the American Medical Association in response to the high prevalence of uncontrolled BP. |
-
+{:.grid}
 
 
 ### Contact Information

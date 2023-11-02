@@ -72,7 +72,9 @@ publisher:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Background: priorart.html
+  Background: 
+    HTN Background: Background.html
+    CardX Background: cardx-background.html
   Profiles: profiles.html
   Examples: 
     Examples for IG: IG-examples.html
