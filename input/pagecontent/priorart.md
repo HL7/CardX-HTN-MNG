@@ -1,140 +1,30 @@
-# Hypertension Prior Art Analysis 
+# Background 
 
-## Overview
+## Hypertension Management Background 
+Heart disease and stroke are the first and fifth leading causes of death in the U.S. and hypertension is a major risk factor for both. Uncontrolled hypertension can lead to heart attacks, strokes, heart failure, kidney disease, dementia later in life, and other serious clinical sequelae. Currently, almost half of adults (48.1%, 119.9M) have hypertension and fewer than one in four has their blood pressure controlled to safe levels (22.5%, 27.0M), defined as <130/80 mmHg in the hypertension management clinical guideline from the American College of Cardiology and the American Heart Association. Non-Hispanic Black persons are less likely to have their blood pressure controlled and more likely to develop hypertension at younger ages than non-Hispanic White persons. 
 
-| FHIR IG | Description        |  Maturity |
-|---------|--------------------|-----------|
-| [US Core – STU 5](http://hl7.org/fhir/us/core/STU5/) | Includes BP profiles | STU5 |
-| [Vital Signs with Qualifying Elements](http://hl7.org/fhir/us/vitals/STU1/) | Includes BP profiles with additional properties/ components | STU 1 published 09/2022 |
-| [Personal Health Device IG](http://hl7.org/fhir/uv/phd/) | PHD/PHG -> EHR/CDS, provides mappings from device standards (ISO, continua) | STU 1 published 05/2022 |
-| [Physical Activity](https://build.fhir.org/ig/HL7/physical-activity/) | Standardizes measurement, reporting and interventions to improve physical activity levels | Draft – Ballot TBD |
-| [MCC eCare Plan](http://hl7.org/fhir/us/mcc/2023Jan/) | Defines profiles to exchange Care Plan information. | STU 1 ballot |
-| [OHSU Hypertension IG](https://build.fhir.org/ig/OHSUCMP/htnu18ig/) | Patient facing clinical decision support logic (based on CPG-on-FHIR framework) | Draft |
-{: .grid }
+Hypertension management is multifaceted and may include antihypertensive medications, lifestyle modifications, and self-measured blood pressure monitoring (SMBP). SMBP, also known as home blood pressure monitoring, is an evidence-based strategy that has been shown to improve medication adherence, reduce therapeutic inertia, and improve blood pressure control. Multiple domestic and international guidelines call for its use in confirming new diagnoses of hypertension and to monitor therapeutic changes until blood pressure control is achieved. Optimal SMBP includes the remote exchange of patient-generated blood pressure readings to their clinical team who can interpret readings and transmit back titration and/or lifestyle modification advice. Many federal initiatives and national organizations have been working towards widespread implementation of SMBP but barriers exist.  Lack of interoperable health information technology has been identified as a consistent barrier to SMBP implementation. Interoperability standards are needed to capture and exchange data from patient-generated SMBP readings, the health system, and pertinent data intermediaries.
 
+## Example SMBP Patient Journey 
+Sarah Smith, a 54-year-old Black woman with hypertension, had a routine follow-up visit with her primary care provider, Dr. Nolan. Despite being on an antihypertensive medication for two months, Sarah’s blood pressure was elevated in the clinic at 149/92 mmHg. Dr. Nolan recommended adding a second class of antihypertensive medication to her regimen.  They discussed the risks of high blood pressure and concerns she had about taking more medication.  Ultimately, Sarah agreed that adding another medication to get her blood pressure under control was the right course of action for her. 
 
+Dr. Nolan also suggested that Sarah enroll in their clinic’s self-measured blood pressure monitoring (SMBP) program so she could see the impacts of taking her medication or making lifestyle modifications while Dr. Nolan would receive a pattern of her blood pressure readings remotely to monitor the impact of her medication change – without Sarah needing to come back into the office to have her blood pressure checked.  Sarah was introduced to the clinic’s SMBP coordinator and digital navigator, Angela, who enrolled her in their program. 
+Sarah was fitted with a properly sized cuff and provided a validated blood pressure device.  Angela helped Sarah download the blood pressure device’s app, paired her blood pressure device with her phone using Bluetooth, and helped her enter the proper codes allowing the blood pressure reading to be visible by the practice team including her physician.  Angela then demonstrated how to properly use the device, trained her on proper preparation and positioning, and provided her with her physician’s protocol with frequency and duration of SMBP.  Next, Angela removed the cuff from Sarah’s arm, asked Sarah to demonstrate taking her blood pressure correctly, and confirmed that the blood pressure readings were submitted through the app to a clinical repository (Personal Health Intermediary).  Finally, Sarah was given educational materials to reinforce what she had learned. 
 
-## Vital Signs IG 
-**Purpose**: the profiles in this implementation guide provide a mechanism to record, search, and retrieve the vital signs associated with a patient that include the vital signs (heart rate, respiratory rate, body temperature, and blood pressure), and additional measurements such as body height/length, weight, head circumference, oxygen saturation, and BMI, and the qualifying observations needed for each measurement such as body position, laterality, cuff size and location, device type, etc.
+For the next seven days, Sarah took her blood pressure at home twice in the morning and twice in the evening as instructed. Sarah ensured her phone and the SMBP device were connected via Bluetooth and verified her data were being sent to the app Angela had set up for her. The app on Sarah’s phone was connected to the Personal Health Intermediary which, on a pre-set cadence (for example every seven days from the point of enrollment), sends average blood pressure readings to Sarah’s chart.  Angela monitored the EHR, viewed the average blood pressure readings, and notified Dr. Nolan that Sarah’s readings were available for review. Dr. Nolan reviewed Sarah’s SMBP average and let her know the new medication was working; she should continue taking it as prescribed and continue making the lifestyle modifications they discussed.  He also asked her to continue taking her blood pressure at home and scheduled a follow-up telehealth visit with Sarah within four weeks.  He instructed Sarah to reach out to Angela if she has any questions or concerns or use the patient portal to send Dr. Nolan a message. 
 
-## Profiles of Interest
-
-| Profile | Description        |  Examples |
-|---------|--------------------|-----------|
-| [Blood Pressure Panel](http://hl7.org/fhir/us/vitals/STU1/StructureDefinition-blood-pressure-panel.html) | Blood Pressure Panel; a grouping of systolic, diastolic, and mean arterial blood pressure components. | [BP Panel Example](https://build.fhir.org/ig/HL7/cimi-vital-signs/Observation-BloodPressurePanel-example.html) |
-| [Average Blood Pressure](http://hl7.org/fhir/us/vitals/STU1/StructureDefinition-average-blood-pressure.html) | A calculated average of two or more blood pressure readings in a specified time period or according to a specified algorithm or protocol. The average blood pressure has a systolic and a diastolic component. | [Avg BP Example](https://build.fhir.org/ig/HL7/cimi-vital-signs/Observation-AverageBloodPressure-example.html) |
-| [24 Hour Blood Pressure](http://hl7.org/fhir/us/vitals/STU1/StructureDefinition-twenty-four-hour-blood-pressure.html) | An average blood pressure (systolic and diastolic) over a twenty four hour period. | [24 Hour BP Example](https://build.fhir.org/ig/HL7/cimi-vital-signs/Observation-TwentyFourHourBloodPressure-example.html) |
-{: .grid }
-
-## BP Panel Elements 
-
-| Element | Cardinality        |  Definition | ValueSets   |
-|---------|--------------------|-------------|-------------|
-| Systolic BP  | 1..1 MS | The value of systolic BP measurement. | Pattern: LOINC code 96608-5  |
-| Diastolic BP | 0..1 MS | The value of diastolic BP measurement. | Pattern: LOINC code 96609-3 |
-| Mean Arterial Pressure | 0..1 MS | The calculated observation based on the Systolic and Diastolic blood pressure measurements and is defined as the average pressure in an individual’s arteries during one cardiac cycle. | Pattern: LOINC code 8478-0 |
-| Effective Date/Time | 1..1 MS | The date and time the BP measurement occurred. | dateTime data type |
-| Body Site | 0..1 MS | The anatomical location where the device was placed. | Vital Signs IG BP measurement body location VS |
-| Observation Category | 1..* MS | A code that classifies the general type of observation being made. |ObservationCategoryCodes |
-| Method | 0..1 MS | Indicates the mechanism used to perform the observation. | Blood Pressure Measurement Method value set |
-| Status | 1..1 | The status of the result value. | ObservationStatus |
-| Reference: Device | 0..1 MS | Defines the type of device used when measuring the BP. | Vital Signs IG BP measurement device VS: |
-| Extension: Measurement Setting | 0..1 MS | Environment in which the BP measurement was taken. |Extension(MeasurementSettingExt) |
-| Extension: Body Position | 0..1 MS | The position of the body when the observation was done, e.g. standing, sitting. To be used only when the body position in not precoordinated in the observation code. | Extension(bodyPosition) |
-| Extension: Exercise Association | 0..1 MS | The exercise state associated with the measurement. |Extension(ExerciseAssociationExt) |
-| Extension: Sleep Status | 0..1 MS | The state of wakefulness during the measurement. | Extension(SleepStatus) |
-{: .grid }
+## SMBP Clinical Worklow 
 
 
-
-
-## Average Blood Pressure Elements 
-
-| Element | Cardinality        |  Definition | ValueSets   |
-|---------|--------------------|-------------|-------------|
-| Systolic BP  | 1..1 MS | The value of systolic BP measurement. | Pattern: LOINC code 96608-5  |
-| Diastolic BP | 0..1 MS | The value of diastolic BP measurement. | Pattern: LOINC code 96609-3 |
-| Mean Arterial Pressure | 0..1 MS | The calculated observation based on the Systolic and Diastolic blood pressure measurements and is defined as the average pressure in an individual’s arteries during one cardiac cycle. | Pattern: LOINC code 8478-0 |
-| Effective Date/Time | 1..1 MS | The date and time the BP measurement occurred. | dateTime data type |
-| Body Site | 0..1 MS | The anatomical location where the device was placed. | Vital Signs IG BP measurement body location VS |
-| Observation Category | 1..* MS | A code that classifies the general type of observation being made. |ObservationCategoryCodes |
-| Method | 0..1 MS | Indicates the mechanism used to perform the observation. | Blood Pressure Measurement Method value set |
-| Status | 1..1 | The status of the result value. | ObservationStatus |
-| Reference: Device | 0..1 MS | Defines the type of device used when measuring the BP. | Vital Signs IG BP measurement device VS: |
-| Extension: Measurement Setting | 0..1 MS | Environment in which the BP measurement was taken. |Extension(MeasurementSettingExt) |
-| Extension: Body Position | 0..1 MS | The position of the body when the observation was done, e.g. standing, sitting. To be used only when the body position in not precoordinated in the observation code. | Extension(bodyPosition) |
-| Extension: Exercise Association | 0..1 MS | The exercise state associated with the measurement. |Extension(ExerciseAssociationExt) |
-| Extension: Measurement Protocol | 0..1 MS | Rules and algorithm for Average Blood Pressure calculation. | Measurement Setting value set (extensible) |
-{: .grid }
-
-
-
-# OHSU Hypertension IG 
-- **Purpose:** describe the AHRQ-funded, patient facing clinical decision support logic and value set encompassed in the Collaboration Oriented Application to control high blood pressure 
-    - Uses CPG on FHIR framework to implement recommended standards 
-- The tool assists high blood pressure treatment by... 
-    - Providing Effective BP Monitoring 
-        - The tool retrieves office BP measurements from EHR 
-        - Allows home BP entry- provides a protocol and records the date and time of entry, provides recommendations based on the average of the most recent BP (4 office readings and 6 out of office readings) 
-    - Engaging Patients in Decision Making
-        -The tool provides patients with recommendations and can help them create goals 
-    - Assisting Patients in communicating urgent updates 
-        - The tool provides messages that patients can copy into MyChart to alert the Care team
-- This IG does not define Profiles rather Plan Definitions 
-
-
-
-# Personal Health Device IG 
-- **Overview:** defines the use of FHIR resources to convey measurements and supporting data from communicating Personal Health Devices (PHDs) to receiving systems for electronic medical records, clinical decision support, and medical data archiving for aggregate quality measurement and research purposes.
-
-- **Purpose:** to specify the mapping of PHD information to FHIR components. No interpretations of the data or assumptions about what data is important are specified. Implementations following this guide map all viable data provided by the PHDs
-    - PHDs- consumer devices, used at home (must be Continua-certified)
-    - PHGs- the gateway that handles PHD communications and translates data to the appropriate form to upload to receiving systems 
-
-- Ensures the IEEE 11073 DIM (Domain Information Model) data is mapped to FHIR 
-
-- Required Knowledge: IEEE 11073 20601 standard and the communication protocol used by the PHD being mapped
-
-- The PHD data includes: characteristics, operational status and capabilities for the device, such as the serial number, manufacturer name, and firmware revision.
-    - Patient information is treated separately 
-
-- This IG does not use MS (sole purpose is to map)
-
-# Physical Activity IG 
-
-- **Purpose:** This implementation guide standardizes interoperability expectations for systems involved in measuring, reporting, and intervening to improve patient physical activity levels. 
-    - It defines interface expectations that are relevant for patient-facing applications, patient activity measurement devices, clinical electronic health records, payers, quality measurement systems, and applications used by health and fitness professionals, personal trainers, and community-based fitness centers
-- **3 Major Sections of Profiles**
-
-    - Physical Activity Measure: A profile defining the standardized capture of the Physical Activity Measure using the FHIR Questionnaire resource
-
-    - Physical Activity Interventions: profiles supporting the ordering of interventions intended to increase patient physical activity (plans and goals)
-
-    - **Physical Activity Workflow (our primary interest)**- defines specific workflow and interoperability capabilities expected for systems that support this IG 
-        - Defines each system that may participate in sharing information 
-        - Types of data exchanges those systems are expected to support 
-                - Care Planning Workflow (Contains a loop pattern)
-                - Referral Management Workflow
-
-# Multiple Chronic Conditions eCare Plan IG 
-
-- **Purpose:** It defines how to represent coded content used to support the care planning activities focusing on the needs of patients with multiple chronic conditions. This initial version focuses on Chronic Kidney Disease Type 2 diabetes mellitus, common cardiovascular disease (hypertension, ischemic heart disease and heart failure), chronic pain and Long Covid
-- Care Plan- represents prioritized concerns, goals, planned and actual interventions and the resultant care outcomes from the entire care team (patient, caregivers, and providers) 
-- Supports 3 Use Cases
-    - Query for patient data across care settings 
-    - **Capture and communication of health concerns, goals, interventions, and outcomes (CardX main interest)** 
-    - Gather and aggregate patient data for use beyond point of care
-
-# Additional External Drivers 
-
-- The inclusion of **Average Blood Pressure in USCDI v4** https://www.healthit.gov/isa/uscdi-data/average-blood-pressure 
-
-- **CDC Million Hearts 2027 Optimizing Care Initiative-** an evidence-based strategy that has been shown to lower blood pressure and improve control in persons with hypertension is self-measured blood pressure monitoring (SMBP). When combined with additional clinical support, SMBP may also reduce therapeutic inertia and improve medication adherence. https://millionhearts.hhs.gov/about-million-hearts/optimizing-care/smbp.html 
-
-- **AHA's National Hypertension Control Initiative (NHCI)**- an evidence-based community program with the goal to reduce high blood pressure, in under-resourced neighborhoods 
-
-- **Target: BP**- a national initiative launched by the American Heart Association and the American Medical Association in response to the high prevalence of uncontrolled BP. 
+## Additional Literature 
 
 - **ACCF/AHA 2011 key data elements and definitions of a base cardiovascular vocabulary for electronic health records**: a report of the American College of Cardiology Foundation/American Heart Association Task Force on Clinical Data Standards
 
 -**ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults**: Executive Summary: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines
+
+## Sources
+Thomas SJ, Booth JN 3rd, Dai C, Li X, Allen N, Calhoun D, Carson AP, Gidding S, Lewis CE, Shikany JM, Shimbo D, Sidney S, Muntner P. Cumulative Incidence of Hypertension by 55 Years of Age in Blacks and Whites: The CARDIA Study. J Am Heart Assoc. 2018 Jul 11;7(14):e007988.
+
+Whelton PK, et al. 2017 ACC/AHA/AAPA/ABC/ACPM/ AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. J Am Coll Cardiol. 2018;71(19):e127-e248.
+
+Xu JQ, Murphy SL, Kochanek KD, Arias E. Mortality in the United States, 2021. NCHS Data Brief, no 456. Hyattsville, MD: National Center for Health Statistics. 2022. DOI: https://dx.doi.org/10.15620/.
