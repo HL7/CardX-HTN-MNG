@@ -18,11 +18,10 @@ This FHIR Implementation Guide (IG) aligns and harmonizes existing work to creat
 ### Potential Impact 
 
 The potential impact of this Implementation Guide includes:
-
-•	Health centers can receive self-measured blood pressure (SMBP) data from patients in a computable format
-•	Patients can see their BP measurements over time
-•	Patients can communicate their hypertension-related health status and hypertension management to clinicians
-•	Clinicians can engage with patients outside of office visits to adjust treatment
+- Health centers can receive self-measured blood pressure (SMBP) data from patients in a computable format
+- Patients can see their BP measurements over time
+- Patients can communicate their hypertension-related health status and hypertension management to clinicians
+- Clinicians can engage with patients outside of office visits to adjust treatment
 
 
 ### Hypertension Use Case Diagram 
@@ -64,13 +63,12 @@ The Personal Health Intermediary Platform generates an Average Blood pressure re
 | [FHIR Write](https://hackmd.io/@argonaut/SkGWnfQdn) | Specifies FHIR write back capabailities for Vital Sign Observations |
 
 ### Additional External Drivers
-
 | Initiative |  Description  |
 | -------------------- |  ---------- |
-| [CDC Million Hearts 2027 Optimizing Care Initiative](https://millionhearts.hhs.gov/about-million-hearts/optimizing-care/smbp.html) |  An evidence-based strategy that has been shown to lower blood pressure and improve control in persons with hypertension is self-measured blood pressure monitoring (SMBP). When combined with additional clinical support, SMBP may also reduce therapeutic inertia and improve medication adherence. |
-| [AHA's National Hypertension Council Initiative](https://nhci.heart.org/) |  An evidence-based community program with the goal to reduce high blood pressure, in under-resourced neighborhoods. |
-| [Target: BP](https://targetbp.org/) | A national initiative launched by the American Heart Association and the American Medical Association in response to the high prevalence of uncontrolled BP.  |
-{:.grid}
+| [CDC Million Hearts 2027 Optimizing Care Initiative](https://millionhearts.hhs.gov/about-million-hearts/optimizing-care/smbp.html) |  An evidence-based strategy that has been shown to lower blood pressure and improve control in persons with hypertension is self-measured blood pressure monitoring (SMBP). When combined with additional clinical support, SMBP may also reduce therapeutic inertia and improve medication adherence.  |
+| [AHA's National Hypertension Council Initiative](https://nhci.heart.org/)  | An evidence-based community program with the goal to reduce high blood pressure, in under-resourced neighborhoods. |
+| [Target: BP](https://targetbp.org/) | A national initiative launched by the American Heart Association and the American Medical Association in response to the high prevalence of uncontrolled BP. |
+
 
 
 ### Contact Information
