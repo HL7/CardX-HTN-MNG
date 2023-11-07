@@ -18,14 +18,14 @@ The potential impact of this Implementation Guide includes:
 - Patients can communicate their hypertension-related health status and hypertension management to clinicians.
 - Clinicians can engage with patients outside of office visits to adjust treatment.
 
-### Hypertension Use Case Diagram 
+### Hypertension Management Workflow Diagram 
 
+In the diagram below, the red arrows between Device Gateway, Personal Health Intermediary, and EHR identify the current scope of structured FHIR data exchange within SMBP data management. The standards identified in this IG are primarily supported in the first and second arrow exchange, moving from the Personal Health Intermediary to the EHR and Device Gateway to Personal Health Intermediary. The FHIR exchange from EHR to Personal Health Intermediary will be represented in future iterations of this IG.  
 
 <div style="text-align: center;">
 <img src="htn_relation_diagram.png" width="600" >
 </div>
 
-Figure 1. The red arrows between Device Gateway, Personal Health Intermediary, and EHR identify the current scope of structured FHIR data exchange within SMBP data management. The standards identified in this IG are primarily supported in the first and second arrow exchange, moving from the Personal Health Intermediary to the EHR and Device Gateway to Personal Health Intermediary. The FHIR exchange from EHR to Personal Health Intermediary will be represented in future iterations of this IG.  
 
 ### Intended Actors and Systems 
 The intended actors include: 
@@ -77,10 +77,6 @@ The [Personal Health Device IG](https://build.fhir.org/ig/HL7/phd/) and the [mHe
 | [Target: BP](https://targetbp.org/) | A national initiative launched by the American Heart Association and the American Medical Association in response to the high prevalence of uncontrolled BP. |
 {:.grid}
 
-#### Additional External Drivers: Literature 
-- ACCF/AHA 2011 key data elements and definitions of a base cardiovascular vocabulary for electronic health records: a report of the American College of Cardiology Foundation/American Heart Association Task Force on Clinical Data Standards
-
-- ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults: Executive Summary: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines
 
 ### Contact Information
 

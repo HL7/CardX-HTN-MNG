@@ -1,4 +1,3 @@
-# Background 
 
 ### Hypertension Management Background 
 Heart disease and stroke are the first and fifth leading causes of death in the U.S. and hypertension is a major risk factor for both. Uncontrolled hypertension can lead to heart attacks, strokes, heart failure, kidney disease, dementia later in life, and other serious clinical sequelae. Currently, almost half of adults (48.1%, 119.9M) have hypertension and fewer than one in four has their blood pressure controlled to safe levels (22.5%, 27.0M), defined as <130/80 mmHg in the hypertension management clinical guideline from the American College of Cardiology and the American Heart Association. Non-Hispanic Black persons are less likely to have their blood pressure controlled and more likely to develop hypertension at younger ages than non-Hispanic White persons. 
