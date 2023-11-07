@@ -6,7 +6,7 @@
 id: hl7.fhir.uv.cardx-htn
 canonical: http://hl7.org/fhir/uv/cardx-htn
 name: HTN-Mng-CardX
-title: CardX Hypertension Management Use Case 
+title: CardX Hypertension Management  
 #description: Example HTN Implementation Guide 
 status: draft # draft | active | retired | unknown
 extension: 

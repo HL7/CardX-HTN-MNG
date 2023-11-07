@@ -6,29 +6,26 @@
 
 ### Overview
 
-Hypertension affects 116 million adults in America, but only 25% of people diagnosed with hypertension are treated to their goal blood pressure. Internationally, hypertension is the leading cause of premature death and cardiovascular disease. A standardized approach to hypertension management that emphasizes capturing data once and reusing it for multiple purposes will increase the proportion of patients treated to goal, improve clinical outcomes, reduce clinician burden, and enable more complete and accurate reporting. The objective of the CardX Hypertension Management IG is to improve the use of Self-measured Blood Pressure Monitoring by facilitating the communication of average blood pressure data between clinicians and patients. Ultimately, the use of this FHIR IG will lead to an increase in the proportion of individuals with hypertension who are treated to goal. Additionally, these individuals will reach the goal of less than 130/80 quicker and more efficiently than the traditional approach of only measuring blood pressure during an in-office visit. 
+Hypertension affects 116 million adults in the United States and is the leading cause of premature death and cardiovascular disease internationally. However, only 25% of people diagnosed with hypertension are treated to their goal blood pressure in the U.S. A standardized approach to hypertension management that emphasizes capturing data once and reusing it for multiple purposes will increase the proportion of patients treated to goal, improve clinical outcomes, reduce clinician burden, and enable more complete and accurate reporting. The objective of the CardX: Hypertension Management Implementation Guide is to improve the use of self-measured blood pressure monitoring (SMBP) programs by facilitating the communication of more effective and widely implemented SMBP programs. This could lead to an increase in the proportion of individuals with hypertension who are treated to goal and arrive at their goal blood pressure quicker and more efficiently than the traditional approach of only measuring blood pressure during an in-office visit.  
 
-This IG was developed by the [CardX Domain](https://confluence.hl7.org/display/COD/Cardiovascular) of the [CodeX FHIR Accelerator](https://confluence.hl7.org/display/COD/CodeX+Home) with the mission to engage a diverse group of stakeholders in the cardiovascular domain to enable standards-based interoperability in cardiovascular health and healthcare. This IG is adopting a universal realm approach, aiming to provide a comprehensive and consistent framework for healthcare information exchange across diverse geographic regions and healthcare systems.
-
-
-### Scope
-
-This FHIR Implementation Guide (IG) aligns and harmonizes existing work to create a vendor-agnostic set of data exchange standards that enable interoperable, scalable, and accessible hypertension management. The IG consists of FHIR profiles, extensions, and value sets to represent, query for, and exchange data for evidence-based management of hypertension. The CardX HTN MNG IG provides three profiles based on the FHIR Observation Blood Pressure and FHIR Observation base resources to represent the Self-measured Blood Pressure Monitoring data and associated metadata. These profiles support the hypertension management workflow by providing a meaningful exchange of blood pressure data between devices, personal health intermediaries, and clinical EHRs. This will allow Self-measured blood pressure readings to automatically be sent directly to the physician at pre-defined intervals. In future iterations, the IG will model additional evidence-based elements supporting hypertension management in and out of the clinic, enabling bi-directional data exchange between patients and clinicians to manage hypertension.
+This FHIR Implementation Guide (IG) aligns with and harmonizes existing work to create a vendor-agnostic set of data exchange standards that enable interoperable, scalable, and accessible hypertension management. Due to the global prevalence of hypertension, this IG is adopting a universal realm approach, aiming to provide a comprehensive and consistent framework for healthcare information exchange across diverse geographic regions and healthcare systems. The IG consists of FHIR profiles, extensions, and value sets to represent, query for, and exchange data for evidence-based management of hypertension. The CardX Hypertension Management IG includes three profiles based on the [FHIR Observation Blood Pressure](https://hl7.org/fhir/R4/bp.html#10.1.30.2) and [FHIR Observation](https://hl7.org/fhir/R4/observation.html) base resources to represent self-measured blood pressure monitoring data and associated metadata. These profiles support the hypertension management workflow by providing a meaningful exchange of blood pressure data between devices, third-party patient-facing health management platforms (identified here as personal health intermediaries), and clinical Electronic Health Record Systems or patient portals. This will allow self-measured blood pressure readings to be sent directly to the physician at pre-defined intervals. In future iterations, this IG will model additional evidence-based elements supporting hypertension management in and out of the clinic, enabling bi-directional data exchange between patients and clinicians to manage hypertension. 
 
 ### Potential Impact 
 
 The potential impact of this Implementation Guide includes:
-- Health centers can receive self-measured blood pressure (SMBP) data from patients in a computable format
-- Patients can see their BP measurements over time
-- Patients can communicate their hypertension-related health status and hypertension management to clinicians
-- Clinicians can engage with patients outside of office visits to adjust treatment
-
+- Health centers can receive self-measured blood pressure (SMBP) data from patients in a computable format.
+- Patients can see their BP measurements over time.
+- Patients can communicate their hypertension-related health status and hypertension management to clinicians.
+- Clinicians can engage with patients outside of office visits to adjust treatment.
 
 ### Hypertension Use Case Diagram 
+
 
 <div style="text-align: center;">
 <img src="htn_relation_diagram.png" width="600" >
 </div>
+
+Figure 1. The red arrows between Device Gateway, Personal Health Intermediary, and EHR identify the current scope of structured FHIR data exchange within SMBP data management. The standards identified in this IG are primarily supported in the first and second arrow exchange, moving from the Personal Health Intermediary to the EHR and Device Gateway to Personal Health Intermediary. The FHIR exchange from EHR to Personal Health Intermediary will be represented in future iterations of this IG.  
 
 ### Intended Actors and Systems 
 The intended actors include: 
@@ -36,22 +33,20 @@ The intended actors include:
 
 | Actor    |  Description |
 | ----------  | ------------------ |
-| ![patienticon] Patient  | An individual diagnosed with Hypertension and enrolled in a self-measure blood pressure monitoring program.   |
-| ![clinicianicon] Clinician  | Includes licensed physicians and others that interact with the patient to diagnosis, refer, monitor, and treat hypertension.   |
-| ![personal-health-device-icon]  Personal Health Device  | Any system that allows patients and caregivers to capture and share information about their blood pressure, integrate device provided data. These may be web-based applications, mobile applications, or traditional software.  These systems will primarily act as FHIR clients.   |
-| ![personal-health-gateway-icon] Personal Health Intermediary   | Any system that supports hypertension patients - These may be web-based applications, mobile applications, or device gateways. These systems act as FHIR servers to receive data from a device and act as FHIR clients capable of sending data to other systems.   |
-| ![patient-data-manager-icon] Device Gateway   | Any system that allows patients and caregivers to capture and share information about their blood pressure, integrate device provided data. These may be web-based applications, mobile applications, or traditional software.  These systems will primarily act as FHIR clients.   |
-| ![ehricon] Electronic Health Record System | An EHR or other system involved in reviewing patient hypertension related data, that may receive SMBP observations from other systems, and that will coordinate all management activities for hypertension patients. These systems could also represent Patient Portals.  |
+| ![patienticon](input/images/patienticon.png) Patient  | An individual diagnosed with hypertension and enrolled in a self-measure blood pressure monitoring program.   |
+| ![clinicianicon](input/images/clinicianicon.png)  Clinician  | Includes licensed physicians and others that interact with the patient to diagnosis, refer, monitor, and treat hypertension.   |
+| ![personal-health-device-icon](input/images/personal-health-device-icon.png)   Personal Health Device  | Any system that allows patients and caregivers to capture and share information about their blood pressure, integrate device provided data. These may be web-based applications, mobile applications, or traditional software.  These systems will primarily act as FHIR clients.   |
+| ![personal-health-gateway-icon](input/images/personal-health-gateway-icon.png)  Personal Health Intermediary   | Any system that supports hypertension patients - These may be web-based applications, mobile applications, or device gateways. These systems act as FHIR servers to receive data from a device and act as FHIR clients capable of sending data to other systems.   |
+| ![patient-data-manager-icon](input/images/personal-data-manager-icon.png) Device Gateway   | Any system that allows patients and caregivers to capture and share information about their blood pressure, integrate device provided data. These may be web-based applications, mobile applications, or traditional software.  These systems will primarily act as FHIR clients.   |
+| ![ehricon](input/images/ehricon.png) Electronic Health Record System | An EHR or other system involved in reviewing patient hypertension related data, that may receive SMBP observations from other systems, and that will coordinate all management activities for hypertension patients. These systems could also represent Patient Portals.  |
 {:.grid}
-
-
 
 ### SMBP Protocol Scenarios 
 
 #### Scenario 1
-A primary care provider enrolls a patient in a self-measured blood pressure monitoring program to manage the patient’s hypertension. The patient follows the provided instructions and takes their blood pressure at the recommended intervals. The blood pressure data is uploaded via Bluetooth to the Device Gateway. The patient’s BP information is pushed, via a FHIR API, to a receiving Personal Health Intermediary Platform where the data is stored, aggregated, and managed. Once the information has been retrieved, the Personal Health Intermediary Platform can store, share, reuse, and display the standardized information however necessary/most useful.
+A primary care provider enrolls a patient in a self-measured blood pressure monitoring program to manage the patient’s hypertension. The patient follows the provided instructions and takes their blood pressure at the recommended intervals. The blood pressure data is uploaded via Bluetooth to the Device Gateway. The patient’s blood pressure  information is pushed, via a FHIR API, to a receiving Personal Health Intermediary platform where the data is stored, aggregated, and managed. Once the information has been retrieved, the Personal Health Intermediary can store, share, reuse, and display the standardized information in their preferred view. 
 #### Scenario 2
-The Personal Health Intermediary Platform generates an Average Blood pressure reading based on the SMBP protocol timeframe. The patients Average Blood Pressure reading, and associated BP observations are pushed, via a FHIR API to an EHR’s FHIR-enabled Patient Portal. The EHR performs a GET request to retrieve the Average BP and associated observations. Once the information has been retrieved, the EHR can store, share, reuse, and display the standardized information.
+The Personal Health Intermediary calculates an average blood pressure reading based on the SMBP protocol timeframe. The patient’s average blood pressure and the individual blood pressure’s that comprise the average are pushed, via a FHIR API to an EHR’s FHIR-enabled patient portal. The EHR performs a GET request to retrieve the average blood pressure and associated observations. Once the information has been retrieved, the EHR can store, share, reuse, and display the standardized information in their preferred view. 
 
 ### Dependencies on Other IGs
 
@@ -68,8 +63,10 @@ The Personal Health Intermediary Platform generates an Average Blood pressure re
 | -------------------- |  ---------- |
 | [US Core](https://hl7.org/fhir/us/core/STU3.1.1/) |  Where possible, all profiles in this IG align with US Core 3.1.1 or aligned with that release and future releases as much as possible.  U.S. Core also sets expectations for a variety of referenced resources and establishes baseline conformance expectations.  |
 | [Vital Signs with Qualifying Elements](https://build.fhir.org/ig/HL7/cimi-vital-signs/) | All profiles in this implementation guide align with the profiles in the Vital Signs with Qualifying Elements IG (Universal Realm) |
-| [FHIR Write](https://hackmd.io/@argonaut/SkGWnfQdn) | Specifies FHIR write back capabailities for Vital Sign Observations |
+| [FHIR Write](https://hackmd.io/@argonaut/SkGWnfQdn) | Specifies FHIR write back capabailities for Vital Sign Observations including blood pressure |
 {:.grid}
+
+The [Personal Health Device IG](https://build.fhir.org/ig/HL7/phd/) and the [mHealthADE](https://hl7.github.io/fhir-project-mhealth/overview.html) were also considered in an initial landscape analysis of existing standards, however,  these IGs are out of scope for this IG at this time.  
 
 ### Additional External Drivers
 
@@ -80,6 +77,10 @@ The Personal Health Intermediary Platform generates an Average Blood pressure re
 | [Target: BP](https://targetbp.org/) | A national initiative launched by the American Heart Association and the American Medical Association in response to the high prevalence of uncontrolled BP. |
 {:.grid}
 
+#### Additional External Drivers: Literature 
+- ACCF/AHA 2011 key data elements and definitions of a base cardiovascular vocabulary for electronic health records: a report of the American College of Cardiology Foundation/American Heart Association Task Force on Clinical Data Standards
+
+- ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults: Executive Summary: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines
 
 ### Contact Information
 
