@@ -1,5 +1,5 @@
 Profile: SMBPAssociatedHeartRate
-Parent: Observation
+Parent: CoreHRProfile
 Id: smbp-associated-heart-rate
 Title: "SMBP Associated Heart Rate"
 Description: "The number of heart beats in a minute."

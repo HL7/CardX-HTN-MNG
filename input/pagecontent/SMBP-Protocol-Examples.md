@@ -1,16 +1,16 @@
 # Self Measured Blood Pressure Background
 
 - Defined as the the regular measurement of blood pressure by the patient outside the clinical setting, either at home or elsewhere  
-- Helps people with --Hypertension-- lower their blood pressure
+- Helps people with hypertension lower their blood pressure
 
 ## Self Measured Blood Pressure Protocol
 
-- The --recomended-- monitoring schedule is:
-  - --4-- BP readings per day  
+- The recomended monitoring schedule is:
+  - 4 BP readings per day  
   - 2 BP readings in the morning  
   - 2 BP readings in the evening  
   - Minimum of 3 days in a row
-  - Recomendation of --7-- days in a row  
+  - Recomendation of 7 days in a row  
 
 ### Sample Data for a Week of SMBP Remote Patient Monitoring
 
@@ -20,7 +20,8 @@
 
 #### SMBP Weekly Average Example
 
-[Sally Sue SMBP Weekly Average](Observation-AverageSMBP-Protocol-example.html)
+Sally Sue's weekly SMBP average blood pressure example.
+[SMBP Protocol Average Blood Pressure](Observation-AverageSMBP-Protocol-example.html)
 
 #### Individual Readings Examples
 

@@ -77,8 +77,8 @@ menu:
   Supporting Info: dataRequirements.html
   Profiles: profiles.html
   Examples: 
-    Examples for IG: IG-examples.html
-    SMBP Examples: SMBP-Protocol-Examples.html
+    IG Profile Examples: IG-examples.html
+    SMBP Protocol Examples: SMBP-Protocol-Examples.html
 
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮

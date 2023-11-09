@@ -4,13 +4,13 @@ Usage: #example
 Description: "An example of an average blood pressure derived from SMBP measurements."
 * extension[NumberOfMeasurementsExt].valueQuantity.value = 7 
 * status = #final
+* category[+] = ObsCat#vital-signs
+* category[+] = SCT#310858007 "Self-monitoring"
 * code = http://loinc.org#96607-7 "Blood pressure panel mean systolic and mean diastolic"
 * subject = Reference(patient-example-Sally-Sue)
 * effectivePeriod.start = "2023-03-01T06:00:00-06:00"
 * effectivePeriod.end = "2023-03-02T20:00:00-06:00"
 * issued = "2023-03-02T20:12:29-06:00"
-* performer = Reference(practitioner-example-Mary-Hill)
-* bodySite = SCT#723961002 "Structure of left brachial artery (body structure)"
 * device = Reference(example-smbp-device)
 * derivedFrom[0] = Reference(SMBP-FirstAM-Measurement-Day1)
 * derivedFrom[1] = Reference(SMBP-SecondAM-Measurement-Day1)
@@ -31,13 +31,13 @@ Usage: #example
 Description: "An example of an average blood pressure derived from measurements that follow the SMBP protocol."
 * extension[NumberOfMeasurementsExt].valueQuantity.value = 28 
 * status = #final
+* category[+] = ObsCat#vital-signs
+* category[+] = SCT#310858007 "Self-monitoring"
 * code = http://loinc.org#96607-7 "Blood pressure panel mean systolic and mean diastolic"
 * subject = Reference(patient-example-Sally-Sue)
 * effectivePeriod.start = "2023-03-01T06:00:00-06:00"
 * effectivePeriod.end = "2023-03-07T18:00:00-06:00"
 * issued = "2019-03-07T19:12:29-10:00"
-* performer = Reference(practitioner-example-Mary-Hill)
-* bodySite = SCT#723961002 "Structure of left brachial artery (body structure)"
 * device = Reference(example-smbp-device)
 * derivedFrom[0] = Reference(SMBP-FirstAM-Measurement-Day1)
 * derivedFrom[1] = Reference(SMBP-SecondAM-Measurement-Day1)

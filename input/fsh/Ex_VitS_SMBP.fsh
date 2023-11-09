@@ -10,7 +10,6 @@ Usage: #example
 * issued = "2023-03-16T12:13:00-09:00"
 * performer = Reference(patient-example-Jake-Donald)
 * device = Reference(example-smbp-device)
-* bodySite = SCT#723961002 "Structure of left brachial artery (body structure)"
 * component[SystolicBP].code = http://loinc.org#8480-6
 * component[SystolicBP].valueQuantity = 120 'mm[Hg]' "mm[Hg]"
 * component[DiastolicBP].code = http://loinc.org#8462-4

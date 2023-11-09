@@ -9,10 +9,9 @@ Usage: #example
 * code = http://loinc.org#8867-4
 * code.text = "Heart rate"
 * subject = Reference(patient-example-Sally-Sue)
-* effectiveDateTime = "2023-10-16T12:12:29-09:00"
-* issued = "2023-10-16T12:31:00-09:00"
+* effectiveDateTime = "2023-03-01T08:00:00-09:00"
+* issued = "2023-03-01T08:10:00-09:00"
 * performer = Reference(patient-example-Sally-Sue)
-* valueQuantity = 120 '/min' "'/min'"
-* bodySite = SCT#723961002 "Structure of left brachial artery (body structure)"
+* valueQuantity = 74 '/min' "'/min'"
 
 
