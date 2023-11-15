@@ -6,8 +6,8 @@ Usage: #example
 * status = #final
 * code = http://loinc.org#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Jake-Donald)
-* effectiveDateTime = "2023-03-16T12:12:29-09:00"
-* issued = "2023-03-16T12:13:00-09:00"
+* effectiveDateTime = "2023-03-01T12:12:29-09:00"
+* issued = "2023-03-01T12:13:00-09:00"
 * performer = Reference(patient-example-Jake-Donald)
 * device = Reference(example-smbp-device)
 * component[SystolicBP].code = http://loinc.org#8480-6

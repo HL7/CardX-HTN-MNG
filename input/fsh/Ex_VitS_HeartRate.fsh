@@ -11,6 +11,7 @@ Usage: #example
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-01T08:00:00-09:00"
 * issued = "2023-03-01T08:10:00-09:00"
+* device = Reference(example-smbp-device)
 * performer = Reference(patient-example-Sally-Sue)
 * valueQuantity = 74 '/min' "'/min'"
 
