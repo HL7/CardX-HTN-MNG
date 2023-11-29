@@ -1,5 +1,5 @@
 <div style="text-align: left;">
-<img src="image2022-7-27_8-34-11.png" width="600" >
+<img src="image2022-7-27_8-34-11.png" width="400" >
 </div>
 
 ### Revolutionizing Cardiovascular Outcomes Through a Common Standard

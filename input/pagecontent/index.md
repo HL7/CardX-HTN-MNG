@@ -13,9 +13,10 @@ This FHIR Implementation Guide (IG) aligns with and harmonizes existing work to 
 ### Hypertension Management Workflow Diagram 
 
 In the diagram below, the red arrows between Device Gateway, Personal Health Intermediary, and EHR identify the scope of structured FHIR data exchange within SMBP data management. The standards identified in this IG are primarily supported in the first and second arrow exchange:
-    1. In Scope - Personal Health Intermediary to EHR
-    2. In Scope - Device Gateway to Personal Health Intermediary
-    3. Out of Scope - EHR to Personal Health Intermediary 
+
+1. In Scope - Personal Health Intermediary to EHR 
+2. In Scope - Device Gateway to Personal Health Intermediary 
+3. Out of Scope - EHR to Personal Health Intermediary
 
 <div style="text-align: center;">
 <img src="htn_relation_diagram.png" width="1000" >
