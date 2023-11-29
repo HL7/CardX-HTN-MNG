@@ -14,6 +14,7 @@ The following individuals and organizations deserve credit for their effort in t
 | Karen Bates        | [MITRE](https://www.mitre.org/)                                                    |
 {:.grid}
 
+We recognize the HL7 sponsorhip and guidance from the [Clinical Interoperability Council](https://www.hl7.org/Special/committees/cic/index.cfm) and [Mobile Health](https://www.hl7.org/Special/committees/mobile/index.cfm) Work Groups.
 
 
 Many organizations have been involved in the modeling and defining of the Hypertension Management FHIR Profiles that are defined in the IG: 
@@ -34,6 +35,7 @@ Many organizations have been involved in the modeling and defining of the Hypert
 - Pfizer 
 - University of Nebraska Medical Center 
 
+Special thanks to the CardX Champions: University of Nebraksa Medical Center (UNMC) and CDC Million Hearts 
 
 The published content of this guide was developed using [FHIR Shorthand syntax](http://hl7.org/fhir/uv/shorthand/) and the [SUSHI tookit](https://fshschool.org/docs/sushi/), a free, open source toolchain from the [MITRE](https://www.mitre.org).
 
@@ -43,5 +45,7 @@ The published content of this guide was developed using [FHIR Shorthand syntax](
 | Topic | Who | Role | Email |
 |----|---|---|------|
 | Implementation and Use Cases | Name | Program Manager & Clinical Director, CodeX™ | email |
-| Topic | Nathan Davis | Primary Author, Publishing Facilitator | email |
+| Publishing | Nathan Davis | Primary Author | email |
+| Vocabulary | Monique van Berkum | Vocabulary Author | email |
 {: .grid }
+

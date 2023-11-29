@@ -73,13 +73,14 @@ The [Personal Health Device IG](https://build.fhir.org/ig/HL7/phd/) and the [mHe
 | [Target: BP](https://targetbp.org/) | A national initiative launched by the American Heart Association and the American Medical Association in response to the high prevalence of uncontrolled BP. |
 {:.grid}
 
+### Learn More
+To learn more about CardX and the Hypertension Use Case visit: 
 
-### Contact Information
+- [CardX Domain Confluence Pages](https://confluence.hl7.org/display/COD/CardX+-+Hypertension+Management) 
 
-[CardX Domain Confluence Pages](https://confluence.hl7.org/display/COD/CardX+-+Hypertension+Management) 
-
-[Hypertension Management Conluence Pages](https://confluence.hl7.org/display/COD/CardX+-+Hypertension+Management) 
+- [Hypertension Management Confluence Pages](https://confluence.hl7.org/display/COD/CardX+-+Hypertension+Management) 
 
 ----------------------------------------------------------------------------------------------------
 [^1]: [World Health Organization: Hypertension](https://www.who.int/news-room/fact-sheets/detail/hypertension)
 [^2]: [Target:BP](https://targetbp.org/patient-measured-bp/)
+
