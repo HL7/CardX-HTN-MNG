@@ -14,13 +14,11 @@ CardX will strengthen the delivery of cardiovascular care by supporting clinical
 
 ### CardX Vision
 - To promote cardiovascular quality through FHIR-enabled data exchange of key clinical concepts as interoperable data elements. Central to the parent CodeX FHIR Accelerator and extended to the CardX cardiovascular domain are Use Cases that embrace the vision of collecting high-quality patient data once and using it across multiple contexts and workflows.
-
-  How CodeX (and CardX) Works: **Use Cases => FHIR IGs + Implementations => Pilots => Impact!**
-
+- How CodeX (and CardX) Works: **Use Cases => FHIR IGs + Implementations => Pilots => Impact!**
 - CardX follows the approach established by the CodeX FHIR Accelerator. The target is the collection and sharing of real-world patient clinical data to inform clinical decision-making, evaluate quality and performance, support participation in clinical registries, and contribute to new discovery.
 
 
-## CardX Goals
+### CardX Goals
 - Convene cardiovascular stakeholders to develop and harmonize an open-source standard and common language for cardiovascular concepts
 - Enable the collection of computable data at the point of care integrated with clinical workflows while reducing clinician burden
 - Support the needs of all stakeholders and communities: patients, clinicians, registries, payers, regulators, researchers, information systems
