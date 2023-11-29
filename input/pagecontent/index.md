@@ -1,12 +1,10 @@
 ### Overview
 
-Hypertension affects an estimated 1.28 billion adults aged 30-79 years and is the leading cause of premature death and cardiovascular disease internationally. Less than half of adults with hypertension are diagnosed and treated and only 1 in 5 adults with hypertension have it under control [^1]. A self-measured blood pressure (SMBP) monitoring approach, referring to the regular measurement of blood pressure by the patient outside the clinical setting, can help clinicians better diagnose and manage hypertension [^2]. A standardized approach to hypertension management that emphasizes capturing data once and reusing it for multiple purposes will increase the proportion of patients treated to goal, improve clinical outcomes, reduce clinician burden, and enable more complete and accurate reporting. The objective of the CardX: Hypertension Management Implementation Guide is to improve the use of self-measured blood pressure monitoring (SMBP) programs by facilitating the communication of more effective and widely implemented SMBP programs. This could lead to an increase in the proportion of individuals with hypertension who are treated to goal and arrive at their goal blood pressure quicker and more efficiently than the traditional approach of only measuring blood pressure during an in-office visit.  
+Hypertension affects an estimated 1.28 billion adults aged 30-79 years and is the leading cause of premature death and cardiovascular disease internationally. Less than half of adults with hypertension are diagnosed and treated and only 1 in 5 adults with hypertension have it under control [^1]. A self-measured blood pressure (SMBP) monitoring approach, referring to the regular measurement of blood pressure by the patient outside the clinical setting, can help clinicians better diagnose and manage hypertension [^2]. A standardized approach to hypertension management that emphasizes capturing data once and reusing it for multiple purposes will increase the proportion of patients treated to goal, improve clinical outcomes, reduce clinician burden, and enable more complete and accurate reporting. The objective of the CardX Hypertension Management Implementation Guide is to improve the use of self-measured blood pressure monitoring (SMBP) programs by facilitating the communication of more effective and widely implemented SMBP programs. This could lead to an increase in the proportion of individuals with hypertension who are treated to goal and arrive at their goal blood pressure quicker and more efficiently than the traditional approach of only measuring blood pressure during an in-office visit.  
 
-This FHIR Implementation Guide (IG) aligns with and harmonizes existing work to create a vendor-agnostic set of data exchange standards that enable interoperable, scalable, and accessible hypertension management. Due to the global prevalence of hypertension, this IG is adopting a universal realm approach, aiming to provide a comprehensive and consistent framework for healthcare information exchange across diverse geographic regions and healthcare systems. The IG consists of FHIR profiles, extensions, and value sets to represent, query for, and exchange data for evidence-based management of hypertension. The CardX: Hypertension Management IG includes three profiles based on the [FHIR Observation Blood Pressure](https://hl7.org/fhir/R4/bp.html#10.1.30.2) and [FHIR Observation](https://hl7.org/fhir/R4/observation.html) base resources to represent self-measured blood pressure monitoring data and associated metadata. These profiles support the hypertension management workflow by providing a meaningful exchange of blood pressure data between devices, third-party patient-facing health management platforms (identified here as personal health intermediaries), and clinical Electronic Health Record Systems or patient portals. This will allow self-measured blood pressure readings to be sent directly to the physician at pre-defined intervals. In future iterations, this IG will model additional evidence-based elements supporting hypertension management in and out of the clinic, enabling bi-directional data exchange between patients and clinicians to manage hypertension. 
+This FHIR Implementation Guide (IG) aligns with and harmonizes existing work to create a vendor-agnostic set of data exchange standards that enable interoperable, scalable, and accessible hypertension management. Due to the global prevalence of hypertension, this IG is adopting a universal realm approach, aiming to provide a comprehensive and consistent framework for healthcare information exchange across diverse geographic regions and healthcare systems. The IG consists of FHIR profiles, extensions, and value sets to represent, query for, and exchange data for evidence-based management of hypertension. The CardX Hypertension Management IG includes three profiles based on the [FHIR Observation Blood Pressure](https://hl7.org/fhir/R4/bp.html#10.1.30.2) and [FHIR Observation](https://hl7.org/fhir/R4/observation.html) base resources to represent self-measured blood pressure monitoring data and associated metadata. These profiles support the hypertension management workflow by providing a meaningful exchange of blood pressure data between devices, third-party patient-facing health management platforms (identified here as personal health intermediaries), and clinical Electronic Health Record Systems or patient portals. This will allow self-measured blood pressure readings to be sent directly to the physician at pre-defined intervals. In future iterations, this IG will model additional evidence-based elements supporting hypertension management in and out of the clinic, enabling bi-directional data exchange between patients and clinicians to manage hypertension. 
 
 ### Potential Impact 
-
-The potential impact on SMBP monitoring:
 - Health centers can receive self-measured blood pressure (SMBP) data from patients in a computable format.
 - Patients can see their BP measurements over time.
 - Patients can communicate their hypertension-related health status and hypertension management to clinicians.
@@ -14,10 +12,13 @@ The potential impact on SMBP monitoring:
 
 ### Hypertension Management Workflow Diagram 
 
-In the diagram below, the red arrows between Device Gateway, Personal Health Intermediary, and EHR identify the current scope of structured FHIR data exchange within SMBP data management. The standards identified in this IG are primarily supported in the first and second arrow exchange, moving from the Personal Health Intermediary to the EHR and Device Gateway to Personal Health Intermediary. The FHIR exchange from EHR to Personal Health Intermediary will be represented in future iterations of this IG.  
+In the diagram below, the red arrows between Device Gateway, Personal Health Intermediary, and EHR identify the scope of structured FHIR data exchange within SMBP data management. The standards identified in this IG are primarily supported in the first and second arrow exchange:
+    1. In Scope - Personal Health Intermediary to EHR
+    2. In Scope - Device Gateway to Personal Health Intermediary
+    3. Out of Scope - EHR to Personal Health Intermediary 
 
 <div style="text-align: center;">
-<img src="htn_relation_diagram.png" width="800" >
+<img src="htn_relation_diagram.png" width="1000" >
 </div>
 
 
@@ -74,9 +75,9 @@ The [Personal Health Device IG](https://build.fhir.org/ig/HL7/phd/) and the [mHe
 
 ### Contact Information
 
-To learn more about CardX, visit the [CardX Domain Confluence Pages](https://confluence.hl7.org/display/COD/CardX+-+Hypertension+Management) 
+[CardX Domain Confluence Pages](https://confluence.hl7.org/display/COD/CardX+-+Hypertension+Management) 
 
-To learn more about the Hypertension Management Use Case, visit the [Hypertension Management Conluence Pages](https://confluence.hl7.org/display/COD/CardX+-+Hypertension+Management) 
+[Hypertension Management Conluence Pages](https://confluence.hl7.org/display/COD/CardX+-+Hypertension+Management) 
 
 ----------------------------------------------------------------------------------------------------
 [^1]: [World Health Organization: Hypertension](https://www.who.int/news-room/fact-sheets/detail/hypertension)
