@@ -1,19 +1,5 @@
 ### Acknowledgements
 
-The following individuals and organizations deserve credit for their effort in the creation of the implementation guide. 
-
-| **Name**           | **Organization**                                                                   |
-| ------------------ | ---------------------------------------------------------------------------------- |
-| Nathan Davis       | [Graphite Health](https://www.graphitehealth.io/)                                  |
-| Monique van Berkum | [AMA](https://www.ama-assn.org/)                                                   |
-| James Tcheng       | [University of Nebraksa Medical Center ](https://www.unmc.edu/)                    |
-| Hilary Wall        | [CDC Million Hearts](https://millionhearts.hhs.gov/index.html)                     |
-| Debra McGrath      | [Health Federation](https://healthfederation.org/)                                 |
-| Corey Smith        | [AMA](https://www.ama-assn.org/)                                                   |
-| Callie Phillips    | [MITRE](https://www.mitre.org/)                                                    |
-| Karen Bates        | [MITRE](https://www.mitre.org/)                                                    |
-{:.grid}
-
 We recognize the HL7 sponsorhip and guidance from the [Clinical Interoperability Council](https://www.hl7.org/Special/committees/cic/index.cfm) and [Mobile Health](https://www.hl7.org/Special/committees/mobile/index.cfm) Work Groups.
 
 The development of this IG waS sponsored by the [CodeX™ FHIR Accelerator](https://confluence.hl7.org/display/COD/CodeX+Home), a member-driven community working together to enable FHIR-based interoperability that drives substantial improvements around the most important challenges and opportunities in patient health.
