@@ -5,7 +5,8 @@ Description: "An example of a heart rate that would be captured/recorded form a 
 Usage: #example
 * extension[measurementSetting].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
-* category = ObsCat#vital-signs
+* category[+] = ObsCat#vital-signs
+* category[+] = SCT#310858007 "Self-monitoring"
 * code = http://loinc.org#8867-4
 * code.text = "Heart rate"
 * subject = Reference(patient-example-Sally-Sue)

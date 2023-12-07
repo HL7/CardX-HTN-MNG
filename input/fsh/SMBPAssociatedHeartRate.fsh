@@ -8,8 +8,17 @@ Description: "The number of heart beats in a minute."
 * extension[measurementSetting] ^short = "Measurement setting"
 * extension[measurementSetting].valueCodeableConcept = SCT#264362003
 * status MS
-* category.coding.system = "http://terminology.hl7.org/CodeSystem/observation-category"
-* category.coding.code = ObsCat#vital-signs
+* category ^slicing.discriminator.type = #value
+* category ^slicing.discriminator.path = "coding.code"
+* category ^slicing.rules = #open
+* category ^slicing.description = "Slice for category"
+* category MS
+* category contains
+    generalCategory 0..1 and
+    smvs 1..1
+* category[generalCategory].coding.system = "http://terminology.hl7.org/CodeSystem/observation-category"
+* category[generalCategory].coding.code = ObsCat#vital-signs
+* category[smvs].coding.code = SCT#310858007 "Self monitoring"
 * code ^short = "Heart rate"
 * code = LNC#8867-4
 * subject 1..1 MS

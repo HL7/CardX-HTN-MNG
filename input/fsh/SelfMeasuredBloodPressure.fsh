@@ -7,6 +7,15 @@ Description: "A blood pressure taken by the subject or a related person, done in
     MeasurementSettingExt named MeasurementSetting 0..1
 * extension[MeasurementSetting] ^short = "Measurement setting"
 * extension[MeasurementSetting].valueCodeableConcept = SCT#264362003
+* category ^slicing.discriminator.type = #value
+* category ^slicing.discriminator.path = "coding.code"
+* category ^slicing.rules = #open
+* category ^slicing.description = "Slice for category"
+* category MS
+* category contains
+    smvs 1..1
+* category[smvs].coding.code = SCT#310858007 "Self monitoring"
+* category[smvs] ^short = "Self-measured Vital Signs category"
 * status MS
 * status from SMBPStatusVS (required)
 * effective[x] only dateTime
