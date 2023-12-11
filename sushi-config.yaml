@@ -77,9 +77,6 @@ menu:
     CardX Background: CardX-Background.html
     Credits: Credits.html
   Profiles: profiles.html
-  Search parameters:
-    Category: SearchParameter-CardXCategorySP.html
-    Measurement Setting: SearchParameter-CardXMeasurementSettingSP.html
   Capability Statement: CapabilityStatement-CardXCapabilityStatement.html
   Examples: 
     IG Profile Examples: IG-examples.html

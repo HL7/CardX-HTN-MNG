@@ -8,7 +8,6 @@
 <artifact id="Observation/AverageSMBP-Protocol-example" key="Observation-AverageSMBP-Protocol-example" name="AverageSMBP-Protocol-example"/>
 <artifact id="Observation/AverageSMBP-example" key="Observation-AverageSMBP-example" name="AverageSMBP-example"/>
 <artifact id="CapabilityStatement/CardXCapabilityStatement" key="CapabilityStatement-CardXCapabilityStatement" name="HTN-Mng-CardX Capability Statement"/>
-<artifact id="StructureDefinition/MeasurementSettingExt" key="StructureDefinition-MeasurementSettingExt" name="Measurement Setting"/>
 <artifact id="StructureDefinition/NumberOfMeasurementsExt" key="StructureDefinition-NumberOfMeasurementsExt" name="Number of Measurements"/>
 <artifact id="ValueSet/NumericResultIntVS" key="ValueSet-NumericResultIntVS" name="Numeric Result Interpretation value set"/>
 <artifact id="StructureDefinition/smbp-associated-heart-rate" key="StructureDefinition-smbp-associated-heart-rate" name="SMBP Associated Heart Rate"/>
@@ -42,8 +41,6 @@
 <artifact id="Observation/SMBP-SecondPM-Measurement-Day5" key="Observation-SMBP-SecondPM-Measurement-Day5" name="SMBP-SecondPM-Measurement-Day5"/>
 <artifact id="Observation/SMBP-SecondPM-Measurement-Day6" key="Observation-SMBP-SecondPM-Measurement-Day6" name="SMBP-SecondPM-Measurement-Day6"/>
 <artifact id="Observation/SMBP-SecondPM-Measurement-Day7" key="Observation-SMBP-SecondPM-Measurement-Day7" name="SMBP-SecondPM-Measurement-Day7"/>
-<artifact id="SearchParameter/CardXMeasurementSettingSP" key="SearchParameter-CardXMeasurementSettingSP" name="Search by Measurement Setting for vital signs observations that are performed in a home (or non-clinical) environment."/>
-<artifact id="SearchParameter/CardXCategorySP" key="SearchParameter-CardXCategorySP" name="Search by category for observations with multiple categories."/>
 <artifact id="StructureDefinition/self-measured-bp" key="StructureDefinition-self-measured-bp" name="Self-measured Blood Pressure"/>
 <artifact id="Observation/SelfMeasuredBloodPressure-example" key="Observation-SelfMeasuredBloodPressure-example" name="SelfMeasuredBloodPressure-example"/>
 <artifact id="Device/example-smbp-device" key="Device-example-smbp-device" name="example-smbp-device"/>

@@ -4,13 +4,14 @@ Usage: #example
 Description: "An example of an average blood pressure derived from SMBP measurements."
 * extension[NumberOfMeasurementsExt].valueQuantity.value = 7 
 * status = #final
-* category[+] = ObsCat#vital-signs
-* category[+] = SCT#310858007 "Self-monitoring"
+* category[VSCat] = ObsCat#vital-signs
+* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = http://loinc.org#96607-7 "Blood pressure panel mean systolic and mean diastolic"
 * subject = Reference(patient-example-Sally-Sue)
 * effectivePeriod.start = "2023-03-01T06:00:00-06:00"
 * effectivePeriod.end = "2023-03-02T20:00:00-06:00"
 * issued = "2023-03-02T20:12:29-06:00"
+* performer = Reference(patient-example-Sally-Sue)
 * device = Reference(example-smbp-device)
 * derivedFrom[0] = Reference(SMBP-FirstAM-Measurement-Day1)
 * derivedFrom[1] = Reference(SMBP-SecondAM-Measurement-Day1)
@@ -20,10 +21,10 @@ Description: "An example of an average blood pressure derived from SMBP measurem
 * derivedFrom[5] = Reference(SMBP-SecondAM-Measurement-Day2)
 * derivedFrom[6] = Reference(SMBP-FirstPM-Measurement-Day2)
 * derivedFrom[7] = Reference(SMBP-SecondPM-Measurement-Day2)
-* component[SystolicBP].code = LNC#96608-5 "Systolic blood pressure mean"
-* component[SystolicBP].valueQuantity = 136 'mm[Hg]' "mm[Hg]"
-* component[DiastolicBP].code = LNC#96609-3 "Diastolic blood pressure mean"
-* component[DiastolicBP].valueQuantity = 86 'mm[Hg]' "mm[Hg]"
+* component[+].code = LNC#96608-5 "Systolic blood pressure mean"
+* component[=].valueQuantity = 136 'mm[Hg]' "mm[Hg]"
+* component[+].code = LNC#96609-3 "Diastolic blood pressure mean"
+* component[=].valueQuantity = 86 'mm[Hg]' "mm[Hg]"
 
 Instance: AverageSMBP-Protocol-example
 InstanceOf: AverageSMBP
@@ -31,13 +32,15 @@ Usage: #example
 Description: "An example of an average blood pressure derived from measurements that follow the SMBP protocol."
 * extension[NumberOfMeasurementsExt].valueQuantity.value = 28 
 * status = #final
-* category[+] = ObsCat#vital-signs
-* category[+] = SCT#310858007 "Self-monitoring"
-* code = http://loinc.org#96607-7 "Blood pressure panel mean systolic and mean diastolic"
+* category[VSCat] = ObsCat#vital-signs
+* category[smvs] = SCT#310858007 "Self-monitoring"
+* code.coding.system = "http://loinc.org"
+* code.coding.code = LNC#96607-7 "Blood pressure panel mean systolic and mean diastolic"
 * subject = Reference(patient-example-Sally-Sue)
 * effectivePeriod.start = "2023-03-01T06:00:00-06:00"
 * effectivePeriod.end = "2023-03-07T18:00:00-06:00"
 * issued = "2019-03-07T19:12:29-10:00"
+* performer = Reference(patient-example-Sally-Sue)
 * device = Reference(example-smbp-device)
 * derivedFrom[0] = Reference(SMBP-FirstAM-Measurement-Day1)
 * derivedFrom[1] = Reference(SMBP-SecondAM-Measurement-Day1)
@@ -67,7 +70,11 @@ Description: "An example of an average blood pressure derived from measurements 
 * derivedFrom[25] = Reference(SMBP-SecondAM-Measurement-Day7)
 * derivedFrom[26] = Reference(SMBP-FirstPM-Measurement-Day7)
 * derivedFrom[27] = Reference(SMBP-SecondPM-Measurement-Day7)
-* component[SystolicBP].code = LNC#96608-5 "Systolic blood pressure mean"
+* component[SystolicBP].code.coding.system = "http://loinc.org"
+* component[SystolicBP].code.coding.code = LNC#96608-5 
+* component[SystolicBP].code.coding.display = "Systolic blood pressure mean"
 * component[SystolicBP].valueQuantity = 134 'mm[Hg]' "mm[Hg]"
-* component[DiastolicBP].code = LNC#96609-3 "Diastolic blood pressure mean"
+* component[DiastolicBP].code.coding.system = "http://loinc.org"
+* component[DiastolicBP].code.coding.code = LNC#96609-3 
+* component[DiastolicBP].code.coding.display = "Diastolic blood pressure mean"
 * component[DiastolicBP].valueQuantity = 84 'mm[Hg]' "mm[Hg]"

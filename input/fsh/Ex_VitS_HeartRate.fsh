@@ -3,10 +3,9 @@ Instance: SMBP-Associated-HeartRate-example
 InstanceOf: smbp-associated-heart-rate
 Description: "An example of a heart rate that would be captured/recorded form a the same device used for a blood pressure and at the same time."
 Usage: #example
-* extension[measurementSetting].valueCodeableConcept = SCT#264362003 "Home"
 * status = #final
-* category[+] = ObsCat#vital-signs
-* category[+] = SCT#310858007 "Self-monitoring"
+* category[VSCat] = ObsCat#vital-signs
+* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = http://loinc.org#8867-4
 * code.text = "Heart rate"
 * subject = Reference(patient-example-Sally-Sue)
@@ -15,5 +14,3 @@ Usage: #example
 * device = Reference(example-smbp-device)
 * performer = Reference(patient-example-Sally-Sue)
 * valueQuantity = 74 '/min' "'/min'"
-
-

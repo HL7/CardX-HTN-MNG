@@ -12,6 +12,7 @@ Alias:   CoreVitalSigns = http://hl7.org/fhir/StructureDefinition/vitalsigns
 
 // Extensions
 Alias:   WG = http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
+Alias:   EXP = http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation
 
 // External Code Systems with a canonical recognized by terminology.hl7.org
 Alias:   UCUM = http://unitsofmeasure.org

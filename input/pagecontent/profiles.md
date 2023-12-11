@@ -38,5 +38,4 @@ The following extensions have been defined as part of this implementation Guide.
 
 |Extension|
 |:----|
-|[Measurement Setting](StructureDefinition-MeasurementSettingExt.html)|
 |[Number of measurements](StructureDefinition-NumberOfMeasurementsExt.html)|
