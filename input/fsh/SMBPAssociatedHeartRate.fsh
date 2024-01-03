@@ -15,6 +15,8 @@ Description: "The number of heart beats in a minute."
 * subject 1..1 MS
 * subject only Reference(Patient)
 * effective[x] 1..1 MS
+* performer 1..1
+* performer only Reference(Patient)
 * value[x] only Quantity
 * valueQuantity MS
 * valueQuantity.value 1..1 MS
@@ -26,4 +28,3 @@ Description: "The number of heart beats in a minute."
 * valueQuantity.code only code
 * valueQuantity.code = #/min (exactly)
 * dataAbsentReason MS
-* interpretation from NumericResultInterpretationNom (extensible)

@@ -26,33 +26,6 @@ Usage: #example
 * address.postalCode = "74047"
 * address.country = "US"
 
-
-Instance: patient-example-Jake-Donald 
-InstanceOf: Patient
-Description: "Another patient example for this IG."
-Usage: #example
-* identifier.use = #usual
-* identifier.type = http://example.org#MR "Medical record number"
-* identifier.type.text = "Medical Record Number"
-* identifier.system = "http://hospital.smarthealthit.org"
-* identifier.value = "1032890"
-* active = true
-* name.family = "Donald"
-* name.given[0] = "Jake"
-* name.given[+] = "M."
-* telecom[0].system = #phone
-* telecom[=].value = "333-777-1234"
-* telecom[=].use = #home
-* telecom[+].system = #email
-* telecom[=].value = "jake.donald@example.com"
-* gender = #male
-* birthDate = "1997-12-12"
-* address.line = "49 South St"
-* address.city = "Baltimore"
-* address.state = "MD"
-* address.postalCode = "74047"
-* address.country = "US"
-
 Instance: practitioner-example-Mary-Hill
 InstanceOf: Practitioner
 Description: "A practitioner example for this IG."
