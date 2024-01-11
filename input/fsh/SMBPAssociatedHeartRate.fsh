@@ -4,14 +4,6 @@ Id: smbp-associated-heart-rate
 Title: "SMBP Associated Heart Rate"
 Description: "The number of heart beats in a minute."
 * status MS
-* category ^slicing.discriminator.type = #value
-* category ^slicing.discriminator.path = "coding.code"
-* category ^slicing.rules = #open
-* category ^slicing.description = "Slice for category"
-* category MS
-* category contains
-    smvs 1..1
-* category[smvs].coding.code = SCT#310858007 "Self monitoring"
 * subject 1..1 MS
 * subject only Reference(Patient)
 * effective[x] 1..1 MS

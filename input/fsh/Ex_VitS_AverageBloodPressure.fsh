@@ -5,7 +5,6 @@ Description: "An example of an average blood pressure derived from SMBP measurem
 * extension[NumberOfMeasurementsExt].valueQuantity.value = 7 
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = http://loinc.org#96607-7 "Blood pressure panel mean systolic and mean diastolic"
 * subject = Reference(patient-example-Sally-Sue)
 * effectivePeriod.start = "2023-03-01T06:00:00-06:00"
@@ -33,7 +32,6 @@ Description: "An example of an average blood pressure derived from measurements 
 * extension[NumberOfMeasurementsExt].valueQuantity.value = 28 
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code.coding.system = "http://loinc.org"
 * code.coding.code = LNC#96607-7 "Blood pressure panel mean systolic and mean diastolic"
 * subject = Reference(patient-example-Sally-Sue)

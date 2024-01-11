@@ -8,14 +8,6 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * extension[NumberOfMeasurements] ^short = "Number of Measurements"
 * status MS
 * status from SMBPStatusVS (required)
-* category ^slicing.discriminator.type = #value
-* category ^slicing.discriminator.path = "coding.code"
-* category ^slicing.rules = #open
-* category ^slicing.description = "Slice for category"
-* category MS
-* category contains
-    smvs 1..1
-* category[smvs].coding.code = SCT#310858007 "Self monitoring"
 * code ^short = "Average blood pressure"
 * code = LNC#96607-7
 * subject 1..1

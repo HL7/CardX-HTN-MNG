@@ -44,7 +44,6 @@
 <artifact id="StructureDefinition/self-measured-bp" key="StructureDefinition-self-measured-bp" name="Self-measured Blood Pressure"/>
 <artifact id="Observation/SelfMeasuredBloodPressure-example" key="Observation-SelfMeasuredBloodPressure-example" name="SelfMeasuredBloodPressure-example"/>
 <artifact id="Device/example-smbp-device" key="Device-example-smbp-device" name="example-smbp-device"/>
-<artifact id="Patient/patient-example-Jake-Donald" key="Patient-patient-example-Jake-Donald" name="patient-example-Jake-Donald"/>
 <artifact id="Patient/patient-example-Sally-Sue" key="Patient-patient-example-Sally-Sue" name="patient-example-Sally-Sue"/>
 <artifact id="Practitioner/practitioner-example-Mary-Hill" key="Practitioner-practitioner-example-Mary-Hill" name="practitioner-example-Mary-Hill"/>
 <page key="NA" name="(NA)"/>

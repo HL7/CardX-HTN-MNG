@@ -4,7 +4,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-01T08:00:00-09:00"
@@ -22,7 +21,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-01T08:01:00-09:00"
@@ -40,7 +38,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-01T14:00:00-09:00"
@@ -58,7 +55,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-01T14:01:00-09:00"
@@ -77,7 +73,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-02T08:00:00-09:00"
@@ -95,7 +90,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-02T08:01:00-09:00"
@@ -113,7 +107,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-02T17:10:00-09:00"
@@ -131,7 +124,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-02T17:11:00-09:00"
@@ -149,7 +141,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-03T06:55:00-09:00"
@@ -167,7 +158,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-03T06:56:20-09:00"
@@ -185,7 +175,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-03T17:00:20-09:00"
@@ -203,7 +192,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-03T17:01:20-09:00"
@@ -222,7 +210,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-04T09:00:31-09:00"
@@ -240,7 +227,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-04T09:03:31-09:00"
@@ -258,7 +244,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-04T18:30:21-09:00"
@@ -276,7 +261,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-04T18:32:21-09:00"
@@ -294,7 +278,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-05T10:32:21-09:00"
@@ -312,7 +295,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-05T10:33:21-09:00"
@@ -331,7 +313,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-05T17:33:21-09:00"
@@ -349,7 +330,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-05T17:35:21-09:00"
@@ -368,7 +348,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-06T10:15:21-09:00"
@@ -386,7 +365,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-06T10:16:21-09:00"
@@ -404,7 +382,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-06T16:16:21-09:00"
@@ -422,7 +399,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-06T16:17:21-09:00"
@@ -440,7 +416,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-07T09:45:30-09:00"
@@ -458,7 +433,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-07T09:46:30-09:00"
@@ -476,7 +450,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-07T17:56:30-09:00"
@@ -494,7 +467,6 @@ Usage: #example
 Description: "An example of a self measured blood pressure on a specific day and time frame."
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = LNC#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-07T17:58:30-09:00"

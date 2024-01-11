@@ -31,7 +31,7 @@ The intended actors include:
 
 | Actor    |  Description |
 | ----------  | ------------------ |
-| ![patienticon](patienticon.png) Patient  | An individual diagnosed with hypertension and enrolled in a self-measure blood pressure monitoring program.   |
+| ![patienticon](<img src="patienticon.png" alt="drawing" width="100" hight="100">) Patient  | An individual diagnosed with hypertension and enrolled in a self-measure blood pressure monitoring program.   |
 | ![clinicianicon](clinicianicon.png)  Clinician  | Includes licensed clinicians, nurses, physician assistants, or other medical providers that interact with the patient to diagnosis, refer, monitor, and treat hypertension.   |
 | ![personal-health-device-icon](personal-health-device-icon.png)   Personal Health Device  | Any system that allows patients and caregivers to capture and share information about their blood pressure and integrate device provided data. These may be web-based applications, mobile applications, or traditional software.  These systems will primarily act as FHIR clients.   |
 | ![personal-health-gateway-icon](personal-health-gateway-icon.png)  Personal Health Intermediary   | Any system that supports hypertension patients. These may be web-based applications, mobile applications, or device gateways. These systems act as FHIR servers to receive data from a device and act as FHIR clients capable of sending data to other systems.   |

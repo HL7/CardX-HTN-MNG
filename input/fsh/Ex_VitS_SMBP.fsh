@@ -4,7 +4,6 @@ Description: "A simple example of a self-measured blood pressure."
 Usage: #example
 * status = #final
 * category[VSCat] = ObsCat#vital-signs
-* category[smvs] = SCT#310858007 "Self-monitoring"
 * code = http://loinc.org#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(patient-example-Sally-Sue)
 * effectiveDateTime = "2023-03-01T12:12:29-09:00"
