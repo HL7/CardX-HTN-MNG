@@ -4,6 +4,7 @@ Id: smbp-associated-heart-rate
 Title: "SMBP Associated Heart Rate"
 Description: "The number of heart beats in a minute."
 * status MS
+* code.coding 1..*
 * subject 1..1 MS
 * subject only Reference(Patient)
 * effective[x] 1..1 MS
