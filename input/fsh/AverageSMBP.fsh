@@ -1,8 +1,8 @@
 Profile: AverageSMBP
-Parent: CoreVitalSigns
+Parent: Observation
 Id: average-smbp
 Title: "Average Self-measured Blood Pressure"
-Description: "A calculated average of two or more blood pressure readings in a specified time period or according to a specified algorithm or protocol.  The average blood pressure has a systolic and a diastolic component."
+Description: "A calculated average of two or more blood pressure readings in a specified time period or according to a specified algorithm or protocol.  The average blood pressure has systolic and diastolic components."
 * extension contains
     NumberOfMeasurements named NumberOfMeasurements 1..1 MS
 * extension[NumberOfMeasurements] ^short = "Number of Measurements"

@@ -4,7 +4,7 @@ Usage: #example
 Description: "An example of an average blood pressure derived from SMBP measurements."
 * extension[NumberOfMeasurementsExt].valueInteger.value = 7 
 * status = #final
-* category[VSCat] = ObsCat#vital-signs
+* category = ObsCat#vital-signs
 * code = http://loinc.org#96607-7 "Blood pressure panel mean systolic and mean diastolic"
 * subject = Reference(patient-example-Sally-Sue)
 * effectivePeriod.start = "2023-03-01T06:00:00-06:00"
@@ -31,7 +31,7 @@ Usage: #example
 Description: "An example of an average blood pressure derived from measurements that follow the SMBP protocol."
 * extension[NumberOfMeasurementsExt].valueInteger.value = 28 
 * status = #final
-* category[VSCat] = ObsCat#vital-signs
+* category = ObsCat#vital-signs
 * code.coding.system = "http://loinc.org"
 * code.coding.code = LNC#96607-7 "Blood pressure panel mean systolic and mean diastolic"
 * subject = Reference(patient-example-Sally-Sue)
