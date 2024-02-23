@@ -8,6 +8,8 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * extension[NumberOfMeasurements] ^short = "Number of Measurements"
 * status MS
 * status from SMBPStatusVS (required)
+* category 1..* MS
+* category = ObsCat#vital-signs
 * code ^short = "Average blood pressure"
 * code = LNC#96607-7
 * subject 1..1
@@ -17,6 +19,7 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * effectivePeriod.start 1..1
 * effectivePeriod.end 1..1
 * value[x] 0..0
+* dataAbsentReason MS
 * derivedFrom MS
 * derivedFrom only Reference(SelfMeasuredBloodPressure)
 * component MS

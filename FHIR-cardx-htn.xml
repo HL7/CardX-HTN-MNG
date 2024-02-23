@@ -52,11 +52,9 @@
 <page key="Background" name="Background"/>
 <page key="cardx-background" name="Cardx Background"/>
 <page key="Credits" name="Credits"/>
-<page key="dataRequirements" name="Data Requirements"/>
 <page key="index" name="Home"/>
 <page key="IG-examples" name="IG Examples"/>
 <page key="profiles" name="Profiles"/>
-<page key="related-igs" name="Related Igs"/>
 <page key="SMBP-Protocol-Examples" name="SMBP Protocol Examples"/>
 <page key="toc" name="Table of Contents"/>
 <page key="use-cases" name="Use Cases"/>

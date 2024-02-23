@@ -2,7 +2,8 @@ Instance: AverageSMBP-example
 InstanceOf: AverageSMBP
 Usage: #example
 Description: "An example of an average blood pressure derived from SMBP measurements."
-* extension[NumberOfMeasurementsExt].valueInteger.value = 7 
+* extension.url = "http://hl7.org/fhir/uv/cardx-htn/StructureDefinition/NumberOfMeasurementsExt"
+* extension.valueInteger = 8 
 * status = #final
 * category = ObsCat#vital-signs
 * code = http://loinc.org#96607-7 "Blood pressure panel mean systolic and mean diastolic"
@@ -29,7 +30,8 @@ Instance: AverageSMBP-Protocol-example
 InstanceOf: AverageSMBP
 Usage: #example
 Description: "An example of an average blood pressure derived from measurements that follow the SMBP protocol."
-* extension[NumberOfMeasurementsExt].valueInteger.value = 28 
+* extension.url = "http://hl7.org/fhir/uv/cardx-htn/StructureDefinition/NumberOfMeasurementsExt"
+* extension.valueInteger = 28 
 * status = #final
 * category = ObsCat#vital-signs
 * code.coding.system = "http://loinc.org"
