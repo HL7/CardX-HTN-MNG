@@ -90,7 +90,7 @@ The Personal Health Intermediary calculates an average blood pressure reading ba
 | Implementation Guide |  Relationship  |
 | -------------------- |  ---------- |
 | [US Core](https://hl7.org/fhir/us/core/STU3.1.1/) |  Where possible, all profiles in this IG align with US Core 3.1.1 or aligned with that release and future releases as much as possible.  U.S. Core also sets expectations for a variety of referenced resources and establishes baseline conformance expectations.  |
-| [Vital Signs with Qualifying Elements](https://build.fhir.org/ig/HL7/cimi-vital-signs/) | All profiles in this implementation guide align with the profiles in the Vital Signs with Qualifying Elements IG (Universal Realm) |
+| [Vital Signs with Qualifying Elements](https://build.fhir.org/ig/HL7/cimi-vital-signs/) | All profiles in this IG align with the profiles in the Vital Signs with Qualifying Elements IG (Universal Realm) |
 | [FHIR Write](https://hackmd.io/@argonaut/SkGWnfQdn) | Specifies FHIR write back capabilities for Vital Signs Observations including Blood Pressure |
 {:.grid}
 
