@@ -15,10 +15,30 @@ For the next seven days, Sarah took her blood pressure at home twice in the morn
 ### SMBP Clinical Worklow 
 
 <div style="text-align: center;">
-<img src="smbp-clinical-workflow.png" width="1000" >
+<img src="smbp-clinical-workflow.png" width="800" >
 </div>
 
 ### SMBP Technical Worklow 
+<div style="text-align: center;">
+<img src="scenarios-overview.png" width="400" >
+</div>
+
+**Action 1**: A Device Gateway POSTS an SMBP observation to a Personal Health Intermediary Platform.
+**Action 2**: A Personal Health Intermediary Platform queries for SMBP related observations and calculates an Average SMBP. value 
+
+<div style="text-align: center;">
+<img src="technical-workflow-1.png" width="400" >
+</div>
+
+
+**Action 3**: A Personal Health Intermediary platform POSTs an Average SMBP observation.
+**Action 4**: An EHR or Patient Portal queries for SMBP related observations. 
+
+<div style="text-align: center;">
+<img src="technical-workflow-2.png" width="400" >
+</div>
+
+
 
 ### Additional Literature 
 
