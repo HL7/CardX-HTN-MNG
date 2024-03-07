@@ -12,19 +12,22 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * category = ObsCat#vital-signs
 * code ^short = "Average blood pressure"
 * code = LNC#96607-7
-* subject 1..1
+* subject 1..1 MS
+* subject only Reference(Patient)
 * effective[x] only Period
-* effectivePeriod 1..1
+* effectivePeriod 1..1 MS
 * effectivePeriod ^short = "The time range in which measurements were taken to calculate the average."
 * effectivePeriod.start 1..1
 * effectivePeriod.end 1..1
+* performer 1..1 MS
+* performer only Reference(Patient)
 * value[x] 0..0
 * dataAbsentReason MS
 * derivedFrom MS
 * derivedFrom only Reference(SelfMeasuredBloodPressure)
 * component MS
 * component ^slicing.discriminator.type = #value
-* component ^slicing.discriminator.path = "code.coding.code"
+* component ^slicing.discriminator.path = "code"
 //* component ^slicing.discriminator.path = "code.coding.system"
 * component ^slicing.ordered = false
 * component ^slicing.rules = #open
@@ -35,7 +38,7 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * component[SystolicBP] ^short = "Systolic blood pressure mean"
 * component[SystolicBP].code MS
 * component[SystolicBP].code ^short = "Systolic blood pressure mean"
-* component[SystolicBP].code.coding.code = LNC#96608-5
+* component[SystolicBP].code = LNC#96608-5
 * component[SystolicBP].value[x] only Quantity
 * component[SystolicBP].valueQuantity MS
 * component[SystolicBP].valueQuantity.value 1..1 MS
@@ -49,7 +52,7 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * component[DiastolicBP] ^short = "Diastolic blood pressure mean"
 * component[DiastolicBP].code MS
 * component[DiastolicBP].code ^short = "Diastolic blood pressure mean"
-* component[DiastolicBP].code.coding.code = LNC#96609-3
+* component[DiastolicBP].code = LNC#96609-3
 * component[DiastolicBP].value[x] only Quantity
 * component[DiastolicBP].valueQuantity MS
 * component[DiastolicBP].valueQuantity.value 1..1 MS

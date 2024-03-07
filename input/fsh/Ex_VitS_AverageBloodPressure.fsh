@@ -21,10 +21,10 @@ Description: "An example of an average blood pressure derived from SMBP measurem
 * derivedFrom[5] = Reference(SMBP-SecondAM-Measurement-Day2)
 * derivedFrom[6] = Reference(SMBP-FirstPM-Measurement-Day2)
 * derivedFrom[7] = Reference(SMBP-SecondPM-Measurement-Day2)
-* component[+].code = LNC#96608-5 "Systolic blood pressure mean"
-* component[=].valueQuantity = 136 'mm[Hg]' "mm[Hg]"
-* component[+].code = LNC#96609-3 "Diastolic blood pressure mean"
-* component[=].valueQuantity = 86 'mm[Hg]' "mm[Hg]"
+* component[SystolicBP].code = LNC#96608-5 "Systolic blood pressure mean"
+* component[SystolicBP].valueQuantity = 136 'mm[Hg]' "mm[Hg]"
+* component[DiastolicBP].code = LNC#96609-3 "Diastolic blood pressure mean"
+* component[DiastolicBP].valueQuantity = 86 'mm[Hg]' "mm[Hg]"
 
 Instance: AverageSMBP-Protocol-example
 InstanceOf: AverageSMBP
@@ -70,11 +70,7 @@ Description: "An example of an average blood pressure derived from measurements 
 * derivedFrom[25] = Reference(SMBP-SecondAM-Measurement-Day7)
 * derivedFrom[26] = Reference(SMBP-FirstPM-Measurement-Day7)
 * derivedFrom[27] = Reference(SMBP-SecondPM-Measurement-Day7)
-* component[SystolicBP].code.coding.system = "http://loinc.org"
-* component[SystolicBP].code.coding.code = LNC#96608-5 
-* component[SystolicBP].code.coding.display = "Systolic blood pressure mean"
+* component[SystolicBP].code = LNC#96608-5
 * component[SystolicBP].valueQuantity = 134 'mm[Hg]' "mm[Hg]"
-* component[DiastolicBP].code.coding.system = "http://loinc.org"
-* component[DiastolicBP].code.coding.code = LNC#96609-3 
-* component[DiastolicBP].code.coding.display = "Diastolic blood pressure mean"
+* component[DiastolicBP].code = LNC#96609-3
 * component[DiastolicBP].valueQuantity = 84 'mm[Hg]' "mm[Hg]"
