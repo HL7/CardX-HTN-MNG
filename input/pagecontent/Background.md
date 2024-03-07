@@ -18,6 +18,8 @@ For the next seven days, Sarah took her blood pressure at home twice in the morn
 <img src="smbp-clinical-workflow.png" width="1000" >
 </div>
 
+### SMBP Technical Worklow 
+
 ### Additional Literature 
 
 - **ACCF/AHA 2011 key data elements and definitions of a base cardiovascular vocabulary for electronic health records**: a report of the American College of Cardiology Foundation/American Heart Association Task Force on Clinical Data Standards
