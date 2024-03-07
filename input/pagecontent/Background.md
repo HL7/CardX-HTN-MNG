@@ -19,7 +19,7 @@ For the next seven days, Sarah took her blood pressure at home twice in the morn
 </div>
 
 ### SMBP Technical Worklow 
-<div style="text-align: center;">
+<div style="text-align: left;">
 <img src="scenarios-overview.png" width="800" >
 </div>
 
@@ -27,7 +27,7 @@ For the next seven days, Sarah took her blood pressure at home twice in the morn
 
 **Action 2**: A Personal Health Intermediary Platform queries for SMBP related observations and calculates an Average SMBP. value 
 
-<div style="text-align: center;">
+<div style="text-align: left;">
 <img src="technical-workflow-1.png" width="800" >
 </div>
 
@@ -36,7 +36,7 @@ For the next seven days, Sarah took her blood pressure at home twice in the morn
 
 **Action 4**: An EHR or Patient Portal queries for SMBP related observations. 
 
-<div style="text-align: center;">
+<div style="text-align: left;">
 <img src="technical-workflow-2.png" width="800" >
 </div>
 
