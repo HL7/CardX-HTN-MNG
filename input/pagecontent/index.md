@@ -82,7 +82,7 @@ The Personal Health Intermediary calculates an average blood pressure reading ba
 | -------------------- | ------- | ---------- |
 | [FHIR Release 4](http://hl7.org/fhir/R4/bp.html)| 4.0.1  | The CardX Self-measured Blood Pressure profile is derived from the FHIR R4 [Observation Blood Pressure](https://hl7.org/fhir/R4/bp.html) profile. |
 | [FHIR Release 4](http://hl7.org/fhir/R4/bp.html)| 4.0.1  | The CardX Average Self-measured blood pressure profile is derived from the FHIR R4 [Observation Vital Sign](https://hl7.org/fhir/R4/observation-vitalsigns.html)    |
-| [FHIR Release 4](http://hl7.org/fhir/R4/bp.html)| 4.0.1  | The CardX SMBP Associated Heart Rate profile depends on the FHIR R4 [Observation Heart Rate](https://hl7.org/fhir/R4/heartrate.html)    |
+| [FHIR Release 4](http://hl7.org/fhir/R4/bp.html)| 4.0.1  | The CardX SMBP Associated Heart Rate profile is derived from on the FHIR R4 [Observation Heart Rate](https://hl7.org/fhir/R4/heartrate.html)    |
 {:.grid}
 
 ### Relationships to Other IGs
