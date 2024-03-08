@@ -29,10 +29,9 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * component MS
 * component.code MS
 * component.value[x] MS
-* component.dataAbsentReason obeys vs-3
+//* component.dataAbsentReason obeys Invariant-1
 * component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code"
-//* component ^slicing.discriminator.path = "code.coding.system"
 * component ^slicing.ordered = false
 * component ^slicing.rules = #open
 * component ^short = "Blood pressure components"
@@ -70,7 +69,7 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * component[DiastolicBP].valueQuantity.code only code
 * component[DiastolicBP].valueQuantity.code = UCUM#mm[Hg] (exactly)
 
-Invariant: vs-3
+Invariant: Invariant-1
 Description: "If there is no value a data absent reason must be present"
 Severity: #error
-Expression: "value.exists() or dataAbsentReasoni.exists()"
+Expression: ": value.exists() or dataAbsentReason.exists()"

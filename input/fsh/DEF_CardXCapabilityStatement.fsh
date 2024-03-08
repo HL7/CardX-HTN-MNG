@@ -2,7 +2,7 @@ Instance: CardXCapabilityStatementServer
 InstanceOf: CapabilityStatement
 Title: "HTN-Mng-CardX Server Capability Statement"
 Usage: #definition
-* name = "CardX HTN Server Capability Statement"
+* name = "CardXHTNServerCapabilityStatement"
 * description = "The capabilities that a CardX Hypertension Managment server system should/shall support."
 * status = #draft
 * date = "2023-12-05"
@@ -115,7 +115,7 @@ Instance: CardXCapabilityStatementClient
 InstanceOf: CapabilityStatement
 Title: "HTN-Mng-CardX Client Capability Statement"
 Usage: #definition
-* name = "CardX Client Capability Statement"
+* name = "CardXClientCapabilityStatement"
 * description = "The capabilities that a CardX Hypertension Management client should/shall support."
 * status = #draft
 * date = "2023-12-05"
