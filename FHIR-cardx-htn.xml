@@ -7,7 +7,8 @@
 <artifact id="StructureDefinition/average-smbp" key="StructureDefinition-average-smbp" name="Average Self-measured Blood Pressure"/>
 <artifact id="Observation/AverageSMBP-Protocol-example" key="Observation-AverageSMBP-Protocol-example" name="AverageSMBP-Protocol-example"/>
 <artifact id="Observation/AverageSMBP-example" key="Observation-AverageSMBP-example" name="AverageSMBP-example"/>
-<artifact id="CapabilityStatement/CardXCapabilityStatement" key="CapabilityStatement-CardXCapabilityStatement" name="HTN-Mng-CardX Capability Statement"/>
+<artifact id="CapabilityStatement/CardXCapabilityStatementClient" key="CapabilityStatement-CardXCapabilityStatementClient" name="HTN-Mng-CardX Client Capability Statement"/>
+<artifact id="CapabilityStatement/CardXCapabilityStatementServer" key="CapabilityStatement-CardXCapabilityStatementServer" name="HTN-Mng-CardX Server Capability Statement"/>
 <artifact id="StructureDefinition/NumberOfMeasurementsExt" key="StructureDefinition-NumberOfMeasurementsExt" name="Number of Measurements"/>
 <artifact id="ValueSet/NumericResultIntVS" key="ValueSet-NumericResultIntVS" name="Numeric Result Interpretation value set"/>
 <artifact id="StructureDefinition/smbp-associated-heart-rate" key="StructureDefinition-smbp-associated-heart-rate" name="SMBP Associated Heart Rate"/>

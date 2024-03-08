@@ -19,6 +19,7 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * effectivePeriod ^short = "The time range in which measurements were taken to calculate the average."
 * effectivePeriod.start 1..1
 * effectivePeriod.end 1..1
+* issued 1..1 MS
 * performer 1..1 MS
 * performer only Reference(Patient)
 * value[x] 0..0
@@ -26,6 +27,9 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * derivedFrom MS
 * derivedFrom only Reference(SelfMeasuredBloodPressure)
 * component MS
+* component.code MS
+* component.value[x] MS
+* component.dataAbsentReason obeys vs-3
 * component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code"
 //* component ^slicing.discriminator.path = "code.coding.system"
@@ -35,6 +39,7 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * component contains
     SystolicBP 1..1 and
     DiastolicBP 1..1
+* component[SystolicBP] MS
 * component[SystolicBP] ^short = "Systolic blood pressure mean"
 * component[SystolicBP].code MS
 * component[SystolicBP].code ^short = "Systolic blood pressure mean"
@@ -49,6 +54,7 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * component[SystolicBP].valueQuantity.code 1..1 MS
 * component[SystolicBP].valueQuantity.code only code
 * component[SystolicBP].valueQuantity.code = #mm[Hg] (exactly)
+* component[DiastolicBP] MS
 * component[DiastolicBP] ^short = "Diastolic blood pressure mean"
 * component[DiastolicBP].code MS
 * component[DiastolicBP].code ^short = "Diastolic blood pressure mean"
@@ -63,3 +69,8 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * component[DiastolicBP].valueQuantity.code 1..1 MS
 * component[DiastolicBP].valueQuantity.code only code
 * component[DiastolicBP].valueQuantity.code = UCUM#mm[Hg] (exactly)
+
+Invariant: vs-3
+Description: "If there is no value a data absent reason must be present"
+Severity: #error
+Expression: "value.exists() or dataAbsentReasoni.exists()"

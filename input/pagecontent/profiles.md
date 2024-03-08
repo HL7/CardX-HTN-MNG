@@ -26,7 +26,7 @@ The following Profiles and have been defined for this implementation guide.
           </tr>
           <tr>
             <td><a href="StructureDefinition-smbp-associated-heart-rate.html">SMBP-associated Heart Rate</a></td>
-            <td>A heart rate measurement taken and reported by the same device as a self-measured blood pressure.</td>
+            <td>A heart rate measured by the same device and at the same time as the self-measured blood pressure.</td>
           </tr>
         </tbody>
     </table>

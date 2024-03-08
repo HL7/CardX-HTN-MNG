@@ -7,5 +7,5 @@ Description: "A blood pressure taken by the subject or a related person, done in
 * status from SMBPStatusVS (required)
 * effective[x] only dateTime
 * issued 1..1 MS
-* performer 1..1
+* performer 1..1 MS
 * performer only Reference(Patient)

@@ -77,7 +77,9 @@ menu:
     CardX Background: cardx-background.html
     Credits: Credits.html
   Profiles: profiles.html
-  Capability Statement: CapabilityStatement-CardXCapabilityStatement.html
+  Capability Statement: 
+    Server Capability Statement: CapabilityStatement-CardXCapabilityStatementServer.html
+    Client Capability Statement: CapabilityStatement-CardXCapabilityStatementClient.html
   Examples: 
     IG Profile Examples: IG-examples.html
     SMBP Protocol Examples: SMBP-Protocol-Examples.html

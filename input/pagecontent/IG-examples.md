@@ -14,5 +14,5 @@ This is an exmaple of an average self-measured blood pressure that does follow a
 
 ### SMBP Related Heart Rate
 
-This is an example of a heart rate that would be measured by the same device as the self-measured blood pressure.
+This is an example of a heart rate that would be measured by the same device and at the same time as the self-measured blood pressure.
 [SMBP Associated Heart Rate](Observation-SMBP-Associated-HeartRate-example.html)

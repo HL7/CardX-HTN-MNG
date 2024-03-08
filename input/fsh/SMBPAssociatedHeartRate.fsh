@@ -2,7 +2,7 @@ Profile: SMBPAssociatedHeartRate
 Parent: CoreHRProfile
 Id: smbp-associated-heart-rate
 Title: "SMBP Associated Heart Rate"
-Description: "The number of heart beats in a minute."
+Description: "A heart rate measured by the same device and at the same time as the self-measured blood pressure."
 * status MS
 * code.coding 1..*
 * subject 1..1 MS
