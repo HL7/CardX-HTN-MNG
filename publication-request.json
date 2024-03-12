@@ -1,6 +1,6 @@
 {
     "package-id":"hl7.fhir.uv.cardx-htn",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "path": "http://hl7.org/fhir/uv/cardx-htn/2024May-ballot",
     "status": "ballot",
     "sequence": "STU1",
