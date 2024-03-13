@@ -13,18 +13,18 @@ Sarah was fitted with a properly sized cuff and provided a validated blood press
 For the next seven days, Sarah took her blood pressure at home twice in the morning and twice in the evening as instructed. Sarah ensured her phone and the SMBP device were connected via Bluetooth and verified her data were being sent to the app Angela had set up for her. The app on Sarah’s phone was connected to the Personal Health Intermediary which, on a pre-set cadence (for example every seven days from the point of enrollment), sends average blood pressure readings to Sarah’s chart.  Angela monitored the EHR, viewed the average blood pressure readings, and notified Dr. Nolan that Sarah’s readings were available for review. Dr. Nolan reviewed Sarah’s SMBP average and let her know the new medication was working; she should continue taking it as prescribed and continue making the lifestyle modifications they discussed.  He also asked her to continue taking her blood pressure at home and scheduled a follow-up telehealth visit with Sarah within four weeks.  He instructed Sarah to reach out to Angela if she has any questions or concerns or use the patient portal to send Dr. Nolan a message. 
 
 ### SMBP Clinical Workflow 
+The following diagram developed by the [CDC Million Hearts](https://millionhearts.hhs.gov/about-million-hearts/index.html), provides an overview of the typical clinical workflow for a patient enrolled in an SMBP program. The processes in this diagram can be useful when understanding how and when clinical information is exchanged from the patient to the clinician. The [Technical Scenarios](https://build.fhir.org/ig/HL7/CardX-HTN-MNG/Technical-Scenarios.html) page provides an in-depth description of how the profiles defined in the IG support this workflow. 
 
 <div style="text-align: center;">
-<img src="SMBP-Clinical-Workflow2.png" width="800" >
+<img src="SMBP-Clinical-Workflow2.png" width="1000" >
 </div>
-
 
 
 ### Additional Literature 
 
-- **ACCF/AHA 2011 key data elements and definitions of a base cardiovascular vocabulary for electronic health records**: a report of the American College of Cardiology Foundation/American Heart Association Task Force on Clinical Data Standards
+- [**ACCF/AHA 2011 key data elements and definitions of a base cardiovascular vocabulary for electronic health records**](https://pubmed.ncbi.nlm.nih.gov/21646493/): a report of the American College of Cardiology Foundation/American Heart Association Task Force on Clinical Data Standards
 
-- **ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults**: Executive Summary: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines
+- [**ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults**](https://www.ahajournals.org/doi/10.1161/HYP.0000000000000065): Executive Summary: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines
 
 ### Sources
 Thomas SJ, Booth JN 3rd, Dai C, Li X, Allen N, Calhoun D, Carson AP, Gidding S, Lewis CE, Shikany JM, Shimbo D, Sidney S, Muntner P. Cumulative Incidence of Hypertension by 55 Years of Age in Blacks and Whites: The CARDIA Study. J Am Heart Assoc. 2018 Jul 11;7(14):e007988.
