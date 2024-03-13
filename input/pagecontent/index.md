@@ -90,8 +90,8 @@ The Personal Health Intermediary calculates an average blood pressure reading ba
 | Implementation Guide |  Relationship  |
 | -------------------- |  ---------- |
 | [US Core](https://hl7.org/fhir/us/core/STU3.1.1/) |  Where possible, all profiles in this IG align with US Core 3.1.1 or aligned with that release and future releases as much as possible.  U.S. Core also sets expectations for a variety of referenced resources and establishes baseline conformance expectations.  |
-| [Vital Signs with Qualifying Elements](https://build.fhir.org/ig/HL7/cimi-vital-signs/) | All profiles in this IG align with the profiles in the Vital Signs with Qualifying Elements IG (Universal Realm) |
-| [FHIR Write](https://hackmd.io/@argonaut/SkGWnfQdn) | Specifies FHIR write back capabilities for Vital Signs Observations including Blood Pressure |
+| [Vital Signs with Qualifying Elements](https://build.fhir.org/ig/HL7/cimi-vital-signs/) | All profiles in this IG align with the profiles in the Vital Signs with Qualifying Elements IG (Universal Realm). |
+| [FHIR Write](https://hackmd.io/@argonaut/SkGWnfQdn) | Specifies FHIR write back capabilities for Vital Signs Observations including Blood Pressure. |
 {:.grid}
 
 The [Personal Health Device IG](https://build.fhir.org/ig/HL7/phd/) and the [mHealthADE](https://hl7.github.io/fhir-project-mhealth/overview.html) were also considered in an initial landscape analysis of existing standards, however,  these IGs are out of scope for this IG at this time.  
@@ -100,14 +100,14 @@ The [Personal Health Device IG](https://build.fhir.org/ig/HL7/phd/) and the [mHe
 
 | Initiative |  Description  |
 | -------------------- |  ---------- |
-| [CDC Million Hearts 2027 Optimizing Care Initiative](https://millionhearts.hhs.gov/about-million-hearts/optimizing-care/smbp.html) |  Million Hearts® is a national initiative to prevent 1 million heart attacks and strokes within 5 years. It focuses on implementing a small set of evidence-based priorities and targets that can improve cardiovascular health for all. The initiative includes improving blood pressure control through evidence-based strategies like [(self-measured blood pressure monitoring (SMBP)](https://millionhearts.hhs.gov/tools-protocols/tools/smbp.html) |
+| [CDC Million Hearts 2027 Optimizing Care Initiative](https://millionhearts.hhs.gov/about-million-hearts/optimizing-care/smbp.html) |  Million Hearts® is a national initiative to prevent 1 million heart attacks and strokes within 5 years. It focuses on implementing a small set of evidence-based priorities and targets that can improve cardiovascular health for all. The initiative includes improving blood pressure control through evidence-based strategies like [(self-measured blood pressure monitoring (SMBP)](https://millionhearts.hhs.gov/tools-protocols/tools/smbp.html). |
 | [AHA's National Hypertension Council Initiative (NCHI)](https://nhci.heart.org/)  | Through the NHCI, the American Heart Association raises awareness of high blood pressure and promotes prevention of it through overlapping community approaches. |
 | [Target: BP](https://targetbp.org/) | A national initiative formed by the American Heart Association (AHA) and the American Medical Association (AMA) in response to the high prevalence of uncontrolled blood pressure (BP). |
 {:.grid}
 
 ### Learn More
 
-To learn more about CardX and the Hypertension Use Case visit:
+To learn more about CardX and the Hypertension Management Use Case visit:
 
 - [CardX Domain Confluence Pages](https://confluence.hl7.org/display/COD/CardX+-+Hypertension+Management)
 
