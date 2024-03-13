@@ -5,20 +5,20 @@ The following diagrams describe how to implement the SMBP profiles defined in th
 <img src="scenarios-overview.png" width="800" >
 </div>
 
-**Action 1**: A Device Gateway POSTS an SMBP observation to a Personal Health Intermediary Platform.
-
-**Action 2**: A Personal Health Intermediary Platform queries for SMBP related observations and calculates an Average SMBP value 
+### SMBP Technical Exchanges 
 
 <div style="text-align: left;">
 <img src="technical-workflow-1.png" width="800" >
 </div>
 
+**Action 1**: A Device Gateway POSTS an SMBP observation to a Personal Health Intermediary Platform.
 
-**Action 3**: A Personal Health Intermediary platform POSTs an Average SMBP observation.
-
-**Action 4**: An EHR or Patient Portal queries for SMBP related observations. 
+**Action 2**: A Personal Health Intermediary Platform queries for SMBP related observations and calculates an Average SMBP value 
 
 <div style="text-align: left;">
 <img src="technical-workflow-2.png" width="800" >
 </div>
 
+**Action 3**: A Personal Health Intermediary platform POSTs an Average SMBP observation.
+
+**Action 4**: An EHR or Patient Portal queries for SMBP related observations. 
