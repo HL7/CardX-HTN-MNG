@@ -15,7 +15,7 @@ For the next seven days, Sarah took her blood pressure at home twice in the morn
 ### SMBP Clinical Workflow 
 
 <div style="text-align: center;">
-<img src="smbp-clinical-workflow.png" width="800" >
+<img src="SMBP-Clinical-Workflow2.png" width="800" >
 </div>
 
 
