@@ -59,5 +59,6 @@
 <page key="profiles" name="Profiles"/>
 <page key="SMBP-Protocol-Examples" name="SMBP Protocol Examples"/>
 <page key="toc" name="Table of Contents"/>
+<page key="Technical-Scenarios" name="Technical Scenarios"/>
 <page key="use-cases" name="Use Cases"/>
 </specification>
