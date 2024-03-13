@@ -12,32 +12,10 @@ Sarah was fitted with a properly sized cuff and provided a validated blood press
 
 For the next seven days, Sarah took her blood pressure at home twice in the morning and twice in the evening as instructed. Sarah ensured her phone and the SMBP device were connected via Bluetooth and verified her data were being sent to the app Angela had set up for her. The app on Sarah’s phone was connected to the Personal Health Intermediary which, on a pre-set cadence (for example every seven days from the point of enrollment), sends average blood pressure readings to Sarah’s chart.  Angela monitored the EHR, viewed the average blood pressure readings, and notified Dr. Nolan that Sarah’s readings were available for review. Dr. Nolan reviewed Sarah’s SMBP average and let her know the new medication was working; she should continue taking it as prescribed and continue making the lifestyle modifications they discussed.  He also asked her to continue taking her blood pressure at home and scheduled a follow-up telehealth visit with Sarah within four weeks.  He instructed Sarah to reach out to Angela if she has any questions or concerns or use the patient portal to send Dr. Nolan a message. 
 
-### SMBP Clinical Worklow 
+### SMBP Clinical Workflow 
 
 <div style="text-align: center;">
 <img src="smbp-clinical-workflow.png" width="800" >
-</div>
-
-### SMBP Technical Worklow 
-<div style="text-align: left;">
-<img src="scenarios-overview.png" width="800" >
-</div>
-
-**Action 1**: A Device Gateway POSTS an SMBP observation to a Personal Health Intermediary Platform.
-
-**Action 2**: A Personal Health Intermediary Platform queries for SMBP related observations and calculates an Average SMBP. value 
-
-<div style="text-align: left;">
-<img src="technical-workflow-1.png" width="800" >
-</div>
-
-
-**Action 3**: A Personal Health Intermediary platform POSTs an Average SMBP observation.
-
-**Action 4**: An EHR or Patient Portal queries for SMBP related observations. 
-
-<div style="text-align: left;">
-<img src="technical-workflow-2.png" width="800" >
 </div>
 
 
