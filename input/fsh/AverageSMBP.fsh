@@ -3,7 +3,7 @@ Parent: Observation
 Id: average-smbp
 Title: "Average Self-measured Blood Pressure"
 Description: "A calculated average of two or more blood pressure readings in a specified time period or according to a specified algorithm or protocol.  The average blood pressure has systolic and diastolic components."
-* obeys obs-7 and vs-2
+* obeys vs-2
 * extension contains
     NumberOfMeasurements named NumberOfMeasurements 1..1 MS
 * extension[NumberOfMeasurements] ^short = "Number of Measurements"
@@ -29,9 +29,9 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * derivedFrom MS
 * derivedFrom only Reference(SelfMeasuredBloodPressure)
 * component MS
+* component obeys vs-3
 * component.code MS
 * component.value[x] MS
-* component.dataAbsentReason obeys vs-3
 * component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code"
 * component ^slicing.ordered = false
@@ -75,11 +75,6 @@ Invariant: vs-2
 Description: "If there is no component or hasMember element then either a value[x] or a data absent reason must be present."
 Severity: #error
 Expression: "(component.empty() and hasMember.empty()) implies (dataAbsentReason.exists() or value.exists())"
-
-Invariant: obs-7
-Description: "If Observation.code is the same as an Observation.component.code then the value element associated with the code SHALL NOT be present."
-Severity: #error
-Expression: "value.empty() or component.code.where(coding.intersect(%resource.code.coding).exists()).empty()"
 
 Invariant: vs-3
 Description: "If there is no a value a data absent reason must be present"
