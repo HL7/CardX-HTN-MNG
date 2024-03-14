@@ -7,10 +7,8 @@ The development of this IG was sponsored by the [CodeX™ FHIR Accelerator](http
 Many organizations have been involved in the development of the Hypertension Management Use Case and FHIR profiles that are defined in this IG. More information on contributors and [our community](https://confluence.hl7.org/display/COD/CardX+-+Hypertension+Management) is available, as well as [membership](https://confluence.hl7.org/display/COD/CodeX+Membership) in the CodeX FHIR Accelerator.
 
 Special thanks to the CardX Hypertension Management Use Case Champions: 
-- University of Nebraska Medical Center (UNMC) Center for Intelligent Health Care (CIHC) and, 
-- CDC Million Hearts. 
-
-Special thanks to the CardX Champions: University of Nebraska Medical Center (UNMC) and CDC Million Hearts 
+- University of Nebraska Medical Center (UNMC) Center for Intelligent Health Care (CIHC)  
+- CDC Million Hearts
 
 The published content of this guide was developed using [FHIR Shorthand syntax](http://hl7.org/fhir/uv/shorthand/) and the [SUSHI toolkit](https://fshschool.org/docs/sushi/), a free, open source toolchain from [MITRE](https://www.mitre.org).
 
