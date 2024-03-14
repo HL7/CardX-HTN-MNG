@@ -16,7 +16,7 @@ A primary care provider enrolls a patient in a self-measured blood pressure moni
 </div>
 
 
-#### SMBP Technical Exchange 2
+### SMBP Technical Exchange 2
 The Personal Health Intermediary calculates an average blood pressure reading based on the SMBP protocol timeframe. The patient’s average blood pressure and the individual blood pressures that comprise the average are pushed, via a FHIR API to an EHR’s FHIR-enabled patient portal. The EHR performs a GET request to retrieve the average blood pressure and associated observations. Once the information has been retrieved, the EHR can store, share, reuse, and display the standardized information in their preferred view.
 
 #### Action 3: A Personal Health Intermediary platform POSTs an Average SMBP observation to the FHIR server.
