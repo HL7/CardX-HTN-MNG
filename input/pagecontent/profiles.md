@@ -3,7 +3,6 @@ title: Profiles and Extensions
 layout: default
 active: profiles
 ---
-### Profiles
 
 The following Profiles and have been defined for this implementation guide.
 
