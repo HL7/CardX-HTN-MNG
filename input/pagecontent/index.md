@@ -24,7 +24,7 @@ In the diagram below, the red arrows between Device Gateway, Personal Health Int
 3. Out of Scope - EHR to Personal Health Intermediary
 
 <div style="text-align: center;">
-    <img src="htn_relation_diagram.png" width="1000" >
+    <img src="index-workflow.png" width="1000" >
 </div>
 
 ### Intended Actors and Systems
