@@ -77,6 +77,6 @@ Severity: #error
 Expression: "(component.empty() and hasMember.empty()) implies (dataAbsentReason.exists() or value.exists())"
 
 Invariant: vs-3
-Description: "If there is no a value a data absent reason must be present"
+Description: "If there is not a value a data absent reason must be present"
 Severity: #error
 Expression: "value.exists() or dataAbsentReason.exists()"
