@@ -48,11 +48,11 @@ The intended actors include:
             </tr>
             <tr>
                 <td><img src="personal-health-device-icon.png" width="75" height="75">Personal Health Device</td>
-                <td>Personal Health Device  | Any system that allows patients and caregivers to capture and share information about their blood pressure and integrate device provided data. These may be web-based applications, mobile applications, or traditional software.  These systems will primarily act as FHIR clients.</td>
+                <td> Any device that allows patients or caregivers to capture their own health data such as their blood pressure and then integrate the device provided data with an associated app. These systems will primarily act as FHIR clients.</td>
             </tr>
             <tr>
                 <td><img src="personal-health-gateway-icon.png" width="75" height="75">Personal Health Intermediary</td>
-                <td>Personal Health Intermediary   | Any system that supports hypertension patients. These may be web-based applications, mobile applications, or device gateways. These systems act as FHIR servers to receive data from a device and act as FHIR clients capable of sending data to other systems.</td>
+                <td> Any system that allows patients to manage their health information. These may be web-based applications, mobile applications, or device gateways. These systems act as FHIR servers to receive data from a device and act as FHIR clients capable of sending data to other systems.</td>
             </tr>
             <tr>
                 <td><img src="patient-data-manager-icon.png" width="75" height="75">Device Gateway</td>
@@ -60,7 +60,7 @@ The intended actors include:
             </tr>
             <tr>
                 <td><img src="ehricon.png" width="75" height="75">Electronic Health Record System</td>
-                <td>An EHR or other system involved in reviewing patient hypertension related data, that may receive SMBP observations from other systems, and that will coordinate all management activities for hypertension patients. These systems could also represent Patient Portals.</td>
+                <td>An Electronic Health Record system involved in reviewing patient hypertension related data, that may receive SMBP observations from other systems, and that will coordinate all management activities for hypertension patients. These systems could also represent Patient Portals.</td>
             </tr>
         </tbody>
     </table>
@@ -94,7 +94,7 @@ The Personal Health Intermediary calculates an average blood pressure reading ba
 | [FHIR Write](https://hackmd.io/@argonaut/SkGWnfQdn) | Specifies FHIR write back capabilities for Vital Signs Observations including Blood Pressure. |
 {:.grid}
 
-The [Personal Health Device IG](https://build.fhir.org/ig/HL7/phd/) and the [mHealthADE](https://hl7.github.io/fhir-project-mhealth/overview.html) were also considered in an initial landscape analysis of existing standards, however,  these IGs are out of scope for this IG at this time.  
+The [Personal Health Device IG](https://build.fhir.org/ig/HL7/phd/) and the [mHealthADE](https://hl7.github.io/fhir-project-mhealth/overview.html) were also considered in an initial landscape analysis. These IGs are out of scope for this IG at this time.  
 
 ### Additional External Drivers
 
@@ -109,7 +109,7 @@ The [Personal Health Device IG](https://build.fhir.org/ig/HL7/phd/) and the [mHe
 
 To learn more about CardX and the Hypertension Management Use Case visit:
 
-- [CardX Domain Confluence Pages](https://confluence.hl7.org/display/COD/CardX+-+Hypertension+Management)
+- [CardX Domain Confluence Pages](https://confluence.hl7.org/display/COD/Cardiovascular))
 
 - [Hypertension Management Confluence Pages](https://confluence.hl7.org/display/COD/CardX+-+Hypertension+Management)
 
