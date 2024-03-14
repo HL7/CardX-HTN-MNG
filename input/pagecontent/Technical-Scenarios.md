@@ -1,4 +1,4 @@
-The following diagrams describe how to implement the SMBP profiles defined in this IG within the context of an SMBP monitoring program. The diagram assumes a patient is enrolled in an SMBP program, the patient uses a validated device, and the observations are taken at home by the patient. The technical exchange defined in this IG begins with the Device Gateway or Personal Health Intermediary platform where the blood pressure readings are stored. 
+The following diagrams describe how to implement the SMBP profiles defined in this IG within the context of an SMBP monitoring program. The diagrams assume a patient is enrolled in an SMBP program, the patient uses a validated device, and the observations are taken at home by the patient. 
 
 ### SMBP Technical Exchanges 
 
