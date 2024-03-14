@@ -4,7 +4,7 @@ We recognize the HL7 guidance from the [Clinical Interoperability Council](https
 
 The development of this IG was sponsored by the [CodeX™ FHIR Accelerator](https://confluence.hl7.org/display/COD/CodeX+Home), a member-driven community working together to enable FHIR-based interoperability that drives substantial improvements around the most important challenges and opportunities in patient health.
 
-Many organizations have been involved in the modeling and defining of the Hypertension Management FHIR Profiles that are defined in the IG: 
+Many organizations have been involved in the development of the Hypertension Management FHIR Profiles that are defined in this IG: 
 - American College of Cardiology 
 - American Heart Association
 - American Medical Association 
@@ -26,7 +26,7 @@ Many organizations have been involved in the modeling and defining of the Hypert
 
 Special thanks to the CardX Champions: University of Nebraska Medical Center (UNMC) and CDC Million Hearts 
 
-The published content of this guide was developed using [FHIR Shorthand syntax](http://hl7.org/fhir/uv/shorthand/) and the [SUSHI toolkit](https://fshschool.org/docs/sushi/), a free, open source toolchain from the [MITRE](https://www.mitre.org).
+The published content of this guide was developed using [FHIR Shorthand syntax](http://hl7.org/fhir/uv/shorthand/) and the [SUSHI toolkit](https://fshschool.org/docs/sushi/), a free, open source toolchain from [MITRE](https://www.mitre.org).
 
 
 ### Contact Information
