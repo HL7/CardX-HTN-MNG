@@ -1,28 +1,14 @@
 ### Acknowledgements
 
-We recognize the HL7 guidance from the [Clinical Interoperability Council](https://www.hl7.org/Special/committees/cic/index.cfm) and [Mobile Health](https://www.hl7.org/Special/committees/mobile/index.cfm) Work Groups.
+We recognize the guidance from the HL7 [Clinical Interoperability Council](https://www.hl7.org/Special/committees/cic/index.cfm) and [Mobile Health](https://www.hl7.org/Special/committees/mobile/index.cfm) Work Groups.
 
 The development of this IG was sponsored by the [CodeX™ FHIR Accelerator](https://confluence.hl7.org/display/COD/CodeX+Home), a member-driven community working together to enable FHIR-based interoperability that drives substantial improvements around the most important challenges and opportunities in patient health.
 
-Many organizations have been involved in the development of the Hypertension Management FHIR Profiles that are defined in this IG: 
-- American College of Cardiology 
-- American Heart Association
-- American Medical Association 
-- AvoMD
-- Centers for Disease Control and Prevention (CDC)
-- cdisc 
-- Epic
-- Evernorth
-- Food and Drug Administration (FDA)
-- Graphite Health 
-- Guideline Central 
-- Medtronic 
-- MITRE
-- mmHg
-- Oracle
-- Pfizer
-- Story Health 
-- University of Nebraska Medical Center 
+Many organizations have been involved in the development of the Hypertension Management Use Case and FHIR profiles that are defined in this IG. More information on contributors and [our community](https://confluence.hl7.org/display/COD/CardX+-+Hypertension+Management) is available, as well as [membership](https://confluence.hl7.org/display/COD/CodeX+Membership) in the CodeX FHIR Accelerator.
+
+Special thanks to the CardX Hypertension Management Use Case Champions: 
+- University of Nebraska Medical Center (UNMC) Center for Intelligent Health Care (CIHC) and, 
+- CDC Million Hearts. 
 
 Special thanks to the CardX Champions: University of Nebraska Medical Center (UNMC) and CDC Million Hearts 
 
