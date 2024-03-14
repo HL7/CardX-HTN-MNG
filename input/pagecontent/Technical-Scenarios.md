@@ -5,17 +5,17 @@ The following diagrams describe how to implement the SMBP profiles defined in th
 #### Exchange 1
 A primary care provider enrolls a patient in a self-measured blood pressure monitoring program to manage the patient’s hypertension. The patient follows the provided instructions and takes their blood pressure as per protocol. The blood pressure data is uploaded via Bluetooth to the Device Gateway. The patient’s blood pressure information is pushed, via a FHIR API, to a receiving Personal Health Intermediary platform where the data is stored, aggregated, and managed. Once the information has been retrieved, the Personal Health Intermediary can store, share, reuse, and display the standardized information in their preferred view.
 
-<div style="text-align: left;">
+**Action 1**: A Device Gateway POSTS an SMBP observation to a Personal Health Intermediary Platform FHIR server.
+
+<div style="text-align: center;">
 <img src="action1.png" width="800" >
 </div>
 
-**Action 1**: A Device Gateway POSTS an SMBP observation to a Personal Health Intermediary Platform FHIR server.
+**Action 2**: A Personal Health Intermediary Platform queries the FHIR server for SMBP related observations and calculates an Average SMBP value. 
 
-<div style="text-align: left;">
+<div style="text-align: center;">
 <img src="action2.png" width="800" >
 </div>
-
-**Action 2**: A Personal Health Intermediary Platform queries the FHIR server for SMBP related observations and calculates an Average SMBP value 
 
 
 #### Exchange 2
