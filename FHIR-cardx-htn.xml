@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/uv/cardx-htn/2024May-ballot" ciUrl="http://build.fhir.org/ig/HL7/CardX-HTN-MNG" defaultVersion="1.0.0" defaultWorkgroup="cic" url="http://hl7.org/fhir/uv/cardx-htn">
-<version code="current" url="http://build.fhir.org/ig/HL7/CardX-HTN-MNG/index.html"/>
+<version code="current" url="http://build.fhir.org/ig/HL7/CardX-HTN-MNG"/>
 <version code="1.0.0" url="http://hl7.org/fhir/uv/cardx-htn/2024May-ballot"/>
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
@@ -53,7 +53,6 @@
 <page key="artifacts" name="Artifacts Summary"/>
 <page key="Background" name="Background"/>
 <page key="CardX-Background" name="Card X Background"/>
-<page key="cardx-background-old" name="Cardx Background Old"/>
 <page key="Credits" name="Credits"/>
 <page key="index" name="Home"/>
 <page key="IG-examples" name="IG Examples"/>
