@@ -14,7 +14,7 @@
             {
             "version": "1.0.0",
             "desc": "STU1 Ballot",
-            "path": "http://hl7.org/fhir/uv/CardX-HTN-MNG/2024May",
+            "path": "http://hl7.org/fhir/uv/CardX-HTN-MNG/1.0.0-ballot",
             "status": "ballot",
             "sequence": "STU1"
             }
