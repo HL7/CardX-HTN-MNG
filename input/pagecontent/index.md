@@ -109,7 +109,7 @@ The [Personal Health Device IG](https://build.fhir.org/ig/HL7/phd/) and the [mHe
 
 To learn more about CardX and the Hypertension Management Use Case visit:
 
-- [CardX Domain Confluence Pages](https://confluence.hl7.org/display/COD/Cardiovascular))
+- [CardX Domain Confluence Pages](https://confluence.hl7.org/display/COD/Cardiovascular)
 
 - [Hypertension Management Confluence Pages](https://confluence.hl7.org/display/COD/CardX+-+Hypertension+Management)
 

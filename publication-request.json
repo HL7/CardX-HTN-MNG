@@ -1,6 +1,6 @@
 {
-    "package-id":"hl7.fhir.uv.cardx-htn",
-    "version": "1.0.0",
+    "package-id":"hl7.fhir.uv.CardX-HTN-MNG",
+    "version": "1.0.0-ballot",
     "path": "http://hl7.org/fhir/uv/CardX-HTN-MNG/1.0.0-ballot",
     "status": "ballot",
     "sequence": "STU1",

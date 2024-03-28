@@ -2,7 +2,7 @@ Instance: AverageSMBP-example
 InstanceOf: AverageSMBP
 Usage: #example
 Description: "An example of an average blood pressure derived from SMBP measurements."
-* extension.url = "http://hl7.org/fhir/uv/cardx-htn/StructureDefinition/NumberOfMeasurementsExt"
+* extension.url = "http://hl7.org/fhir/uv/CardX-HTN-MNG/StructureDefinition/NumberOfMeasurementsExt"
 * extension.valueInteger = 8 
 * status = #final
 * category = ObsCat#vital-signs
@@ -30,7 +30,7 @@ Instance: AverageSMBP-Protocol-example
 InstanceOf: AverageSMBP
 Usage: #example
 Description: "An example of an average blood pressure derived from measurements that follow the SMBP protocol."
-* extension.url = "http://hl7.org/fhir/uv/cardx-htn/StructureDefinition/NumberOfMeasurementsExt"
+* extension.url = "http://hl7.org/fhir/uv/CardX-HTN-MNG/StructureDefinition/NumberOfMeasurementsExt"
 * extension.valueInteger = 28 
 * status = #final
 * category = ObsCat#vital-signs

@@ -3,7 +3,7 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.uv.cardx-htn
+id: hl7.fhir.uv.CardX-HTN-MNG
 canonical: http://hl7.org/fhir/uv/CardX-HTN-MNG
 name: HTN-Mng-CardX
 title: CardX Hypertension Management  
@@ -12,14 +12,14 @@ status: draft # draft | active | retired | unknown
 extension: 
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
     valueCode: cic 
-version: 1.0.0
+version: 1.0.0-ballot
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2022+
-releaseLabel: ballot # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: STU1 ballot # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
 publisher:
-  name: Clinical Interoperability Council
+  name: HL7 International / Clinical Interoperability Council
   url: http://www.hl7.org/Special/committees/cic
   email: ciclist@lists.hl7.org
 
