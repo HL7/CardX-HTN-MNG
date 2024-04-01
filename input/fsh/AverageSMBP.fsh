@@ -32,6 +32,7 @@ Description: "A calculated average of two or more blood pressure readings in a s
 * component obeys vs-3
 * component.code MS
 * component.value[x] MS
+* component.dataAbsentReason MS
 * component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code"
 * component ^slicing.ordered = false

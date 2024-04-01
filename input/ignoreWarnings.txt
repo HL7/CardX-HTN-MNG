@@ -15,6 +15,3 @@ A definition for CodeSystem 'http://example.org' could not be found, so the code
 # Suppressing info messages.
 Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
 The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
-
-# CIC is the sponsoring working group for this GI.  However, CIC is not an allowed "owner".
-The value provided ('cic') was not found in the value set 'HL7Workgroup' (http://hl7.org/fhir/ValueSet/hl7-work-group|4.0.1), and a code is required from this value set (error message = The System URI could not be determined for the code 'cic' in the ValueSet 'http://hl7.org/fhir/ValueSet/hl7-work-group|4.0.1'; The provided code '#cic' was not found in the value set 'http://hl7.org/fhir/ValueSet/hl7-work-group|4.0.1')
