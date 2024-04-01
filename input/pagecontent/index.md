@@ -82,14 +82,14 @@ The Personal Health Intermediary calculates an average blood pressure reading ba
 | -------------------- | ------- | ---------- |
 | [FHIR Release 4](http://hl7.org/fhir/R4/bp.html)| 4.0.1  | The CardX Self-Measured Blood Pressure profile is derived from the FHIR R4 [Observation Blood Pressure](https://hl7.org/fhir/R4/bp.html) profile. |
 | [FHIR Release 4](http://hl7.org/fhir/R4/bp.html)| 4.0.1  | The CardX Average Self-Measured blood pressure profile is derived from the FHIR R4 [Observation](https://hl7.org/fhir/R4/observation.html) resource.   |
-| [FHIR Release 4](http://hl7.org/fhir/R4/bp.html)| 4.0.1  | The CardX SMBP Associated Heart Rate profile is derived from on the FHIR R4 [Observation Heart Rate](https://hl7.org/fhir/R4/heartrate.html) profile.   |
+| [FHIR Release 4](http://hl7.org/fhir/R4/bp.html)| 4.0.1  | The CardX SMBP Associated Heart Rate profile is derived from the FHIR R4 [Observation Heart Rate](https://hl7.org/fhir/R4/heartrate.html) profile.   |
 {:.grid}
 
 ### Relationships to Other IGs
 
 | Implementation Guide |  Relationship  |
 | -------------------- |  ---------- |
-| [US Core](https://hl7.org/fhir/us/core/STU3.1.1/) |  Where possible, all profiles in this IG align with US Core 3.1.1 or aligned with that release and future releases as much as possible.  U.S. Core also sets expectations for a variety of referenced resources and establishes baseline conformance expectations.  |
+| [US Core](https://hl7.org/fhir/us/core/STU3.1.1/) |  Profiles in this IG align with US Core 3.1.1 as much as possible. Where possible, effort will also be made to align with future U.S. Core releases.   U.S. Core also sets expectations for a variety of referenced resources and establishes baseline conformance expectations.  |
 | [Vital Signs with Qualifying Elements](https://build.fhir.org/ig/HL7/cimi-vital-signs/) | All profiles in this IG align with the profiles in the Vital Signs with Qualifying Elements IG (Universal Realm). |
 | [FHIR Write](https://hackmd.io/@argonaut/SkGWnfQdn) | Specifies FHIR write back capabilities for Vital Signs Observations including Blood Pressure. |
 {:.grid}
