@@ -2,7 +2,7 @@
 
 We recognize the guidance from the HL7 [Clinical Interoperability Council](https://www.hl7.org/Special/committees/cic/index.cfm) and [Mobile Health](https://www.hl7.org/Special/committees/mobile/index.cfm) Work Groups.
 
-The development of this IG was sponsored by the [CodeX™ FHIR Accelerator](https://confluence.hl7.org/display/COD/CodeX+Home), a member-driven community working together to enable FHIR-based interoperability that drives substantial improvements around the most important challenges and opportunities in patient health.
+The development of this Implementation Guide was sponsored by the [CodeX™ FHIR Accelerator](https://confluence.hl7.org/display/COD/CodeX+Home), a member-driven community working together to enable FHIR-based interoperability that drives substantial improvements around the most important challenges and opportunities in patient health.
 
 Many organizations have been involved in the development of the Hypertension Management Use Case and FHIR profiles that are defined in this IG. More information on contributors and [our community](https://confluence.hl7.org/display/COD/CardX+-+Hypertension+Management) is available, as well as [membership](https://confluence.hl7.org/display/COD/CodeX+Membership) in the CodeX FHIR Accelerator.
 
