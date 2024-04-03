@@ -12,9 +12,9 @@ Usage: #definition
 * format[1] = #json
 * insert SupportResource(Patient, #SHOULD)
 * insert SupportResource(Observation, #SHALL)
-* insert SupportProfile(http://hl7.org/fhir/uv/CardX-HTN-MNG/StructureDefinition/self-measured-bp, #SHALL)
-* insert SupportProfile(http://hl7.org/fhir/uv/CardX-HTN-MNG/StructureDefinition/average-smbp, #SHALL)
-* insert SupportProfile(http://hl7.org/fhir/uv/CardX-HTN-MNG/StructureDefinition/smbp-associated-heart-rate, #SHOULD)
+* insert SupportProfile(http://hl7.org/fhir/uv/cardx-htn-mng/StructureDefinition/self-measured-bp, #SHALL)
+* insert SupportProfile(http://hl7.org/fhir/uv/cardx-htn-mng/StructureDefinition/average-smbp, #SHALL)
+* insert SupportProfile(http://hl7.org/fhir/uv/cardx-htn-mng/StructureDefinition/smbp-associated-heart-rate, #SHOULD)
 * insert SupportInteraction(#read, #SHALL)
 * insert SupportInteraction(#search-type, #SHALL)
 * insert SupportSearchParam(identifier, http://hl7.org/fhir/SearchParameter/clinical-patient, #reference, #SHOULD)
@@ -125,9 +125,9 @@ Usage: #definition
 * format[1] = #json
 * insert SupportResource(Patient, #SHOULD)
 * insert SupportResource(Observation, #SHALL)
-* insert SupportProfile(http://hl7.org/fhir/uv/CardX-HTN-MNG/StructureDefinition/self-measured-bp, #SHALL)
-* insert SupportProfile(http://hl7.org/fhir/uv/CardX-HTN-MNG/StructureDefinition/average-smbp, #SHALL)
-* insert SupportProfile(http://hl7.org/fhir/uv/CardX-HTN-MNG/StructureDefinition/smbp-associated-heart-rate, #SHOULD)
+* insert SupportProfile(http://hl7.org/fhir/uv/cardx-htn-mng/StructureDefinition/self-measured-bp, #SHALL)
+* insert SupportProfile(http://hl7.org/fhir/uv/cardx-htn-mng/StructureDefinition/average-smbp, #SHALL)
+* insert SupportProfile(http://hl7.org/fhir/uv/cardx-htn-mng/StructureDefinition/smbp-associated-heart-rate, #SHOULD)
 
 * rest.mode = #client
 * rest.documentation =  "A CardX Hypertension Management Patient Management Client **SHALL**:\n\n1. Support the Self-measured Blood Pressure Profile. \n1. Support the Average Self-measured Blood Pressure profile.\n1. Support json and xml source formats for all CardX interactions. \n1\n A CardX Hypertension Management Server **should**:\n\n1 Support the Self-measured Blood Pressure Associated Heart Rate profile.\n1. Support searches by Observation.patient.\n1\n"

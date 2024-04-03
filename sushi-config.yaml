@@ -3,15 +3,16 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.uv.CardX-HTN-MNG
-canonical: http://hl7.org/fhir/uv/CardX-HTN-MNG
+id: hl7.fhir.uv.cardx-htn-mng
+canonical: http://hl7.org/fhir/uv/cardx-htn-mng
 name: HTN-Mng-CardX
 title: CardX Hypertension Management  
-#description: Example HTN Implementation Guide 
+# description: Example HTN Implementation Guide 
 status: draft # draft | active | retired | unknown
 extension: 
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
-    valueCode: cic 
+    valueCode: cic
+
 version: 1.0.0-ballot
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2022+
@@ -27,29 +28,8 @@ publisher:
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 
-# dependencies:
-#  hl7.fhir.us.core: 5.0.1
-#  hl7.fhir.us.vitals: current 
-
-# The pages property corresponds to IG.definition.page. SUSHI can
-# auto-generate the page list, but if the author includes pages in
-# this file, it is assumed that the author will fully manage the
-# pages section and SUSHI will not generate any page entries.
-# The page file name is used as the key. If title is not provided,
-# then the title will be generated from the file name.  If a
-# generation value is not provided, it will be inferred from the
-# file name extension.  Any subproperties that are valid filenames
-# with supported extensions (e.g., .md/.xml) will be treated as
-# sub-pages.
-
-# pages:
-#   index.md:
-#     title: Example Home
-#   implementation.xml:
-#   examples.xml:
-#     title: Examples Overview
-#     simpleExamples.xml:
-#     complexExamples.xml:
+dependencies:
+  hl7.fhir.uv.extensions: 5.1.0-cibuild
 
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
@@ -84,6 +64,7 @@ menu:
   Examples: 
     IG Profile Examples: IG-examples.html
     SMBP Protocol Examples: SMBP-Protocol-Examples.html
+  Artifacts: Artifacts.html
 
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮

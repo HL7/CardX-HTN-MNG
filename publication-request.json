@@ -1,7 +1,7 @@
 {
-    "package-id":"hl7.fhir.uv.CardX-HTN-MNG",
+    "package-id":"hl7.fhir.uv.cardx-htn-mng",
     "version": "1.0.0-ballot",
-    "path": "http://hl7.org/fhir/uv/CardX-HTN-MNG/2024May",
+    "path": "http://hl7.org/fhir/uv/cardx-htn-mng/2024May",
     "status": "ballot",
     "sequence": "STU1",
     "desc": "Ballot publication of the CardX Hypertension Management IG.",
@@ -10,6 +10,6 @@
     "category": "Diagnostics",
     "title": "CardX Hypertension Management IG",
     "introduction": "This implementation guide is intended to increase the quality of blood pressure data observed by the patient taken in a non-clinical setting or at home.",
-    "ci-build": "http://build.fhir.org/ig/HL7/CardX-HTN-MNG/index.html",
+    "ci-build": "http://build.fhir.org/ig/HL7/cardx-htn-mng/index.html",
     "mode": "working"
 }

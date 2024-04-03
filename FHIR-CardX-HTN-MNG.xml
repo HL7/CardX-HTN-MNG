@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/uv/CardX-HTN-MNG/2024May" ciUrl="http://build.fhir.org/ig/HL7/CardX-HTN-MNG" defaultVersion="1.0.0-ballot" defaultWorkgroup="cic" url="http://hl7.org/fhir/uv/CardX-HTN-MNG">
-<version code="current" url="http://build.fhir.org/ig/HL7/CardX-HTN-MNG"/>
-<version code="1.0.0-ballot" url="http://hl7.org/fhir/uv/CardX-HTN-MNG/2024May"/>
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/uv/cardx-htn-mng/2024May" ciUrl="http://build.fhir.org/ig/HL7/cardx-htn-mng" defaultVersion="1.0.0-ballot" defaultWorkgroup="cic" url="http://hl7.org/fhir/uv/cardx-htn-mng">
+<version code="current" url="http://build.fhir.org/ig/HL7/cardx-htn-mng"/>
+<version code="1.0.0-ballot" url="http://hl7.org/fhir/uv/cardx-htn-mng/2024May"/>
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
@@ -50,7 +50,7 @@
 <artifact id="Practitioner/practitioner-example-Mary-Hill" key="Practitioner-practitioner-example-Mary-Hill" name="practitioner-example-Mary-Hill"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
-<page key="artifacts" name="Artifacts Summary"/>
+<page key="artifacts" name="Artifacts"/>
 <page key="Background" name="Background"/>
 <page key="CardX-Background" name="Card X Background"/>
 <page key="Credits" name="Credits"/>
