@@ -29,6 +29,9 @@ The following diagram developed by the [CDC Million Hearts](https://millionheart
 
 ----------------------------------------------------------------------------------------------------
 [^1]: [Cumulative Incidence of Hypertension by 55 Years of Age in Blacks and Whites: The CARDIA Study](https://pubmed.ncbi.nlm.nih.gov/29997132/)
+
 [^2]: [Target:BP](https://targetbp.org/patient-measured-bp/)
+
 [^3]: [Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines](https://www.ahajournals.org/doi/10.1161/HYP.0000000000000065)
+
 [^4]: [Mortality in the United States, 2021](https://www.cdc.gov/nchs/data/databriefs/db456.pdf)
