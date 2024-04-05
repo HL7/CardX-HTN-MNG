@@ -10,6 +10,6 @@
     "category": "Diagnostics",
     "title": "CardX Hypertension Management IG",
     "introduction": "This implementation guide is intended to increase the quality of blood pressure data observed by the patient taken in a non-clinical setting or at home.",
-    "ci-build": "http://build.fhir.org/ig/HL7/cardx-htn-mng/index.html",
+    "ci-build": "http://build.fhir.org/ig/HL7/cardx-htn-mng",
     "mode": "working"
 }
