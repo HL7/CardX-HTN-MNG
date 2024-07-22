@@ -53,7 +53,7 @@ dependencies:
 menu:
   Home: index.html
   Background: 
-    HTN Background: Background.html
+    Hypertension Background: Hypertension-Background.html
     CardX Background: CardX-Background.html
     Technical Scenarios: Technical-Scenarios.html
     Credits: Credits.html

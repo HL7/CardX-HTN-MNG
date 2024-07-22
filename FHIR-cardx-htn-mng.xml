@@ -51,10 +51,11 @@
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts"/>
-<page key="Background" name="Background"/>
+<page deprecated="true" key="Background" name="Background"/>
 <page key="CardX-Background" name="Card X Background"/>
 <page key="Credits" name="Credits"/>
 <page key="index" name="Home"/>
+<page key="Hypertension-Background" name="Hypertension Background"/>
 <page key="IG-examples" name="IG Examples"/>
 <page key="profiles" name="Profiles"/>
 <page key="SMBP-Protocol-Examples" name="SMBP Protocol Examples"/>
