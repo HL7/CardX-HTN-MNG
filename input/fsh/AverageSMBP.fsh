@@ -2,7 +2,7 @@ Profile: AverageSMBP
 Parent: Observation
 Id: average-smbp
 Title: "Average Self-measured Blood Pressure"
-Description: "A calculated average of two or more blood pressure readings in a specified time period or according to a specified algorithm or protocol.  The average blood pressure has systolic and diastolic components."
+Description: "A calculated average of two or more blood pressure readings in a specified time period, based on the appropriate instructions or protocol given to a patient during time of enrollment in a program. The average blood pressure has systolic and diastolic components."
 * obeys vs-2
 * extension contains
     NumberOfMeasurements named NumberOfMeasurements 1..1 MS

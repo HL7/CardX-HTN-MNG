@@ -58,7 +58,8 @@
 <page key="Hypertension-Background" name="Hypertension Background"/>
 <page key="IG-examples" name="IG Examples"/>
 <page key="profiles" name="Profiles"/>
-<page key="SMBP-Protocol-Examples" name="SMBP Protocol Examples"/>
+<page key="SMBP-Example-Readings" name="SMBP Example Readings"/>
+<page deprecated="true" key="SMBP-Protocol-Examples" name="SMBP Protocol Examples"/>
 <page key="toc" name="Table of Contents"/>
 <page key="Technical-Scenarios" name="Technical Scenarios"/>
 </specification>

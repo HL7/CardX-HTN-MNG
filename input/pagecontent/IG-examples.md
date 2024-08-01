@@ -1,4 +1,3 @@
-
 ### Self-Measured Blood Pressure (SMBP)
 
 This is an example of a routine, self-measured blood pressure.
