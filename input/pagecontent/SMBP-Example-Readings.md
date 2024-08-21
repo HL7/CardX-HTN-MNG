@@ -4,7 +4,7 @@
 
 ### SMBP Weekly Average Example
 
-[SMBP Average Blood Pressure](Observation-AverageSMBP-Protocol-example.html)
+[Average SMBP Reading](Observation-AverageSMBP-Protocol-example.html)
 
 ### Individual Readings Examples
 

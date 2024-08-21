@@ -117,7 +117,7 @@ The [mHealthADE](https://hl7.github.io/fhir-project-mhealth/overview.html) was a
 | -------------------- |  ---------- |
 | [CDC Million Hearts 2027 Optimizing Care Initiative](https://millionhearts.hhs.gov/about-million-hearts/optimizing-care/smbp.html) |  Million Hearts® is a national initiative to prevent 1 million heart attacks and strokes within 5 years. It focuses on implementing a small set of evidence-based priorities and targets that can improve cardiovascular health for all. The initiative includes improving blood pressure control through evidence-based strategies like [(self-measured blood pressure monitoring (SMBP)](https://millionhearts.hhs.gov/tools-protocols/tools/smbp.html). |
 | [AHA's National Hypertension Council Initiative (NCHI)](https://nhci.heart.org/)  | Through the NHCI, the American Heart Association raises awareness of high blood pressure and promotes prevention of it through overlapping community approaches. |
-| [Target: BP](https://targetbp.org/) | A national initiative formed by the American Heart Association (AHA) and the American Medical Association (AMA) in response to the high prevalence of uncontrolled blood pressure (BP). |
+| [Target: BP](https://targetbp.org/) | A national initiative formed by the American Heart Association (AHA) and the American Medical Association (AMA) in response to the high prevalence of uncontrolled blood pressure (BP). Throughout this IG, we refer to the Target BP general SMBP guidelines outlined in the [SMBP Inforgraphic](https://targetbp.org/wp-content/uploads/2017/10/SMBP-Infographic_TBP-1.pdf) to ensure accurate accurate blood pressure measurement. |
 {:.grid}
 
 ### Learn More
