@@ -1,15 +1,12 @@
-
-### Sample Data for a Week of Self-Measured Blood Pressure Remote Patient Monitoring
-
-#### Patient Example  
+### Patient Example  
 
 [Hypertension Patient Sally Sue](Patient-patient-example-Sally-Sue.html)
 
-#### SMBP Weekly Average Example
+### SMBP Weekly Average Example
 
-[SMBP Protocol Average Blood Pressure](Observation-AverageSMBP-Protocol-example.html)
+[SMBP Average Blood Pressure](Observation-AverageSMBP-Protocol-example.html)
 
-#### Individual Readings Examples
+### Individual Readings Examples
 
 - [Day 1, First-AM BP Reading](Observation-SMBP-FirstAM-Measurement-Day1.html)
 - [Day 1, Second-AM BP Reading](Observation-SMBP-SecondAM-Measurement-Day1.html)
