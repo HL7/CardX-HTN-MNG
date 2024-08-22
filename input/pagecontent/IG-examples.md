@@ -13,5 +13,5 @@ This is an example of an average self-measured blood pressure measurement consis
 
 ### Self-Measured Blood Pressure Related Heart Rate
 
-This is an example of a self-measured heart rate associated with a self-measured blood pressure reading.
+This is an example of a self-measured heart rate associated with a self-measured blood pressure reading:
 [SMBP Associated Heart Rate](Observation-SMBP-Associated-HeartRate-example.html)
