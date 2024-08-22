@@ -65,7 +65,7 @@ The intended actors include:
     </table>
 </div>
 
-### SMBP Protocol Scenarios
+### SMBP Data Exchange Scenarios
 
 #### Scenario 1
 
