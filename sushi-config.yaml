@@ -59,8 +59,8 @@ menu:
     Credits: Credits.html
   Profiles: profiles.html
   Capability Statement: 
-    Server Capability Statement: CapabilityStatement-CardXCapabilityStatementServer.html
     Client Capability Statement: CapabilityStatement-CardXCapabilityStatementClient.html
+    Server Capability Statement: CapabilityStatement-CardXCapabilityStatementServer.html
   Examples: 
     IG Profile Examples: IG-examples.html
     SMBP Example Readings: SMBP-Example-Readings.html
