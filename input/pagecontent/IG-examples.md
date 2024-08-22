@@ -3,7 +3,7 @@
 This is an example of a self-measured blood pressure measurement:
 [Self-Measured Blood Pressure](Observation-SelfMeasuredBloodPressure-example.html)
 
-### Average Self-Measured Blood Pressure
+### Average Self-Measured Blood Pressure (SMBP)
 
 This is an example of an average self-measured blood pressure measurement:
 [Average Self-Measured Blood Pressure](Observation-AverageSMBP-example.html)
