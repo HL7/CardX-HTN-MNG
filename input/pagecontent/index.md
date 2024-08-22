@@ -69,7 +69,7 @@ The intended actors include:
 
 #### Scenario 1
 
-A primary care provider enrolls a patient in a self-measured blood pressure monitoring program to manage the patient’s hypertension. The patient follows the provided instructions given to them by their provider and takes their blood pressure with the proper preparation and positioning. The blood pressure data is uploaded via Bluetooth to the Device Gateway. When the Personal Health Device and the Device Gateway follow the [PHD IG](https://build.fhir.org/ig/HL7/phd/) and the Device Gateway receives a blood pressure observation, the Device Gateway makes sures that the uploaded FHIR self-measured blood pressure observation resource contains the correct LOINC code and UCUM units. Either the Device Gateway or the Personal Health Intermediary indicate that the patient is the performer. For devices not adhering to the PHD IG dedicated coding will be needed to be compliant with this CardX IG. 
+A primary care provider enrolls a patient in a self-measured blood pressure monitoring program to manage the patient’s hypertension. The patient follows the provided instructions given to them by their provider and takes their blood pressure with the proper preparation and positioning. The blood pressure data is uploaded via Bluetooth to the Device Gateway. When the Personal Health Device and the Device Gateway follow the [PHD IG](https://build.fhir.org/ig/HL7/phd/) and the Device Gateway receives a blood pressure observation, the Device Gateway makes sures that the uploaded FHIR self-measured blood pressure observation resource contains the correct LOINC code and UCUM units. Either the Device Gateway or the Personal Health Intermediary indicate that the patient is the performer. For devices not adhering to the PHD IG, dedicated coding will be needed to be compliant with this CardX IG. 
 
 The patient’s blood pressure information is then pushed, via a FHIR API, to a receiving Personal Health Intermediary platform where the data is stored, aggregated, and managed. Once the information has been retrieved, the Personal Health Intermediary can store, share, reuse, and display the standardized information in their preferred view.
 
@@ -87,7 +87,7 @@ Each data element flagged as "must support" in this Implementation Guide must ab
 - The receiving system must be able to store and retrieve the element.
 - The receiving system must display the element to the user.
 - The receiving system must allow the user to capture the element.
-- The element must appear in an output report if present.
+- If present, the element must appear in an output report.
 
 ### Dependencies on Other IGs
 
