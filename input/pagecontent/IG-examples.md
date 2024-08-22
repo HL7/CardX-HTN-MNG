@@ -5,7 +5,7 @@ This is an example of a self-measured blood pressure measurement:
 
 ### Average Self-Measured Blood Pressure (SMBP)
 
-This is an example of an average self-measured blood pressure measurement:
+This is an example of an average self-measured blood pressure measurement that does not follow specific measurement guidelines:
 [Average Self-Measured Blood Pressure](Observation-AverageSMBP-example.html)
 
 This is an example of an average self-measured blood pressure measurement consistent with the [AHA & AMA Target:BP](https://targetbp.org/wp-content/uploads/2017/07/How-to-measure-your-blood-pressure_patient.pdf) guidelines that ensure a patient has the proper preparation, positioning, and optimal resting state: 
