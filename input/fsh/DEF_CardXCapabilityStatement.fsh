@@ -15,13 +15,14 @@ Usage: #definition
 * insert SupportProfile(http://hl7.org/fhir/uv/cardx-htn-mng/StructureDefinition/self-measured-bp, #SHALL)
 * insert SupportProfile(http://hl7.org/fhir/uv/cardx-htn-mng/StructureDefinition/average-smbp, #SHALL)
 * insert SupportProfile(http://hl7.org/fhir/uv/cardx-htn-mng/StructureDefinition/smbp-associated-heart-rate, #SHOULD)
+* insert SupportInteraction(#create, #SHALL)
 * insert SupportInteraction(#read, #SHALL)
 * insert SupportInteraction(#search-type, #SHALL)
 * insert SupportSearchParam(identifier, http://hl7.org/fhir/SearchParameter/clinical-patient, #reference, #SHOULD)
 * insert SupportSearchParam(category, http://hl7.org/fhir/SearchParameter/Observation-category, #token, #SHALL)
 
 * rest.mode = #server
-* rest.documentation =  "A CardX Hypertension Management Patient Management Server **SHALL**:\n\n1. Support the Self-measured Blood Pressure Profile. \n1. Support the Average Self-measured Blood Pressure profile.\n1. Support json and xml source formats for all CardX interactions. \n1. Support searches by Observation.category. \n1\n A CardX Hypertension Management Server **should**:\n\n1 Support the Self-measured Blood Pressure Associated Heart Rate profile.\n1. Support searches by Observation.patient.\n1\n"
+* rest.documentation =  "A CardX Hypertension Management Patient Management Server **SHALL**:\n\n1. Support the Observation resource.\n\n1. Self-measured Blood Pressure Profile. \n1. Support the Average Self-measured Blood Pressure profile.\n1. Support json and xml source formats for all CardX interactions. \n1. Support searches by Observation.category.\n\n1. Support create capabilites for the IG profiles. \n\n\nA CardX Hypertension Management Server **SHOULD**:\n\n1. Support the Self-measured Blood Pressure Associated Heart Rate profile.\n1. Support searches by Observation.patient.\n\n\n"
 * rest.security.description = "1. See the [General Security Considerations](https://www.hl7.org/fhir/security.html#general) section for requirements and recommendations.\n1. A server **SHALL** reject any unauthorized requests by returning an `HTTP 401` unauthorized response code."
 * rest.interaction.code = #transaction
 * rest.interaction.code = #batch
@@ -54,63 +55,6 @@ RuleSet: SupportSearchParam (name, canonical, type, expectation)
 * rest.resource[=].searchParam[=].extension[0].url = EXP
 * rest.resource[=].searchParam[=].extension[0].valueCode = {expectation}
 
-/* RuleSet: SearchParameterCombinations
-* insert SupportSearchParam(identifier, http://hl7.org/fhir/SearchParameter/clinical-identifier, #token, #SHALL)
-* insert SupportSearchParam(code, http://hl7.org/fhir/SearchParameter/clinical-code, #token, #SHOULD)
-* rest.resource[=].extension[+].extension[0].url = EXP
-* rest.resource[=].extension[=].extension[=].valueCode = #SHALL
-* rest.resource[=].extension[=].extension[+].url = "required"
-* rest.resource[=].extension[=].extension[=].valueString = "identifier"
-* rest.resource[=].extension[=].extension[+].url = "required"
-* rest.resource[=].extension[=].extension[=].valueString = "code"
-* rest.resource[=].extension[=].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination"
-* rest.resource[=].extension[+].extension[0].url = EXP
-* rest.resource[=].extension[=].extension[=].valueCode = #SHALL
-* rest.resource[=].extension[=].extension[+].url = "required"
-* rest.resource[=].extension[=].extension[=].valueString = "subject"
-* rest.resource[=].extension[=].extension[+].url = "required"
-* rest.resource[=].extension[=].extension[=].valueString = "code"
-* rest.resource[=].extension[=].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination"
-* rest.resource[=].extension[+].url = EXP
-* rest.resource[=].extension[=].valueCode = #SHALL
-* rest.resource[=].extension[+].extension[0].url = EXP
-* rest.resource[=].extension[=].extension[=].valueCode = #SHALL
-* rest.resource[=].extension[=].extension[+].url = "required"
-* rest.resource[=].extension[=].extension[=].valueString = "identifier"
-* rest.resource[=].extension[=].extension[+].url = "required"
-* rest.resource[=].extension[=].extension[=].valueString = "category"
-* rest.resource[=].extension[=].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination"
-* rest.resource[=].extension[+].url = EXP
-* rest.resource[=].extension[=].valueCode = #SHALL
-* rest.resource[=].extension[+].extension[0].url = EXP
-* rest.resource[=].extension[=].extension[=].valueCode = #SHALL
-* rest.resource[=].extension[=].extension[+].url = "required"
-* rest.resource[=].extension[=].extension[=].valueString = "identifier"
-* rest.resource[=].extension[=].extension[+].url = "required"
-* rest.resource[=].extension[=].extension[=].valueString = "category"
-* rest.resource[=].extension[=].extension[+].url = "required"
-* rest.resource[=].extension[=].extension[=].valueString = "code"
-* rest.resource[=].extension[=].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination"
-* rest.resource[=].extension[+].url = EXP
-* rest.resource[=].extension[=].valueCode = #SHALL
-* rest.resource[=].extension[+].extension[0].url = EXP
-* rest.resource[=].extension[=].extension[=].valueCode = #SHALL
-* rest.resource[=].extension[=].extension[+].url = "required"
-* rest.resource[=].extension[=].extension[=].valueString = "subject"
-* rest.resource[=].extension[=].extension[+].url = "required"
-* rest.resource[=].extension[=].extension[=].valueString = "category"
-* rest.resource[=].extension[=].extension[+].url = "required"
-* rest.resource[=].extension[=].extension[=].valueString = "code"
-* rest.resource[=].extension[=].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination"
-* rest.resource[=].extension[+].extension[0].url = EXP
-* rest.resource[=].extension[=].extension[=].valueCode = #SHALL
-* rest.resource[=].extension[=].extension[+].url = "required"
-* rest.resource[=].extension[=].extension[=].valueString = "subject"
-* rest.resource[=].extension[=].extension[+].url = "required"
-* rest.resource[=].extension[=].extension[=].valueString = "category"
-* rest.resource[=].extension[=].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination" */
-
-
 Instance: CardXCapabilityStatementClient
 InstanceOf: CapabilityStatement
 Title: "HTN-Mng-CardX Client Capability Statement"
@@ -128,9 +72,14 @@ Usage: #definition
 * insert SupportProfile(http://hl7.org/fhir/uv/cardx-htn-mng/StructureDefinition/self-measured-bp, #SHALL)
 * insert SupportProfile(http://hl7.org/fhir/uv/cardx-htn-mng/StructureDefinition/average-smbp, #SHALL)
 * insert SupportProfile(http://hl7.org/fhir/uv/cardx-htn-mng/StructureDefinition/smbp-associated-heart-rate, #SHOULD)
+* insert SupportInteraction(#read, #SHALL)
+* insert SupportInteraction(#create, #SHALL)
+* insert SupportInteraction(#search-type, #SHALL)
+* insert SupportSearchParam(identifier, http://hl7.org/fhir/SearchParameter/clinical-patient, #reference, #SHOULD)
+* insert SupportSearchParam(category, http://hl7.org/fhir/SearchParameter/Observation-category, #token, #SHALL)
 
 * rest.mode = #client
-* rest.documentation =  "A CardX Hypertension Management Patient Management Client **SHALL**:\n\n1. Support the Self-measured Blood Pressure Profile. \n1. Support the Average Self-measured Blood Pressure profile.\n1. Support json and xml source formats for all CardX interactions. \n1\n A CardX Hypertension Management Server **should**:\n\n1 Support the Self-measured Blood Pressure Associated Heart Rate profile.\n1. Support searches by Observation.patient.\n1\n"
+* rest.documentation =  "A CardX Hypertension Management Patient Management Client **SHALL**:\n\n1. Support the Observation resource.\n\n1. Support the Self-measured Blood Pressure Profile. \n1. Support the Average Self-measured Blood Pressure profile.\n1. Support json and xml source formats for all CardX interactions.\n\n1. Support create capabilites for the IG profiles.\n\n\n A CardX Hypertension Management Server **SHOULD**:\n\n1. Support the Self-measured Blood Pressure Associated Heart Rate profile.\n1. Support searches by Observation.patient.\n\n\n"
 * rest.security.description = "1. See the [General Security Considerations](https://www.hl7.org/fhir/security.html#general) section for requirements and recommendations.\n1. A server **SHALL** reject any unauthorized requests by returning an `HTTP 401` unauthorized response code."
 /* * rest.interaction.code = Int#transaction
 * rest.interaction.code = Int#batch
