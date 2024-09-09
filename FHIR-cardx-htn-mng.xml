@@ -52,6 +52,7 @@
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts"/>
 <page deprecated="true" key="Background" name="Background"/>
+<page key="Capability-Statement" name="Capability Statement"/>
 <page key="CardX-Background" name="Card X Background"/>
 <page key="Credits" name="Credits"/>
 <page key="index" name="Home"/>
