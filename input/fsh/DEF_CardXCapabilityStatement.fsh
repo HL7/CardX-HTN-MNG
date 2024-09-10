@@ -79,7 +79,7 @@ Usage: #definition
 * insert SupportSearchParam(category, http://hl7.org/fhir/SearchParameter/Observation-category, #token, #SHALL)
 
 * rest.mode = #client
-* rest.documentation =  "A CardX Hypertension Management Patient Management Client **SHALL**:\n\n1. Support the Observation resource.\n\n1. Support the Self-measured Blood Pressure Profile. \n1. Support the Average Self-measured Blood Pressure profile.\n1. Support json and xml source formats for all CardX interactions.\n\n1. Support create capabilites for the IG profiles.\n\n\n A CardX Hypertension Management Server **SHOULD**:\n\n1. Support the Self-measured Blood Pressure Associated Heart Rate profile.\n1. Support searches by Observation.patient.\n\n\n"
+* rest.documentation =  "A CardX Hypertension Management Client **SHALL**:\n\n1. Support the Self-measured Blood Pressure Profile. \n1. Support the Average Self-measured Blood Pressure profile.\n1. Support json and xml source formats for all CardX interactions. \n1\n A CardX Hypertension Management Client **should**:\n\n1 Support the Self-measured Blood Pressure Associated Heart Rate profile.\n1. Support searches by Observation.patient.\n1\n"
 * rest.security.description = "1. See the [General Security Considerations](https://www.hl7.org/fhir/security.html#general) section for requirements and recommendations.\n1. A server **SHALL** reject any unauthorized requests by returning an `HTTP 401` unauthorized response code."
 /* * rest.interaction.code = Int#transaction
 * rest.interaction.code = Int#batch

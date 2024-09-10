@@ -1,6 +1,6 @@
 ### Acknowledgements
 
-We recognize the guidance from the HL7 [Clinical Interoperability Council](https://www.hl7.org/Special/committees/cic/index.cfm) and [Mobile Health](https://www.hl7.org/Special/committees/mobile/index.cfm) Work Groups.
+We recognize the guidance from the HL7 [Clinical Interoperability Council](https://www.hl7.org/Special/committees/cic/index.cfm), [Mobile Health](https://www.hl7.org/Special/committees/mobile/index.cfm) and [Devices](https://confluence.hl7.org/display/HCD) Work Groups.
 
 The development of this Implementation Guide was sponsored by the [CodeX™ FHIR Accelerator](https://confluence.hl7.org/display/COD/CodeX+Home), a member-driven community working together to enable FHIR-based interoperability that drives substantial improvements around the most important challenges and opportunities in patient health.
 

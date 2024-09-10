@@ -53,15 +53,17 @@ dependencies:
 menu:
   Home: index.html
   Background: 
-    HTN Background: Background.html
+    Hypertension Background: Hypertension-Background.html
     CardX Background: CardX-Background.html
     Technical Scenarios: Technical-Scenarios.html
     Credits: Credits.html
   Profiles: profiles.html
-  Capability Statement: Capability-Statement.html
+  Capability Statement: 
+    Client Capability Statement: CapabilityStatement-CardXCapabilityStatementClient.html
+    Server Capability Statement: CapabilityStatement-CardXCapabilityStatementServer.html
   Examples: 
     IG Profile Examples: IG-examples.html
-    SMBP Protocol Examples: SMBP-Protocol-Examples.html
+    SMBP Example Readings: SMBP-Example-Readings.html
   Artifacts: artifacts.html
 
 

@@ -1,17 +1,15 @@
-# Artifacts
-
-## Cross Version Analysis
+### Cross Version Analysis
 
  {%include cross-version-analysis.xhtml%}
 
-## Dependency Table
+### Dependency Table
 
 {%include dependency-table.xhtml%}
 
-## Globals Table
+### Globals Table
 
 {%include globals-table.xhtml%}
 
-## IP Statements
+### IP Statements
 
 {%include ip-statements.xhtml%}
