@@ -84,7 +84,7 @@ Each data element flagged as "must support" in this Implementation Guide must ab
 
 - A system must have the capability to populate or store the MS element. 
 - If the MS element has been populated, the sending system must include it with the data exchange.
-- The sending system must populate all elements with a MustSupport flag if the information exists. 
+- The sending system must populate all elements with a MS flag if the information exists. 
 - The receiving system must be able to store and retrieve the element.
 - If present, the element must appear in an output report.
 
