@@ -59,6 +59,7 @@ menu:
     Credits: Credits.html
   Profiles: profiles.html
   Capability Statement: 
+    Capability Statement Overview: Capability-Statement.html
     Client Capability Statement: CapabilityStatement-CardXCapabilityStatementClient.html
     Server Capability Statement: CapabilityStatement-CardXCapabilityStatementServer.html
   Examples: 
