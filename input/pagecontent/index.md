@@ -47,7 +47,7 @@ The intended actors include:
             </tr>
             <tr>
                 <td><img src="personal-health-device-icon.png" width="75" height="75">Personal Health Device</td>
-                <td> Any device that allows patients or caregivers to capture their personal health data such as their blood pressure and then integrate the device provided data with an associated app. These systems will primarily act as FHIR clients.</td>
+                <td> Any device that allows patients or caregivers to capture their personal health data such as their blood pressure and then integrate the device provided data with an associated app.</td>
             </tr>
             <tr>
                 <td><img src="personal-health-gateway-icon.png" width="75" height="75">Personal Health Intermediary</td>
