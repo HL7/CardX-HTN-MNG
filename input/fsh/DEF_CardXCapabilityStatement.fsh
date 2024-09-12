@@ -28,7 +28,7 @@ Usage: #definition
 * rest.interaction.code = #batch
 * rest.interaction.code = #search-system
 * rest.interaction.code = #history-system
-* rest.interaction.documentation = "A CardX Hypertension Management Server **SHALL**:\n\n1. Support read operations. \n1. Support search-type operations. \n1\n"
+* rest.interaction.documentation = "A CardX Hypertension Management Server **SHALL**:\n\n1. Support read operations. \n1. Support search-type operations. \n\n"
 
 RuleSet: SupportResource (resource, expectation)
 * rest.resource[+].type = #{resource}
