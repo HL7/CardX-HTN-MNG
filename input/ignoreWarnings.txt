@@ -3,8 +3,5 @@
 # The code used is for example only and not meant to refer to any real terminology system.
 A definition for CodeSystem 'http://example.org' could not be found, so the code cannot be validated
 
-# We are aware that this is a draft code system.
-Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
-
 # This is the desired effect for the components of the Average SMBP profile.
 The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)

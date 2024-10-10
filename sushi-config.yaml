@@ -13,7 +13,7 @@ extension:
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
     valueCode: cic
 
-version: 1.0.1
+version: 1.2.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2022+
 releaseLabel: trial-use # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
