@@ -1,11 +1,12 @@
 {
     "package-id":"hl7.fhir.uv.cardx-htn-mng",
-    "version": "1.2.0",
-    "path": "http://hl7.org/fhir/uv/cardx-htn-mng/1.2.0",
-    "status": "ballot",
+    "version": "1.0.0",
+    "path": "http://hl7.org/fhir/uv/cardx-htn-mng/STU1",
+    "status": "trial-use",
     "sequence": "STU1",
-    "desc": "Ballot publication of the CardX Hypertension Management IG.",
-    "descmd" : "Ballot publication of the CardX Hypertension Management IG.",
-    "first": false,
+    "milestone": true,
+    "desc": "STU1 Release",
+    "descmd" : "STU1 Release",
+    "changes": "change_log.html",
     "mode": "milestone"
 }
